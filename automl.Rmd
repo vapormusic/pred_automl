@@ -1,0 +1,59 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+h2o.init()
+
+```
+
+```{r }
+setwd("C:\\Users\\vieta\\Downloadsloa\\Final PA")
+#dir()
+orig_data<-read.csv("train.csv")
+orig_test<-read.csv("test.csv")
+data = orig_data
+data$model  <- as.factor(data$model)  
+data$transmission <- as.factor(data$transmission)
+data$fuelType <- as.factor(data$fuelType)
+data$ID  <- 1:nrow(data)  
+data.hex  <- as.h2o(data)
+```
+
+```{r}
+split_h2o <- h2o.splitFrame(data.hex, 0.8, seed = 1234 )
+
+train_conv_h2o <- h2o.assign(split_h2o[[1]], "train" ) # 80%
+valid_conv_h2o <- h2o.assign(split_h2o[[2]], "valid" ) # 20%
+
+# Set names for h2o
+target <- "price"
+predictors <- setdiff(names(train_conv_h2o), target)
+```
+
+
+```{r echo=F, results=T}
+automl_h2o_models <- h2o.automl(
+    x = predictors, 
+    y = target,
+    training_frame    = train_conv_h2o,
+    leaderboard_frame = valid_conv_h2o,
+    exclude_algos = c("StackedEnsemble")
+    )
+```
+
+```{r echo=F, results=T}
+# Extract leader model
+automl_leader <- automl_h2o_models@leader
+```
+
+
+```{r echo=F, results=T}
+u <- predict(automl_leader, as.h2o(orig_test))
+head(u)
+```

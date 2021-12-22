@@ -1,0 +1,2137 @@
+,model,year,transmission,mileage,fuelType,tax,mpg,engineSize,price
+1, 2 Series,3,Manual,10401,Petrol,145,52.3,1.5,16965.76
+2, 5 Series,5,Automatic,36099,Diesel,20,68.9,2,14261.045
+3, X5,5,Automatic,96213,Diesel,165,52.3,2,21876.94
+4, X3,6,Automatic,50316,Diesel,200,47.9,3,19525.925
+5, 1 Series,4,Automatic,24029,Petrol,145,39.8,3,20361.995
+6, 3 Series,6,Manual,59634,Diesel,125,61.4,2,11649.295
+7, 5 Series,7,Automatic,84816,Diesel,30,62.8,2,11197.945
+8, X1,3,Manual,16066,Petrol,150,51.4,1.5,18792.42
+9, 1 Series,4,Automatic,27245,Diesel,145,68.9,2,15195.66
+10, X1,4,Automatic,55782,Diesel,145,65.7,2,14873.21
+11, X3,5,Automatic,19083,Diesel,150,54.3,2,20771.4
+12, 2 Series,4,Automatic,46281,Petrol,125,51.4,1.5,14803.855
+13, X1,4,Automatic,36701,Diesel,30,65.7,2,16533.70167
+14, 1 Series,6,Semi-Auto,20000,Diesel,125,60.1,2,14791.675
+15, X1,4,Automatic,31238,Diesel,145,55.4,2,18975.95686
+16, 3 Series,4,Manual,29968,Diesel,30,64.2,2,15881.68
+17, 3 Series,6,Automatic,47288,Diesel,30,62.8,2,14030.36
+18, 2 Series,5,Manual,24313,Diesel,0,74.3,1.5,11987.365
+19, X5,5,Automatic,71626,Other,0,85.6,2,24679.285
+20, X4,4,Automatic,35016,Diesel,150,54.3,2,22843.48
+21, 3 Series,4,Automatic,43703,Other,140,134.5,2,14854.67
+22, 1 Series,4,Automatic,26052,Diesel,145,68.9,2,15005.04
+23, 1 Series,5,Manual,18055,Petrol,125,52.3,1.5,13365.53
+24, 1 Series,5,Manual,8719,Petrol,125,52.3,1.5,14032.845
+25, 3 Series,3,Automatic,29394,Petrol,145,48.7,2,18345.975
+26, X1,1,Semi-Auto,1560,Diesel,145,60.1,2,31190.93238
+27, 2 Series,1,Manual,1580,Petrol,150,43.5,1.5,26316.95
+28, X5,1,Semi-Auto,1500,Diesel,150,37.7,3,24579.5975
+29, 4 Series,5,Semi-Auto,22476,Petrol,145,48.7,2,18144.66917
+30, X5,6,Automatic,24188,Diesel,200,47.1,3,26903.785
+31, 5 Series,4,Semi-Auto,19379,Diesel,145,65.7,2,22168.595
+32, 3 Series,2,Semi-Auto,6000,Petrol,145,48.7,2,24055.56184
+33, 1 Series,8,Manual,31600,Diesel,125,57.6,2,10392.54
+34, 5 Series,4,Automatic,15838,Diesel,145,60.1,2,25066.44
+35, 5 Series,2,Automatic,6775,Diesel,145,51.4,3,38483.4425
+36, 7 Series,2,Semi-Auto,5893,Diesel,145,44.1,3,30036.29319
+37, X3,2,Semi-Auto,9781,Diesel,145,48.7,3,36241.0475
+38, X5,5,Automatic,17303,Hybrid,0,85.6,2,27548.56
+39, X1,4,Semi-Auto,14418,Diesel,145,55.4,2,20486.73591
+40, X1,4,Semi-Auto,12160,Diesel,145,65.7,2,18259.38
+41, X3,3,Semi-Auto,20290,Diesel,145,48.7,3,30537.125
+42, 1 Series,2,Semi-Auto,4493,Petrol,145,34.5,2,30265.4314
+43, X1,4,Semi-Auto,16500,Petrol,145,44.8,2,21114.345
+44, 3 Series,5,Semi-Auto,43695,Hybrid,0,134.5,2,14543.515
+45, X1,5,Semi-Auto,30434,Diesel,125,57.6,2,19422.285
+46, 1 Series,4,Manual,15645,Petrol,125,52.3,1.5,14840.195
+47, 1 Series,4,Semi-Auto,19486,Petrol,145,39.8,3,21017.15123
+48, 7 Series,1,Semi-Auto,6555,Diesel,145,42.2,3,22340.3525
+49, 3 Series,7,Semi-Auto,73923,Diesel,160,52.3,3,14642.89238
+50, 3 Series,5,Semi-Auto,40500,Diesel,145,53.3,3,18258.13
+51, X3,6,Semi-Auto,48000,Diesel,145,54.3,2,18004.76
+52, 4 Series,4,Manual,17410,Petrol,150,40.9,2,17642.935
+53, 1 Series,2,Semi-Auto,12054,Petrol,150,54.3,1.5,19227.96
+54, 1 Series,7,Manual,51203,Diesel,30,65.7,2,9242.445
+55, X1,5,Semi-Auto,25300,Diesel,125,60.1,2,18459.53
+56, X1,4,Manual,13278,Diesel,125,58.9,2,18308.025
+57, 5 Series,2,Semi-Auto,9000,Petrol,145,48.7,2,27040.08167
+58, 3 Series,3,Semi-Auto,18564,Diesel,145,60.1,2,21594.48833
+59, 1 Series,3,Semi-Auto,7656,Petrol,145,37.2,1.5,17727.67
+60, X3,6,Semi-Auto,41567,Diesel,145,54.3,2,18573.465
+61, 3 Series,4,Semi-Auto,30422,Diesel,145,51.4,3,21955.155
+62, X5,8,Automatic,45150,Diesel,200,45.6,3,24722.715
+63, 4 Series,2,Semi-Auto,4025,Diesel,145,50.4,3,32340.50848
+64, 3 Series,8,Manual,75561,Diesel,20,68.9,2,8838.75
+65, 5 Series,2,Semi-Auto,9854,Diesel,145,53.3,3,33429.438
+66, M4,2,Semi-Auto,2258,Petrol,145,34,3,41926.4575
+67, 4 Series,2,Semi-Auto,7292,Diesel,145,58.9,2,26886.32855
+68, 3 Series,2,Semi-Auto,11564,Diesel,145,49.6,2,28367.52438
+69, 1 Series,2,Semi-Auto,5000,Diesel,145,72.4,1.5,17691.475
+70, 1 Series,2,Semi-Auto,1214,Diesel,145,51.4,2,28085.98053
+71, 4 Series,6,Semi-Auto,87597,Diesel,160,51.4,3,14391.835
+72, 3 Series,2,Semi-Auto,3500,Diesel,145,45.6,3,36569.35886
+73, 7 Series,2,Semi-Auto,7780,Petrol,145,34.5,3,32278.1475
+74, 3 Series,4,Semi-Auto,48604,Diesel,30,67.3,2,13505.35
+75, X1,4,Semi-Auto,25291,Diesel,30,65.7,2,18708.92538
+76, 4 Series,3,Manual,24848,Petrol,145,36.7,3,23346.065
+77, 3 Series,5,Semi-Auto,31250,Diesel,165,51.4,3,18633.375
+78, 3 Series,2,Automatic,6148,Diesel,145,52.3,2,32315.33921
+79, 4 Series,4,Manual,13471,Petrol,145,46.3,2,17292.165
+80, 7 Series,2,Semi-Auto,7970,Diesel,145,44.8,3,28335.72688
+81, 1 Series,5,Semi-Auto,42792,Petrol,200,39.8,3,18462.42
+82, 3 Series,5,Semi-Auto,16890,Diesel,160,51.4,3,20951.64
+83, 1 Series,2,Manual,7000,Diesel,145,68.9,2,18640.48
+84, X1,2,Automatic,2984,Diesel,145,60.1,2,26788.55219
+85, 6 Series,4,Semi-Auto,21083,Diesel,145,51.4,3,26918.695
+86, 3 Series,2,Semi-Auto,15114,Diesel,150,49.6,3,27973.28
+87, 5 Series,4,Semi-Auto,38649,Diesel,145,65.7,2,20022.765
+88, X5,2,Semi-Auto,9584,Diesel,145,37.7,3,27808.60655
+89, 4 Series,2,Semi-Auto,7667,Diesel,145,58.9,2,27467.32438
+90, X1,2,Manual,3715,Diesel,145,68.9,2,25363.6
+91, 2 Series,2,Manual,3078,Petrol,145,39.8,1.5,20432.4875
+92, 2 Series,2,Semi-Auto,2664,Petrol,145,50.4,2,23104.36333
+93, 2 Series,2,Automatic,1689,Petrol,145,50.4,2,22601.145
+94, 2 Series,2,Semi-Auto,2164,Diesel,145,49.6,2,24411.55604
+95, 2 Series,2,Automatic,477,Petrol,145,47.9,2,25170.689
+96, X2,2,Automatic,2472,Diesel,145,48.7,2,28895.21482
+97, X1,7,Semi-Auto,49400,Diesel,165,51.4,2,11573.015
+98, X5,3,Automatic,20630,Diesel,145,47.1,3,34483.56
+99, X1,5,Semi-Auto,24347,Diesel,150,55.4,2,19473.51571
+100, 3 Series,2,Semi-Auto,1397,Diesel,145,50.4,2,29969.19784
+101, 3 Series,3,Semi-Auto,19950,Diesel,145,65.7,2,19775.99
+102, X1,5,Semi-Auto,20874,Diesel,150,55.4,2,19778.33567
+103, 5 Series,2,Semi-Auto,16466,Diesel,145,60.1,2,30428.32
+104, 3 Series,6,Semi-Auto,25243,Diesel,30,62.8,2,15189.165
+105, X1,4,Semi-Auto,17922,Diesel,145,55.4,2,21558.00924
+106, 3 Series,6,Manual,40325,Petrol,125,52.3,1.5,12206.285
+107, 5 Series,4,Semi-Auto,34296,Diesel,145,65.7,2,21478.35333
+108, 3 Series,4,Semi-Auto,33384,Hybrid,0,134.5,2,15670.04
+109, 3 Series,5,Semi-Auto,38417,Diesel,30,67.3,2,14283.395
+110, 3 Series,8,Manual,44602,Diesel,30,61.4,2,10724.22
+111, 5 Series,6,Semi-Auto,88333,Diesel,30,62.8,2,11607.845
+112, X1,5,Semi-Auto,19850,Diesel,145,55.4,2,19567.84067
+113, 1 Series,6,Semi-Auto,14501,Diesel,0,78.5,1.5,13565.86267
+114, 1 Series,8,Manual,73603,Diesel,30,62.8,2,8249.385
+115, 3 Series,5,Manual,64308,Diesel,20,68.9,2,10453.98
+116, 3 Series,6,Semi-Auto,46316,Petrol,160,46.3,2,14654.07
+117, X3,8,Semi-Auto,47111,Diesel,160,50.4,2,14690.245
+118, 4 Series,4,Semi-Auto,28912,Diesel,145,65.7,2,18525.10667
+119, 3 Series,4,Semi-Auto,34118,Diesel,150,60.1,2,17359.58475
+120, 4 Series,5,Manual,24711,Petrol,160,46.3,2,16116.66
+121, 3 Series,2,Semi-Auto,18526,Diesel,145,48.7,2,26578.30969
+122, X1,5,Semi-Auto,28813,Diesel,145,55.4,2,18737.9205
+123, 2 Series,5,Semi-Auto,14313,Petrol,125,51.4,1.5,16057.57
+124, 1 Series,4,Semi-Auto,23699,Petrol,200,39.8,3,22504.6575
+125, 1 Series,2,Automatic,10565,Diesel,145,72.4,1.5,16745.71
+126, 3 Series,3,Semi-Auto,28180,Petrol,145,48.7,2,21073.525
+127, X2,2,Manual,5687,Petrol,150,41.5,1.5,23471.64
+128, 3 Series,5,Semi-Auto,28762,Diesel,160,51.4,3,20663.82688
+129, M4,5,Semi-Auto,26363,Petrol,305,34,3,31490.205
+130, 3 Series,5,Semi-Auto,58872,Diesel,30,67.3,2,12621.49
+131, 1 Series,6,Manual,17846,Petrol,300,35.3,3,16806.85
+132, 3 Series,2,Semi-Auto,10171,Petrol,145,41.5,2,28027.75263
+133, 5 Series,4,Semi-Auto,20279,Hybrid,135,156.9,2,20084.94
+134, X1,5,Semi-Auto,20259,Diesel,145,55.4,2,19493.49567
+135, 3 Series,4,Semi-Auto,26630,Petrol,125,51.4,2,18086.15715
+136, 3 Series,7,Semi-Auto,49500,Diesel,30,62.8,2,13159.275
+137, X4,2,Semi-Auto,9064,Diesel,150,42.8,2,35354.38
+138, 5 Series,2,Semi-Auto,11871,Diesel,150,62.8,2,27008.565
+139, 5 Series,4,Semi-Auto,20033,Diesel,150,65.7,2,22378.85
+140, 1 Series,1,Semi-Auto,934,Diesel,150,48.7,2,31231.97192
+141, 3 Series,2,Semi-Auto,11300,Diesel,150,55.4,2,22416.911
+142, 4 Series,3,Semi-Auto,23358,Diesel,145,65.7,2,20007.435
+143, 3 Series,3,Semi-Auto,25329,Petrol,145,51.4,1.5,16333.425
+144, 1 Series,6,Semi-Auto,45000,Diesel,20,72.4,1.5,11642.1525
+145, 4 Series,4,Semi-Auto,8333,Petrol,145,48.7,2,19428.68
+146, 3 Series,4,Manual,20829,Petrol,145,48.7,2,15011.28
+147, 5 Series,5,Semi-Auto,44002,Diesel,20,68.9,2,14338.445
+148, 3 Series,8,Manual,49102,Diesel,125,57.6,2,10679.07
+149, 5 Series,3,Semi-Auto,30810,Diesel,150,60.1,3,27126.335
+150, 8 Series,2,Automatic,4075,Petrol,145,26.7,3,20298.5
+151, 8 Series,2,Semi-Auto,3185,Petrol,145,24.4,4.4,20418.09
+152, 3 Series,2,Semi-Auto,11917,Diesel,150,52.3,2,26572.74204
+153, 4 Series,2,Semi-Auto,11032,Diesel,145,65.7,2,24599.655
+154, 3 Series,2,Automatic,9117,Diesel,145,54.3,2,25857.86263
+155, 3 Series,6,Semi-Auto,56000,Diesel,145,56.5,2,14345.54
+156, 5 Series,4,Semi-Auto,20657,Diesel,145,60.1,2,22479.11
+157, X5,2,Semi-Auto,10,Diesel,145,37.7,3,20365.4575
+158, X5,2,Semi-Auto,7101,Diesel,145,37.7,3,34454.21101
+159, 1 Series,5,Manual,26447,Petrol,300,35.3,3,17390.395
+160, 1 Series,4,Manual,19217,Petrol,150,52.3,1.5,14096.245
+161, i3,4,Automatic,41146,Hybrid,0,470.8,0,14034.1
+162, 3 Series,2,Semi-Auto,10707,Diesel,150,52.3,2,27577.86218
+163, 4 Series,3,Semi-Auto,10291,Diesel,150,65.7,2,22217.79
+164, 5 Series,2,Semi-Auto,16128,Diesel,145,60.1,2,30416.825
+165, 1 Series,2,Manual,5450,Diesel,145,72.4,1.5,16912.58
+166, 3 Series,2,Semi-Auto,7685,Diesel,145,48.7,2,30285.77904
+167, 5 Series,2,Semi-Auto,5000,Diesel,145,62.8,2,28897.12
+168, 4 Series,2,Semi-Auto,5000,Petrol,145,48.7,2,26209.4748
+169, X2,3,Semi-Auto,21150,Petrol,145,38.7,2,22592.485
+170, 4 Series,2,Semi-Auto,10013,Diesel,145,49.6,3,28527.347
+171, 5 Series,2,Automatic,1032,Diesel,145,65.7,2,28968.18
+172, 4 Series,2,Semi-Auto,10996,Diesel,145,60.1,2,25379.995
+173, X2,2,Semi-Auto,929,Petrol,145,40.4,2,29884.6599
+174, 1 Series,2,Semi-Auto,4020,Diesel,145,48.7,2,28874.74432
+175, X1,2,Manual,105,Diesel,145,68.9,2,27951.11333
+176, X1,2,Manual,105,Diesel,145,60.1,2,26041.86719
+177, 1 Series,2,Semi-Auto,5379,Petrol,145,39.8,3,28786.54774
+178, X3,5,Semi-Auto,15989,Diesel,145,54.3,2,19845.03
+179, 2 Series,3,Manual,12792,Diesel,150,51.4,2,16989.535
+180, X1,5,Semi-Auto,13049,Diesel,125,57.6,2,19923.05
+181, 7 Series,2,Semi-Auto,5000,Petrol,145,34.5,3,31042.385
+182, 3 Series,5,Semi-Auto,45341,Diesel,0,74.3,2,13186.205
+183, 2 Series,2,Manual,3205,Petrol,145,52.3,1.5,22124.435
+184, 1 Series,2,Manual,917,Petrol,150,44.8,1.5,22306.645
+185, X3,2,Semi-Auto,11,Diesel,145,54.3,2,35327.95
+186, 3 Series,4,Semi-Auto,21798,Diesel,145,49.6,3,25231.07
+187, 1 Series,5,Manual,20233,Diesel,30,62.8,2,15814.935
+188, X6,2,Semi-Auto,7200,Diesel,145,33.2,3,21986.9075
+189, 4 Series,1,Semi-Auto,100,Diesel,145,50.4,3,33229.26625
+190, 1 Series,4,Manual,20847,Petrol,145,52.3,1.5,13974.985
+191, 2 Series,5,Semi-Auto,21924,Petrol,260,37.2,3,20617.98
+192, X2,2,Semi-Auto,10112,Diesel,145,61.4,2,24455.185
+193, X3,2,Semi-Auto,3302,Diesel,145,48.7,3,36914.3875
+194, 3 Series,4,Semi-Auto,15931,Petrol,125,51.4,2,18360.77
+195, X1,5,Manual,10935,Diesel,125,58.9,2,18129.445
+196, 3 Series,2,Semi-Auto,13268,Diesel,145,48.7,2,26878.43323
+197, 2 Series,2,Semi-Auto,6195,Petrol,145,47.9,2,23143.65989
+198, 2 Series,6,Semi-Auto,30738,Diesel,20,68.9,2,15001.15
+199, X3,6,Semi-Auto,34348,Diesel,150,55.4,2,19688.975
+200, 1 Series,5,Semi-Auto,36523,Petrol,205,39.8,3,18909.03333
+201, 1 Series,5,Semi-Auto,25253,Petrol,125,54.3,1.5,14975.095
+202, 2 Series,4,Semi-Auto,24354,Diesel,145,64.2,2,16967.34584
+203, 3 Series,4,Manual,37323,Diesel,150,67.3,2,13568.22
+204, 3 Series,8,Manual,68578,Diesel,30,61.4,2,10927.985
+205, 2 Series,6,Semi-Auto,25180,Diesel,20,68.9,2,13863.84
+206, 3 Series,2,Semi-Auto,4918,Diesel,150,52.3,2,31238.56428
+207, 2 Series,4,Semi-Auto,27811,Diesel,145,64.2,2,17007.36594
+208, 2 Series,4,Semi-Auto,25884,Diesel,145,64.2,2,17033.7356
+209, X3,5,Semi-Auto,25574,Diesel,145,54.3,2,20881.23
+210, 4 Series,5,Automatic,39563,Diesel,30,65.7,2,16722.09
+211, X1,4,Semi-Auto,23651,Diesel,125,57.6,2,19642.96818
+212, 2 Series,7,Manual,22086,Diesel,125,58.9,2,12538.245
+213, 3 Series,2,Semi-Auto,2980,Diesel,150,57.7,2,26109.03782
+214, 3 Series,6,Semi-Auto,23338,Petrol,205,41.5,3,19885.705
+215, X3,2,Semi-Auto,7776,Diesel,150,48.7,3,35617.9225
+216, X5,4,Automatic,31536,Diesel,200,47.1,3,30296.88
+217, 2 Series,5,Manual,20565,Diesel,0,74.3,1.5,12279.805
+218, 2 Series,4,Manual,29117,Diesel,145,62.8,2,15078.82429
+219, 2 Series,6,Manual,41388,Diesel,20,74.3,1.5,10655.965
+220, 2 Series,4,Automatic,23295,Petrol,200,39.8,3,20480.285
+221, 2 Series,3,Manual,13052,Diesel,145,64.2,2,17258.31
+222, 2 Series,3,Automatic,11805,Hybrid,135,135.5,1.5,19880.375
+223, 4 Series,3,Semi-Auto,24118,Diesel,150,65.7,2,20062.6
+224, 1 Series,8,Semi-Auto,38748,Petrol,235,37.7,3,15705.34
+225, 3 Series,7,Manual,51030,Diesel,30,62.8,2,11763.285
+226, X1,6,Manual,43877,Diesel,165,51.4,2,11983.835
+227, 3 Series,6,Semi-Auto,54695,Diesel,125,58.9,2,14054.525
+228, 3 Series,4,Manual,25345,Petrol,150,48.7,2,14157.285
+229, 5 Series,7,Semi-Auto,80500,Diesel,125,57.6,2,12117.775
+230, X4,7,Automatic,67975,Diesel,200,47.9,3,17995.25667
+231, 6 Series,5,Semi-Auto,30252,Diesel,200,49.6,3,22490.54
+232, X5,7,Automatic,38000,Diesel,200,45.6,3,23801.6
+233, 5 Series,5,Semi-Auto,32998,Diesel,125,60.1,2,17777.99
+234, X1,4,Semi-Auto,22000,Diesel,145,65.7,2,18739.0405
+235, X1,4,Manual,33600,Diesel,150,68.9,2,14632.935
+236, X1,5,Manual,25000,Diesel,125,58.9,2,16338.235
+237, 3 Series,3,Semi-Auto,1426,Petrol,145,41.5,3,29633.9
+238, 3 Series,7,Semi-Auto,41419,Petrol,200,42.2,2,13762.025
+239, 5 Series,5,Automatic,61989,Diesel,20,68.9,2,13119.53
+240, 4 Series,5,Manual,43052,Diesel,30,62.8,2,14972.475
+241, X1,5,Manual,22197,Diesel,125,58.9,2,16634.965
+242, 2 Series,6,Manual,22812,Diesel,20,74.3,1.5,11846.235
+243, 3 Series,6,Semi-Auto,47742,Diesel,30,67.3,2,12613.7875
+244, 1 Series,4,Semi-Auto,12453,Petrol,145,39.8,3,21990.46667
+245, 1 Series,3,Manual,14164,Petrol,145,46.3,2,17663.865
+246, 2 Series,3,Semi-Auto,7762,Petrol,150,50.4,1.5,18952.055
+247, 3 Series,2,Semi-Auto,21544,Petrol,145,42.2,2,23824.95
+248, 3 Series,5,Semi-Auto,41200,Diesel,150,53.3,3,17959.525
+249, 3 Series,3,Semi-Auto,12008,Petrol,145,48.7,2,20958.37071
+250, 4 Series,4,Semi-Auto,20398,Diesel,145,50.4,3,23289.525
+251, 4 Series,4,Semi-Auto,19151,Diesel,145,65.7,2,20055.23286
+252, 4 Series,4,Semi-Auto,8161,Diesel,145,65.7,2,19704.875
+253, 1 Series,5,Manual,34281,Diesel,20,70.6,1.5,11864.565
+254, 4 Series,4,Semi-Auto,13543,Diesel,160,50.4,3,23261.76
+255, 2 Series,3,Semi-Auto,11056,Diesel,145,64.2,2,20880.56
+256, 1 Series,4,Semi-Auto,4775,Petrol,200,39.8,3,24757.165
+257, 1 Series,2,Manual,5446,Diesel,145,53.3,2,26567.71934
+258, X1,5,Manual,32383,Diesel,20,68.9,2,14776.33
+259, 3 Series,2,Semi-Auto,4826,Diesel,145,60.1,2,25707.27454
+260, 1 Series,5,Semi-Auto,15921,Petrol,235,37.7,3,19524.855
+261, 1 Series,2,Semi-Auto,6499,Petrol,145,34.5,2,31732.13501
+262, 2 Series,2,Semi-Auto,2567,Diesel,145,48.7,2,24487.815
+263, 5 Series,2,Semi-Auto,11432,Diesel,145,51.4,3,34449.845
+264, 3 Series,6,Semi-Auto,22358,Diesel,145,56.5,3,16914.7
+265, 3 Series,5,Semi-Auto,27840,Hybrid,0,134.5,2,15969.865
+266, 4 Series,1,Semi-Auto,101,Diesel,145,60.1,2,31473.36
+267, X4,1,Semi-Auto,117,Diesel,145,40.9,3,33846.76
+268, X5,1,Semi-Auto,117,Diesel,145,36.7,3,20589.9475
+269, 3 Series,2,Semi-Auto,7944,Diesel,145,55.4,2,23685.42737
+270, 3 Series,2,Automatic,5948,Petrol,145,42.2,2,27990.40076
+271, 3 Series,2,Automatic,3412,Diesel,145,52.3,2,30654.99364
+272, X3,5,Semi-Auto,30057,Diesel,145,54.3,2,20569.15
+273, 2 Series,4,Manual,11237,Petrol,145,44.1,2,16501.67
+274, 1 Series,3,Semi-Auto,9993,Petrol,145,37.2,1.5,17509
+275, X1,3,Semi-Auto,11253,Diesel,145,60.1,2,22517.11313
+276, X1,4,Semi-Auto,19396,Petrol,160,44.8,2,20776.09333
+277, 3 Series,2,Automatic,123,Petrol,145,42.2,2,31408.26222
+278, X3,2,Automatic,123,Diesel,145,54.3,2,38463.59577
+279, X3,2,Automatic,123,Diesel,145,54.3,2,38463.59577
+280, X4,2,Automatic,6648,Petrol,145,26.9,3,42032.6525
+281, 2 Series,2,Manual,4601,Petrol,145,44.1,1.5,20127.68
+282, 2 Series,2,Automatic,123,Diesel,145,49.6,2,21879.6934
+283, 3 Series,3,Semi-Auto,37052,Diesel,145,51.4,3,22616.215
+284, 3 Series,3,Semi-Auto,5243,Diesel,145,56.5,3,24419.71
+285, 3 Series,5,Semi-Auto,21804,Diesel,125,60.1,2,17504.328
+286, X3,2,Automatic,7345,Petrol,145,30.4,2,33392.11
+287, X2,2,Automatic,999,Petrol,145,38.7,2,27926.30634
+288, 2 Series,2,Automatic,123,Petrol,145,39.8,3,27982.58
+289, X5,2,Automatic,123,Diesel,145,33.6,3,20585.4825
+290, X2,2,Automatic,123,Petrol,145,38.7,2,26993.32336
+291, X2,2,Automatic,123,Petrol,145,38.7,2,26993.32336
+292, 1 Series,4,Semi-Auto,32317,Diesel,30,65.7,2,16567.93281
+293, 3 Series,6,Semi-Auto,47167,Diesel,125,57.6,3,16658.705
+294, X2,2,Automatic,123,Petrol,145,38.7,2,26993.32336
+295, X2,2,Automatic,123,Petrol,145,38.7,2,26993.32336
+296, 2 Series,2,Manual,123,Petrol,145,52.3,1.5,22748.31498
+297, 2 Series,2,Manual,123,Petrol,145,52.3,1.5,22748.31498
+298, 2 Series,2,Manual,123,Petrol,145,52.3,1.5,22748.31498
+299, X1,2,Automatic,123,Petrol,145,39.8,1.5,27951.425
+300, X1,2,Manual,123,Petrol,145,39.8,1.5,27293.47
+301, X3,2,Automatic,2489,Diesel,145,54.3,2,35802.175
+302, 5 Series,2,Automatic,123,Petrol,145,50.4,2,30928.785
+303, X1,2,Manual,4480,Petrol,145,51.4,1.5,24529.845
+304, 1 Series,2,Automatic,6000,Petrol,145,34.5,2,31369.86918
+305, 5 Series,4,Semi-Auto,8500,Diesel,145,60.1,2,24381.56
+306, 1 Series,2,Manual,3710,Diesel,145,53.3,2,26152.04891
+307, 2 Series,2,Semi-Auto,3697,Petrol,145,48.7,2,25720.51167
+308, 4 Series,2,Automatic,123,Diesel,145,65.7,2,29525.36748
+309, 3 Series,2,Automatic,123,Diesel,145,50.4,2,34324.39274
+310, 2 Series,2,Automatic,123,Diesel,145,49.6,2,21879.6934
+311, 2 Series,2,Manual,123,Petrol,145,52.3,1.5,22748.31498
+312, 5 Series,3,Automatic,10500,Diesel,145,65.7,2,23852.11
+313, 2 Series,2,Automatic,123,Diesel,145,49.6,2,21879.6934
+314, 2 Series,4,Semi-Auto,23730,Petrol,200,39.8,3,22005.10917
+315, X1,4,Semi-Auto,12624,Diesel,150,57.6,2,21080.26
+316, X1,5,Semi-Auto,78843,Diesel,150,55.4,2,14028.44
+317, 2 Series,2,Automatic,123,Petrol,145,39.8,3,27982.58
+318, 2 Series,2,Manual,123,Diesel,145,64.2,2,22535.35809
+319, 1 Series,6,Manual,23241,Diesel,0,83.1,1.5,11070.055
+320, 2 Series,6,Manual,37500,Diesel,20,68.9,2,10757.99
+321, 3 Series,2,Semi-Auto,6850,Petrol,145,40.4,2,31058.62959
+322, Z4,2,Automatic,11223,Petrol,145,37.2,2,28627.7475
+323, 4 Series,8,Semi-Auto,47852,Petrol,145,47.1,2,12755.825
+324, X1,4,Automatic,11253,Diesel,125,57.6,2,20442.97917
+325, X1,2,Semi-Auto,10730,Diesel,145,50.4,2,24232.78449
+326, X1,8,Manual,70645,Diesel,165,51.4,2,8398.95
+327, 2 Series,5,Manual,16228,Diesel,20,68.9,2,14339.4
+328, 4 Series,2,Semi-Auto,5491,Petrol,145,44.8,2,29073.80828
+329, 3 Series,3,Automatic,30214,Diesel,145,62.8,2,18833.25
+330, Z4,6,Manual,19109,Petrol,200,41.5,2,13950.02
+331, 4 Series,3,Automatic,11068,Diesel,145,65.7,2,22006.9175
+332, 1 Series,5,Manual,51000,Diesel,20,68.9,2,11644.095
+333, 3 Series,6,Manual,26948,Diesel,30,61.4,2,14518.335
+334, 2 Series,5,Manual,24158,Petrol,30,55.4,1.5,12490.445
+335, 4 Series,7,Automatic,46833,Petrol,145,47.1,2,14521.445
+336, X3,5,Semi-Auto,39365,Diesel,145,54.3,2,20709.835
+337, X3,5,Semi-Auto,20094,Diesel,145,54.3,2,23123.38
+338, 3 Series,8,Manual,67000,Diesel,20,68.9,2,9145.745
+339, X5,2,Automatic,123,Diesel,145,36.7,3,20728.70704
+340, 5 Series,4,Automatic,24232,Diesel,145,53.3,3,25671.69
+341, 3 Series,3,Automatic,9200,Petrol,145,48.7,2,21588.2675
+342, X6,3,Semi-Auto,11637,Diesel,145,44.8,3,37805.345
+343, X1,2,Semi-Auto,7778,Diesel,145,50.4,2,27017.22748
+344, X4,2,Semi-Auto,6170,Diesel,145,40.9,3,40407.45
+345, 6 Series,2,Semi-Auto,16935,Diesel,145,47.9,3,30811.805
+346, X3,2,Automatic,1405,Petrol,145,24.8,3,20298.5
+347, X5,2,Semi-Auto,751,Petrol,145,27.2,3,20298.5
+348, 2 Series,2,Automatic,123,Diesel,145,49.6,2,21879.6934
+349, 5 Series,4,Automatic,18820,Diesel,145,65.7,2,19649.27625
+350, X7,2,Semi-Auto,10,Diesel,145,31.4,3,20672.495
+351, 1 Series,4,Manual,53248,Diesel,145,65.7,2,12021.07
+352, 1 Series,5,Automatic,23899,Petrol,30,58.9,1.5,13193.675
+353, X3,6,Semi-Auto,70864,Diesel,150,54.3,2,16689.63
+354, 1 Series,2,Automatic,8458,Diesel,145,51.4,2,27846.48586
+355, 4 Series,2,Automatic,5984,Petrol,145,48.7,2,24098.64933
+356, 1 Series,4,Automatic,26213,Petrol,145,47.9,2,17730.89377
+357, X6,2,Semi-Auto,11330,Diesel,145,33.2,3,22526.945
+358, 5 Series,2,Automatic,3067,Hybrid,145,49.6,2,30101.675
+359, 3 Series,6,Semi-Auto,48812,Diesel,160,51.4,3,16694.68
+360, 4 Series,2,Automatic,6004,Diesel,145,65.7,2,27472.49381
+361, X6,8,Semi-Auto,71522,Diesel,300,38.2,3,17644.04
+362, 3 Series,5,Manual,62674,Diesel,20,72.4,2,10419.66
+363, 1 Series,8,Manual,73000,Diesel,0,74.3,1.6,7544.61
+364, 2 Series,7,Manual,36849,Petrol,160,44.8,2,12986.63
+365, X6,1,Semi-Auto,3158,Petrol,145,26.4,3,20298.5
+366, 4 Series,5,Manual,10267,Petrol,200,43.5,2,17229.9175
+367, 2 Series,6,Semi-Auto,31383,Petrol,160,47.1,2,15015.605
+368, 7 Series,4,Semi-Auto,6431,Diesel,145,54.3,3,30362.105
+369, 3 Series,8,Automatic,41114,Diesel,125,57.6,3,15483.215
+370, 4 Series,6,Semi-Auto,33864,Diesel,125,60.1,2,16266.8925
+371, 1 Series,6,Manual,40176,Petrol,145,50.4,1.6,10536.77
+372, 1 Series,4,Manual,31268,Diesel,150,72.4,1.5,11813.355
+373, 5 Series,3,Automatic,24460,Diesel,145,60.1,3,25931.59
+374, 4 Series,5,Semi-Auto,34942,Diesel,30,65.7,2,17495.93
+375, X1,4,Semi-Auto,27531,Diesel,30,65.7,2,18757.83248
+376, X5,5,Automatic,7658,Diesel,205,47.1,3,31438.1325
+377, 8 Series,2,Semi-Auto,88,Petrol,145,24.4,4.4,20642.57
+378, 3 Series,4,Automatic,28411,Diesel,145,51.4,3,22561.54464
+379, 3 Series,2,Semi-Auto,3078,Petrol,145,34.9,3,37700.43
+380, X3,2,Semi-Auto,9000,Diesel,145,54.3,2,33041.03
+381, 5 Series,2,Semi-Auto,5130,Diesel,145,65.7,2,26382.54
+382, X3,2,Automatic,6332,Diesel,145,54.3,2,32231.64783
+383, X1,4,Semi-Auto,53850,Diesel,150,57.6,2,16979.245
+384, X1,2,Automatic,5231,Petrol,145,48.7,2,26604.97607
+385, 1 Series,2,Manual,1947,Petrol,145,41.5,1.5,23428.7325
+386, X1,4,Semi-Auto,15242,Diesel,145,57.6,2,20866.53563
+387, 5 Series,7,Semi-Auto,35822,Diesel,165,51.4,3,16574.825
+388, X1,4,Semi-Auto,16216,Diesel,150,55.4,2,20980.38591
+389, 3 Series,3,Semi-Auto,40500,Petrol,145,48.7,2,18620.815
+390, 3 Series,8,Manual,60211,Diesel,125,60.1,2,9849.55
+391, 1 Series,7,Semi-Auto,20000,Diesel,30,64.2,2,13318.6775
+392, 1 Series,2,Manual,8617,Petrol,145,44.1,1.5,20621.415
+393, X3,2,Semi-Auto,20423,Petrol,145,30.4,2,30290.7
+394, X2,2,Semi-Auto,4169,Petrol,145,34,2,33712.0125
+395, Z4,1,Semi-Auto,3100,Petrol,145,38.7,2,31459.02549
+396, 5 Series,1,Semi-Auto,5658,Petrol,145,50.4,2,29865.19738
+397, 1 Series,2,Semi-Auto,4539,Diesel,145,70.6,2,19740.5
+398, X1,2,Semi-Auto,8410,Petrol,145,47.9,2,24069.52076
+399, X2,1,Semi-Auto,2580,Petrol,145,39.8,2,28996.27542
+400, 1 Series,4,Semi-Auto,10571,Diesel,30,65.7,2,18230.395
+401, 1 Series,3,Semi-Auto,11690,Diesel,145,45.6,2,21147.065
+402, X2,3,Semi-Auto,13325,Diesel,145,58.9,2,27243.88
+403, 2 Series,2,Semi-Auto,2859,Diesel,145,48.7,2,25243.86667
+404, X5,2,Semi-Auto,5041,Diesel,145,37.7,3,20852.72816
+405, X3,6,Semi-Auto,39370,Diesel,145,54.3,2,19228.66
+406, 3 Series,3,Semi-Auto,15893,Diesel,145,64.2,2,21033.10542
+407, 1 Series,2,Manual,4905,Petrol,145,53.3,1.5,16287.42
+408, X1,2,Semi-Auto,6153,Petrol,145,35.3,2,28712.2109
+409, 4 Series,5,Semi-Auto,16635,Diesel,160,50.4,3,23435.12
+410, 3 Series,2,Semi-Auto,7254,Petrol,150,42.2,2,26463.05377
+411, X7,1,Semi-Auto,8695,Diesel,150,31.4,3,20298.5
+412, 2 Series,2,Automatic,6269,Petrol,145,50.4,2,21460.53739
+413, 1 Series,4,Manual,32000,Diesel,30,62.8,2,14916.1
+414, 1 Series,2,Semi-Auto,3605,Diesel,150,47.9,1.5,23526.725
+415, X2,2,Automatic,3740,Petrol,145,34,2,32977.6025
+416, 3 Series,2,Semi-Auto,6429,Diesel,145,64.2,2,23133.475
+417, X3,2,Semi-Auto,5495,Diesel,145,54.3,2,34844.55
+418, 3 Series,2,Automatic,1550,Petrol,145,42.2,2,29167.97146
+419, 2 Series,3,Manual,12769,Petrol,145,52.3,1.5,17072.52
+420, X1,2,Semi-Auto,7835,Diesel,150,60.1,2,26112.43899
+421, 2 Series,2,Semi-Auto,5869,Diesel,150,51.4,2,21448.33
+422, 1 Series,2,Manual,4729,Petrol,145,41.5,1.5,22736.35
+423, 5 Series,2,Automatic,4859,Petrol,145,29.1,3,34277.8875
+424, 1 Series,1,Semi-Auto,1500,Petrol,145,34.5,2,31797.40529
+425, 5 Series,4,Automatic,21687,Diesel,145,53.3,3,25845.2
+426, 3 Series,5,Semi-Auto,27621,Diesel,145,56.5,3,17808.355
+427, 3 Series,1,Semi-Auto,6250,Diesel,145,47.9,3,36369.385
+428, 4 Series,5,Semi-Auto,31663,Diesel,160,51.4,3,20047.63
+429, 4 Series,2,Semi-Auto,4278,Diesel,150,52.3,3,29582.17583
+430, 3 Series,3,Automatic,21045,Diesel,145,62.8,2,19409.695
+431, 3 Series,6,Manual,30441,Diesel,30,64.2,2,13923.405
+432, X3,6,Manual,33269,Diesel,160,52.3,2,14337.74
+433, X5,2,Semi-Auto,6927,Diesel,150,37.7,3,23250.84091
+434, 1 Series,6,Manual,23320,Diesel,20,70.6,2,12224.45167
+435, X6,2,Semi-Auto,2137,Diesel,145,34.9,3,20888.9375
+436, 5 Series,1,Semi-Auto,2137,Diesel,145,60.1,3,28540.91417
+437, X1,5,Semi-Auto,41455,Diesel,125,57.6,2,17297.9
+438, 5 Series,2,Automatic,4562,Diesel,145,60.1,3,33008.88
+439, X7,2,Semi-Auto,2137,Diesel,145,33.6,3,20571.8075
+440, X6,1,Semi-Auto,3200,Diesel,145,34.9,3,20407.9775
+441, X2,1,Automatic,2182,Petrol,145,34,2,34813.755
+442, 5 Series,3,Semi-Auto,31649,Diesel,145,45.6,2,22865.9525
+443, 3 Series,3,Manual,13759,Petrol,150,52.3,1.5,16006.855
+444, X5,4,Automatic,25288,Diesel,145,50.4,2,29061.32
+445, X5,5,Automatic,69798,Diesel,200,47.1,3,24995.84
+446, X1,5,Semi-Auto,20761,Diesel,125,60.1,2,18990.196
+447, 3 Series,2,Automatic,4137,Petrol,145,39.8,2,34535.02654
+448, 1 Series,2,Semi-Auto,16406,Diesel,150,67.3,2,20130.445
+449, X1,5,Semi-Auto,16755,Diesel,145,55.4,2,19929.89042
+450, 3 Series,7,Automatic,60015,Diesel,30,62.8,2,12183.33
+451, X3,6,Semi-Auto,41312,Diesel,145,54.3,2,18681.445
+452, 3 Series,2,Semi-Auto,9522,Diesel,145,62.8,2,24028.45156
+453, 1 Series,5,Semi-Auto,46327,Diesel,0,78.5,1.5,12197.675
+454, 1 Series,4,Manual,32082,Diesel,145,70.6,1.5,12966.32
+455, 3 Series,6,Automatic,90018,Diesel,20,70.6,2,9831.41
+456, 1 Series,3,Manual,45228,Diesel,145,72.4,1.5,12362.705
+457, 5 Series,2,Semi-Auto,3623,Diesel,145,65.7,2,28036.045
+458, 1 Series,5,Manual,17550,Petrol,30,56.5,1.5,12760.975
+459, 2 Series,3,Semi-Auto,18970,Petrol,145,51.4,1.5,17182.695
+460, 3 Series,2,Manual,5996,Diesel,145,67.3,2,20207.87
+461, 4 Series,5,Manual,33805,Diesel,30,62.8,2,16271.2
+462, M4,2,Semi-Auto,12,Petrol,145,32.5,3,25331.4225
+463, 3 Series,1,Semi-Auto,9,Petrol,145,34.9,3,40356.3625
+464, 5 Series,6,Semi-Auto,34250,Diesel,30,62.8,2,15781.6625
+465, 1 Series,1,Semi-Auto,5000,Petrol,145,42.8,1.5,26486.36
+466, 1 Series,7,Manual,30000,Petrol,305,35.3,3,15865.835
+467, X1,4,Manual,55426,Diesel,125,58.9,2,12644.62
+468, X1,8,Manual,67932,Diesel,165,51.4,2,8244.025
+469, 1 Series,2,Semi-Auto,12345,Diesel,145,74.3,2,18220.925
+470, 3 Series,2,Semi-Auto,10568,Diesel,145,52.3,2,27206.03083
+471, 3 Series,4,Semi-Auto,11700,Diesel,145,64.2,2,18561.21867
+472, 3 Series,2,Manual,10,Diesel,145,54.3,2,30517.19667
+473, X1,4,Semi-Auto,17961,Petrol,165,44.8,2,21042.125
+474, X3,2,Semi-Auto,6981,Petrol,145,30.4,2,33824.005
+475, X3,3,Semi-Auto,71587,Diesel,145,54.3,2,26524.635
+476, 1 Series,5,Manual,35447,Diesel,20,68.9,2,11739.245
+477, 1 Series,4,Manual,9243,Petrol,145,52.3,1.5,14676.12
+478, X1,2,Semi-Auto,4928,Diesel,145,60.1,2,27297.0682
+479, i3,5,Automatic,8421,Hybrid,0,470.8,0,15282.075
+480, 1 Series,5,Semi-Auto,38094,Diesel,30,65.7,2,14596.31
+481, X2,1,Semi-Auto,101,Petrol,145,39.2,2,31042.94958
+482, M4,1,Semi-Auto,101,Petrol,145,34,3,31401.8175
+483, 5 Series,3,Semi-Auto,9629,Diesel,145,56.5,3,31034.455
+484, 1 Series,4,Semi-Auto,12967,Petrol,200,39.8,3,22054.07833
+485, X5,2,Semi-Auto,10829,Diesel,145,37.7,3,27040.27361
+486, 3 Series,2,Semi-Auto,13547,Petrol,145,42.2,2,27204.47382
+487, X1,2,Semi-Auto,2517,Diesel,145,36.7,2,28177.49218
+488, 3 Series,2,Semi-Auto,2307,Diesel,145,65.7,2,24986.41667
+489, 4 Series,3,Semi-Auto,7261,Diesel,145,60.1,2,21815.875
+490, 4 Series,2,Automatic,5758,Diesel,145,65.7,2,24404.10381
+491, 3 Series,2,Automatic,12473,Diesel,145,52.3,2,27661.15163
+492, X5,2,Automatic,6601,Diesel,145,33.6,3,26539.455
+493, 3 Series,2,Semi-Auto,15221,Diesel,145,62.8,2,22266.16
+494, X1,5,Manual,52422,Diesel,125,58.9,2,15154.835
+495, 3 Series,3,Semi-Auto,12030,Diesel,145,64.2,2,20961.90508
+496, 3 Series,4,Semi-Auto,28487,Petrol,125,54.3,1.5,15238.885
+497, X1,5,Semi-Auto,27843,Diesel,30,65.7,2,17175.99
+498, 3 Series,2,Semi-Auto,7447,Petrol,150,34.9,3,37740.71
+499, X4,2,Semi-Auto,12733,Diesel,150,37.2,3,38814.375
+500, 5 Series,2,Semi-Auto,5360,Diesel,145,65.7,2,26509.93
+501, 7 Series,5,Semi-Auto,20619,Diesel,145,54.3,3,29030.11
+502, 1 Series,4,Manual,20302,Petrol,145,36.2,3,19445.095
+503, 2 Series,2,Manual,3347,Diesel,145,61.4,2,24379.1525
+504, 2 Series,2,Manual,1900,Petrol,145,42.8,1.5,19872.795
+505, X1,2,Semi-Auto,4224,Diesel,145,60.1,2,26468.7073
+506, X3,2,Semi-Auto,3440,Diesel,150,54.3,2,38000.17
+507, X3,2,Semi-Auto,5656,Diesel,150,36.7,3,40401.515
+508, 3 Series,6,Semi-Auto,45116,Petrol,150,47.9,2,13995.43
+509, 1 Series,4,Semi-Auto,25249,Diesel,150,61.4,2,18619.75524
+510, 5 Series,1,Semi-Auto,101,Petrol,145,39.2,3,41465.22917
+511, 4 Series,2,Semi-Auto,7949,Diesel,150,65.7,2,23677.985
+512, X4,1,Semi-Auto,101,Diesel,145,42.8,2,35434.89125
+513, 1 Series,1,Semi-Auto,5,Petrol,145,40.4,1.5,26923.31583
+514, 4 Series,2,Manual,9232,Petrol,150,42.8,2,27344.1775
+515, 5 Series,3,Semi-Auto,11798,Petrol,150,39.2,3,31404.42
+516, X6,1,Semi-Auto,5656,Diesel,150,33.2,3,21474.4275
+517, 2 Series,1,Semi-Auto,10,Petrol,150,50.4,1.5,21172.75
+518, 3 Series,4,Semi-Auto,18138,Diesel,145,64.2,2,18685.86911
+519, 2 Series,1,Semi-Auto,11,Petrol,150,47.9,2,25067.51667
+520, 3 Series,1,Semi-Auto,16,Diesel,150,54.3,2,27326.47125
+521, 1 Series,2,Manual,10,Diesel,145,53.3,2,30412.65083
+522, X7,1,Semi-Auto,6137,Diesel,145,33.6,3,20386.9575
+523, 5 Series,3,Semi-Auto,14102,Diesel,145,68.9,2,23885.735
+524, 3 Series,1,Semi-Auto,5656,Diesel,145,52.3,2,31793.00235
+525, 3 Series,1,Semi-Auto,5656,Diesel,145,47.9,3,36551.6445
+526, 2 Series,6,Manual,25637,Petrol,300,34.9,3,16660.23
+527, 5 Series,2,Semi-Auto,9334,Diesel,145,65.7,2,26461.335
+528, X2,2,Semi-Auto,1155,Diesel,145,61.4,2,30699.69221
+529, 5 Series,1,Semi-Auto,16,Hybrid,145,44.8,2,34425.63306
+530, X3,4,Semi-Auto,26325,Diesel,200,47.1,3,27321.67
+531, 3 Series,2,Semi-Auto,9898,Diesel,145,49.6,3,30056.58619
+532, 3 Series,2,Semi-Auto,5574,Petrol,145,48.7,2,24143.13495
+533, 2 Series,2,Manual,10,Petrol,145,52.3,1.5,24110.76801
+534, X2,2,Semi-Auto,10,Petrol,145,38.7,2,29221.12054
+535, 1 Series,2,Manual,10,Diesel,145,53.3,2,30412.65083
+536, 1 Series,5,Manual,10,Diesel,20,72.4,1.5,19391.78
+537, M4,5,Semi-Auto,21533,Petrol,300,34,3,32022.645
+538, 4 Series,3,Semi-Auto,20011,Petrol,145,41.5,3,24812.935
+539, 3 Series,2,Semi-Auto,2198,Petrol,145,47.9,2,24091.66041
+540, 4 Series,2,Semi-Auto,9533,Diesel,145,65.7,2,24461.55
+541, 2 Series,3,Semi-Auto,19598,Petrol,145,39.8,3,23451.935
+542, 1 Series,2,Manual,3312,Petrol,145,52.3,1.5,20372.48
+543, Z4,1,Semi-Auto,10,Petrol,145,38.7,2,30660.65778
+544, 1 Series,2,Manual,5500,Diesel,145,68.9,2,18014.88
+545, 4 Series,4,Automatic,10,Petrol,200,41.5,3,24946.46
+546, 2 Series,2,Semi-Auto,3013,Diesel,150,64.2,2,25003.46
+547, 3 Series,1,Semi-Auto,12,Diesel,145,48.7,2,33314.93247
+548, 3 Series,6,Semi-Auto,81455,Diesel,200,49.6,3,15846.845
+549, X2,2,Semi-Auto,10,Petrol,145,38.7,2,29221.12054
+550, 3 Series,2,Manual,3055,Diesel,145,54.3,2,26545.87751
+551, 5 Series,2,Semi-Auto,12,Diesel,145,53.3,3,35822.05333
+552, X1,2,Manual,6786,Petrol,145,51.4,1.5,21740.69
+553, X1,5,Automatic,42761,Diesel,145,55.4,2,17113.83
+554, 3 Series,2,Manual,3758,Diesel,145,64.2,2,24745.7
+555, 3 Series,2,Semi-Auto,3119,Petrol,150,42.2,2,29903.04333
+556, 3 Series,2,Semi-Auto,8856,Diesel,150,52.3,2,27195.45365
+557, 2 Series,1,Semi-Auto,18,Diesel,150,49.6,2,26292.085
+558, 3 Series,8,Automatic,83944,Diesel,125,60.1,2,9424.16
+559, 3 Series,2,Semi-Auto,5494,Petrol,145,41.5,2,29473.82097
+560, 3 Series,2,Semi-Auto,10361,Diesel,145,62.8,2,22445.9
+561, 1 Series,7,Manual,38000,Diesel,30,65.7,2,9491.565
+562, 3 Series,2,Manual,3377,Diesel,145,54.3,2,26538.15987
+563, 2 Series,2,Manual,12,Petrol,145,42.2,1.5,21718.29702
+564, 3 Series,3,Semi-Auto,12,Petrol,145,48.7,2,29269.015
+565, 5 Series,2,Semi-Auto,12,Petrol,145,48.7,2,31761.38333
+566, 4 Series,2,Semi-Auto,13,Petrol,145,45.6,2,24203.02787
+567, M4,2,Semi-Auto,19,Petrol,145,34,3,44461.1675
+568, X1,3,Semi-Auto,16719,Diesel,145,60.1,2,24243.91
+569, 3 Series,1,Manual,5,Diesel,145,56.5,2,24588.985
+570, 3 Series,6,Manual,41655,Diesel,30,64.2,2,13134.205
+571, X6,5,Semi-Auto,27838,Diesel,200,47.1,3,27018.26
+572, 1 Series,3,Manual,12800,Diesel,145,50.4,1.5,15791.95
+573, 6 Series,5,Semi-Auto,28684,Diesel,160,51.4,3,22520.13
+574, 4 Series,2,Semi-Auto,9,Diesel,145,65.7,2,25886.61
+575, 3 Series,6,Semi-Auto,39000,Petrol,200,41.5,3,18399.545
+576, 5 Series,2,Semi-Auto,6865,Diesel,145,60.1,2,31248.8
+577, 5 Series,3,Automatic,28869,Petrol,145,37.7,3,29345.84
+578, X3,3,Semi-Auto,18327,Diesel,145,48.7,3,30806.275
+579, 4 Series,2,Semi-Auto,110,Diesel,145,60.1,2,27940.13215
+580, 5 Series,2,Semi-Auto,11114,Diesel,145,65.7,2,26061.43
+581, 4 Series,2,Semi-Auto,8722,Diesel,145,53.3,3,28330.62009
+582, 2 Series,2,Semi-Auto,11362,Petrol,145,40.9,1.5,20263.355
+583, 1 Series,2,Automatic,7314,Diesel,145,65.7,2,21015.47239
+584, 5 Series,2,Semi-Auto,8601,Petrol,145,50.4,2,28347.28115
+585, 5 Series,2,Semi-Auto,12182,Diesel,145,65.7,2,26304.69
+586, 3 Series,2,Semi-Auto,5470,Petrol,145,34.9,3,38287.13
+587, 3 Series,2,Manual,3378,Diesel,145,64.2,2,24823.635
+588, 3 Series,2,Manual,2912,Diesel,145,64.2,2,24956.78
+589, 7 Series,2,Semi-Auto,4884,Diesel,145,41.5,3,20750.22819
+590, 1 Series,2,Semi-Auto,4834,Diesel,145,67.3,2,20718.315
+591, 1 Series,1,Manual,1182,Diesel,145,53.3,2,24523.1425
+592, 3 Series,2,Semi-Auto,22095,Diesel,145,52.3,2,24796.06
+593, 3 Series,2,Semi-Auto,9389,Diesel,145,49.6,2,33059.96842
+594, 1 Series,2,Semi-Auto,7044,Diesel,145,67.3,2,21440.815
+595, 1 Series,2,Manual,4168,Petrol,145,52.3,1.5,19401.69
+596, 1 Series,2,Manual,3423,Diesel,145,70.6,1.5,19015.89
+597, 1 Series,4,Manual,19484,Diesel,145,72.4,1.5,12419.205
+598, 1 Series,2,Manual,5303,Diesel,145,65.7,2,19431.895
+599, 3 Series,2,Automatic,5000,Diesel,145,52.3,2,29105.09279
+600, 2 Series,2,Semi-Auto,112,Petrol,145,47.9,2,24263.6825
+601, 3 Series,2,Semi-Auto,5246,Petrol,145,47.9,2,24883.55755
+602, 3 Series,2,Semi-Auto,1051,Petrol,145,47.9,2,24744.90006
+603, 3 Series,2,Semi-Auto,8196,Diesel,145,62.8,2,23770.28347
+604, 5 Series,2,Semi-Auto,2096,Diesel,145,53.3,3,36362.98083
+605, 5 Series,2,Semi-Auto,10389,Diesel,145,65.7,2,25059.655
+606, 2 Series,2,Semi-Auto,10199,Petrol,145,47.9,2,22017.725
+607, 1 Series,7,Manual,71301,Petrol,300,35.3,3,12892.07
+608, 4 Series,2,Manual,8293,Diesel,145,62.8,2,25046.33633
+609, Z4,2,Semi-Auto,8004,Petrol,145,37.2,2,31611.70738
+610, X3,2,Semi-Auto,2538,Diesel,145,54.3,2,35031.54
+611, 4 Series,2,Semi-Auto,10831,Diesel,145,65.7,2,24586.205
+612, 3 Series,2,Semi-Auto,26000,Petrol,150,47.9,2,21959.625
+613, 3 Series,2,Semi-Auto,23000,Petrol,150,47.9,2,21816.025
+614, 3 Series,2,Semi-Auto,27000,Petrol,150,47.9,2,21852.175
+615, X3,2,Semi-Auto,8088,Diesel,145,54.3,2,32775.66
+616, 4 Series,2,Semi-Auto,7217,Diesel,145,47.9,3,29957.03714
+617, 3 Series,2,Manual,5567,Diesel,145,56.5,2,27142.06656
+618, 3 Series,2,Semi-Auto,12991,Diesel,145,48.7,2,27387.46073
+619, 3 Series,2,Manual,7441,Diesel,150,54.3,2,26547.77988
+620, 4 Series,4,Semi-Auto,28893,Diesel,145,50.4,3,23176.85875
+621, 4 Series,2,Semi-Auto,7350,Petrol,145,48.7,2,27159.29681
+622, 1 Series,5,Manual,26193,Petrol,260,36.2,3,18632.835
+623, 2 Series,2,Semi-Auto,3574,Diesel,145,48.7,2,25724.82417
+624, 1 Series,2,Manual,4064,Diesel,145,57.7,1.5,21626.245
+625, 1 Series,2,Semi-Auto,3667,Petrol,145,40.4,1.5,26247.34
+626, 4 Series,2,Semi-Auto,4762,Petrol,145,41.5,3,31703.88955
+627, 4 Series,2,Semi-Auto,7604,Diesel,150,65.7,2,23945.96
+628, 4 Series,2,Semi-Auto,4476,Diesel,145,58.9,2,28050.09628
+629, 4 Series,3,Semi-Auto,16500,Petrol,150,48.7,2,21812.65571
+630, 4 Series,3,Semi-Auto,17000,Petrol,150,48.7,2,21276.70071
+631, M4,2,Semi-Auto,1501,Petrol,145,32.5,3,29386.7325
+632, 5 Series,2,Semi-Auto,4237,Petrol,145,50.4,2,26892.34
+633, X1,6,Semi-Auto,29135,Diesel,125,57.6,2,16139.315
+634, 3 Series,4,Semi-Auto,24628,Petrol,145,47.9,2,18225.24185
+635, 2 Series,3,Manual,11141,Petrol,145,42.2,1.5,16533.62
+636, X3,2,Semi-Auto,6501,Diesel,150,36.7,3,37573.9175
+637, 3 Series,2,Manual,2802,Diesel,145,54.3,2,26997.60409
+638, 1 Series,5,Semi-Auto,37529,Diesel,20,68.9,1.5,13915.69
+639, X4,2,Semi-Auto,2740,Diesel,145,42.8,2,37064.4
+640, X1,2,Semi-Auto,9113,Diesel,145,50.4,2,26810.85939
+641, 1 Series,4,Semi-Auto,28646,Diesel,145,68.9,2,15700.535
+642, X1,4,Semi-Auto,21330,Petrol,160,44.8,2,20148.38533
+643, 4 Series,6,Semi-Auto,35255,Petrol,160,44.1,2,16273.45
+644, 1 Series,4,Manual,39201,Petrol,150,36.2,3,17865.905
+645, 3 Series,6,Semi-Auto,30569,Diesel,30,62.8,2,15539.155
+646, X1,2,Semi-Auto,3782,Petrol,145,48.7,2,27196.0515
+647, X1,2,Semi-Auto,2372,Petrol,150,48.7,2,27604.05409
+648, X2,2,Semi-Auto,3690,Petrol,150,39.2,2,28987.07265
+649, X1,5,Semi-Auto,36956,Diesel,30,65.7,2,15745.255
+650, X1,4,Semi-Auto,16578,Diesel,150,57.6,2,21121.91063
+651, 3 Series,4,Manual,17907,Petrol,150,43.5,2,15439.635
+652, 3 Series,5,Automatic,59695,Diesel,145,56.5,3,16643.11
+653, 5 Series,1,Semi-Auto,105,Hybrid,145,44.8,2,33187.9725
+654, 3 Series,6,Semi-Auto,21000,Petrol,160,43.5,2,15571.71
+655, 3 Series,4,Semi-Auto,34700,Diesel,150,64.2,2,17306.43264
+656, X3,2,Semi-Auto,3934,Diesel,145,54.3,2,34849.615
+657, 2 Series,1,Semi-Auto,105,Diesel,145,47.1,2,30345.7981
+658, 2 Series,7,Semi-Auto,17787,Petrol,260,37.2,3,13210.54
+659, 3 Series,2,Semi-Auto,8421,Diesel,150,52.3,2,27038.53037
+660, 4 Series,3,Semi-Auto,10030,Diesel,145,65.7,2,22011.43
+661, M4,2,Semi-Auto,934,Petrol,150,34,3,22229.6375
+662, X5,2,Semi-Auto,102,Diesel,150,37.7,3,20298.5
+663, 3 Series,6,Semi-Auto,46486,Petrol,150,48.7,2,14632.9
+664, X2,1,Semi-Auto,103,Petrol,150,34,2,37377.4025
+665, 5 Series,1,Semi-Auto,105,Hybrid,145,49.6,2,31680.79417
+666, 5 Series,1,Semi-Auto,104,Petrol,145,50.4,2,29409.465
+667, 5 Series,2,Semi-Auto,9535,Diesel,145,65.7,2,26221.825
+668, 3 Series,1,Manual,101,Diesel,145,58.9,2,24900.37
+669, 4 Series,2,Semi-Auto,2129,Petrol,145,45.6,2,26417.81311
+670, M4,2,Semi-Auto,5486,Petrol,145,34,3,43800.0625
+671, 4 Series,2,Semi-Auto,102,Diesel,145,65.7,2,29428.57578
+672, 2 Series,2,Semi-Auto,11757,Petrol,145,47.9,2,21872.445
+673, 1 Series,2,Manual,10069,Diesel,145,72.4,1.5,16132.385
+674, X2,3,Semi-Auto,11594,Diesel,145,58.9,2,26968.245
+675, M4,2,Semi-Auto,13,Petrol,145,32.5,3,25331.4225
+676, Z4,1,Semi-Auto,103,Petrol,145,37.2,2,35014.23842
+677, 5 Series,2,Semi-Auto,6360,Diesel,145,65.7,2,26573.54
+678, 5 Series,1,Semi-Auto,105,Diesel,145,53.3,3,34935.28833
+679, 3 Series,4,Semi-Auto,18224,Diesel,145,53.3,3,21312.16
+680, X2,2,Semi-Auto,103,Petrol,145,39.2,2,28333.00778
+681, 5 Series,2,Automatic,13,Petrol,145,48.7,2,31245.6625
+682, M4,2,Semi-Auto,102,Petrol,145,34,3,41394.41
+683, 1 Series,2,Manual,11211,Diesel,150,70.6,1.5,18224.925
+684, 4 Series,4,Semi-Auto,22945,Petrol,145,48.7,2,18091.46167
+685, 4 Series,2,Automatic,17,Diesel,145,55.4,3,30393.3375
+686, X3,2,Automatic,4464,Diesel,145,54.3,2,35464.585
+687, X5,4,Automatic,31500,Diesel,145,47.1,3,31691.16
+688, 6 Series,1,Semi-Auto,6,Petrol,145,42.8,2,33578.1028
+689, X4,2,Semi-Auto,2294,Diesel,150,40.9,3,38114.44
+690, 4 Series,2,Semi-Auto,4954,Diesel,150,65.7,2,23748.12
+691, 2 Series,2,Automatic,15,Petrol,145,53.3,1.5,21341.69033
+692, 5 Series,6,Semi-Auto,29952,Diesel,30,62.8,2,16140.575
+693, 1 Series,4,Semi-Auto,24965,Petrol,150,39.8,3,21045.08149
+694, X3,2,Semi-Auto,3082,Diesel,150,36.7,3,40603.5325
+695, 1 Series,5,Semi-Auto,27402,Petrol,150,47.9,2,17776.43239
+696, 8 Series,2,Automatic,3948,Petrol,145,33.2,3,20737.23
+697, 3 Series,2,Semi-Auto,8010,Petrol,145,45.6,2,26232.83289
+698, 2 Series,2,Semi-Auto,7891,Diesel,145,65.7,2,23224.24239
+699, X1,2,Automatic,11919,Diesel,145,60.1,2,25119.36
+700, 2 Series,1,Semi-Auto,11,Petrol,145,50.4,1.5,22734.60083
+701, 5 Series,4,Automatic,14459,Diesel,145,65.7,2,22887.47
+702, 2 Series,5,Semi-Auto,27749,Petrol,200,39.8,3,20089.99
+703, 1 Series,5,Manual,40358,Diesel,30,65.7,2,12199.505
+704, 1 Series,2,Manual,7734,Petrol,145,41.5,1.5,24405.34
+705, 2 Series,2,Semi-Auto,9401,Diesel,145,56.5,1.5,19914.81
+706, 1 Series,2,Manual,7990,Diesel,145,65.7,2,19615.965
+707, 3 Series,2,Semi-Auto,5983,Petrol,145,47.9,2,24574.58142
+708, X1,2,Semi-Auto,5385,Petrol,145,35.3,2,26820.88614
+709, X2,2,Semi-Auto,2055,Petrol,145,39.2,2,29190.34839
+710, 2 Series,5,Semi-Auto,14041,Petrol,160,45.6,2,19162.17
+711, 1 Series,7,Semi-Auto,75500,Petrol,160,44.8,2,12056.405
+712, 4 Series,5,Manual,36800,Petrol,160,46.3,2,15188.855
+713, 2 Series,2,Semi-Auto,5466,Petrol,145,39.2,1.5,22344.91
+714, X3,5,Automatic,44950,Diesel,200,47.1,3,20183.525
+715, 3 Series,8,Semi-Auto,29496,Petrol,200,43.5,2,13948.445
+716, 4 Series,2,Automatic,5685,Diesel,145,52.3,3,31554.40667
+717, 5 Series,3,Semi-Auto,5823,Diesel,145,49.6,2,27975.595
+718, 2 Series,5,Manual,24488,Petrol,125,53.3,1.5,12484.42
+719, 1 Series,4,Manual,30641,Diesel,20,70.6,1.5,12795.085
+720, 2 Series,6,Manual,70067,Diesel,20,68.9,2,10291.425
+721, 6 Series,8,Semi-Auto,54483,Diesel,160,51.4,3,15798.22
+722, X1,5,Manual,29890,Diesel,125,60.1,2,16846.9
+723, 3 Series,3,Semi-Auto,26173,Diesel,145,60.1,2,19662.51125
+724, 3 Series,5,Automatic,42666,Diesel,0,74.3,2,14318.765
+725, 3 Series,6,Semi-Auto,37798,Diesel,30,64.2,2,13337.73
+726, 4 Series,3,Semi-Auto,34384,Diesel,145,55.4,3,22984.74
+727, 2 Series,4,Semi-Auto,15500,Petrol,150,48.7,2,18693.09
+728, i3,6,Automatic,65800,Hybrid,0,470.8,0,11069.345
+729, 2 Series,1,Semi-Auto,10,Petrol,145,50.4,1.5,21122.66667
+730, X5,8,Automatic,63583,Diesel,200,45.6,3,21981.805
+731, 3 Series,2,Semi-Auto,3853,Petrol,145,41.5,2,31044.93519
+732, 2 Series,5,Manual,16260,Diesel,20,68.9,1.5,13420.07
+733, 1 Series,7,Manual,61500,Diesel,30,62.8,2,10235.775
+734, 2 Series,3,Semi-Auto,10600,Petrol,150,38.2,2,18708.32
+735, 2 Series,4,Semi-Auto,29000,Diesel,145,60.1,2,16974.93581
+736, M4,1,Semi-Auto,5,Petrol,145,34,3,40928.961
+737, Z4,8,Semi-Auto,26356,Petrol,200,41.5,2,12058.345
+738, 4 Series,2,Automatic,101,Diesel,145,50.4,3,35040.64538
+739, X3,2,Semi-Auto,13563,Petrol,145,30.4,2,31547.405
+740, 4 Series,2,Semi-Auto,5496,Petrol,145,45.6,2,25608.39222
+741, 2 Series,2,Manual,102,Petrol,145,52.3,1.5,21619.65724
+742, X2,2,Semi-Auto,2772,Petrol,145,38.7,2,27582.54336
+743, 3 Series,2,Manual,2179,Diesel,150,54.3,2,26967.25696
+744, 4 Series,1,Semi-Auto,1705,Diesel,145,65.7,2,29257.59167
+745, 2 Series,2,Manual,1000,Petrol,145,52.3,1.5,20980
+746, 1 Series,2,Manual,2672,Petrol,145,41.5,1.5,24590.01618
+747, X3,2,Semi-Auto,6779,Diesel,150,54.3,2,33335.9025
+748, 2 Series,2,Semi-Auto,8406,Petrol,150,40.9,1.5,20384.955
+749, 5 Series,2,Semi-Auto,5951,Petrol,150,50.4,2,27130.22383
+750, 2 Series,2,Manual,1000,Petrol,145,52.3,1.5,20980
+751, 3 Series,4,Semi-Auto,39462,Hybrid,0,148.7,2,14927.725
+752, 1 Series,2,Semi-Auto,7729,Petrol,150,40.4,1.5,23336.375
+753, 2 Series,2,Semi-Auto,7532,Petrol,145,50.4,2,21663.03631
+754, 4 Series,5,Automatic,20444,Diesel,30,65.7,2,18228.3
+755, 2 Series,6,Manual,70000,Petrol,125,53.3,1.5,10497.065
+756, 5 Series,2,Semi-Auto,3457,Petrol,145,50.4,2,30915.2325
+757, 1 Series,3,Manual,22492,Petrol,145,53.3,1.5,13618.72
+758, 3 Series,6,Manual,52338,Diesel,30,64.2,2,12499.09
+759, 3 Series,4,Semi-Auto,17735,Petrol,150,48.7,2,18598.186
+760, 3 Series,3,Semi-Auto,21941,Diesel,150,64.2,2,19709.975
+761, 2 Series,2,Semi-Auto,8000,Diesel,150,65.7,2,23140.24
+762, X5,2,Semi-Auto,9173,Diesel,150,37.7,3,24049.90529
+763, 4 Series,5,Automatic,17944,Diesel,30,65.7,2,18218.90667
+764, 2 Series,2,Semi-Auto,3630,Diesel,145,51.4,2,20753.76083
+765, 2 Series,2,Semi-Auto,2640,Diesel,145,48.7,2,24300.77
+766, 4 Series,2,Semi-Auto,101,Petrol,145,45.6,2,25247.95761
+767, 4 Series,2,Semi-Auto,6188,Diesel,145,65.7,2,26724.04881
+768, 5 Series,2,Semi-Auto,5687,Hybrid,135,156.9,2,24865.805
+769, M4,2,Semi-Auto,1348,Petrol,145,34,3,23447.7625
+770, X1,8,Manual,63000,Diesel,160,51.4,2,8786
+771, 3 Series,5,Semi-Auto,36764,Diesel,145,54.3,3,18586.51
+772, 4 Series,4,Manual,19202,Diesel,145,60.1,2,17866.78833
+773, X5,4,Automatic,47717,Diesel,235,42.8,3,34664.72
+774, 3 Series,5,Semi-Auto,41492,Diesel,30,67.3,2,13850.795
+775, 5 Series,2,Semi-Auto,9440,Diesel,145,65.7,2,26209.775
+776, 5 Series,2,Semi-Auto,7902,Diesel,145,65.7,2,26460.695
+777, 5 Series,4,Semi-Auto,48457,Diesel,145,68.9,2,16290.52
+778, 4 Series,2,Semi-Auto,7384,Diesel,145,51.4,3,29659.69104
+779, 2 Series,2,Semi-Auto,2083,Petrol,145,50.4,2,22736.59854
+780, 3 Series,3,Semi-Auto,7673,Petrol,145,48.7,2,22039.67571
+781, X2,2,Semi-Auto,1914,Petrol,145,39.8,2,28953.57325
+782, 3 Series,2,Semi-Auto,8190,Diesel,145,48.7,2,32792.47582
+783, 2 Series,4,Manual,15926,Diesel,150,62.8,1.5,14343.485
+784, X1,6,Semi-Auto,25649,Diesel,125,57.6,2,16006.846
+785, 1 Series,5,Semi-Auto,24485,Petrol,200,39.8,3,20128.135
+786, 1 Series,2,Semi-Auto,17950,Diesel,150,67.3,2,20162.47
+787, X1,2,Semi-Auto,1805,Diesel,145,52.3,2,27384.89178
+788, 2 Series,3,Semi-Auto,5577,Petrol,145,32.5,3,25337.545
+789, M4,2,Semi-Auto,9244,Petrol,145,32.5,3,38139.465
+790, 1 Series,2,Automatic,8936,Diesel,145,65.7,2,21885.86
+791, 2 Series,2,Semi-Auto,5547,Petrol,145,50.4,2,22475.57685
+792, 3 Series,2,Manual,3512,Diesel,145,54.3,2,26622.28285
+793, 2 Series,2,Manual,3459,Petrol,145,42.2,1.5,19443.575
+794, 2 Series,2,Semi-Auto,7153,Petrol,145,50.4,1.5,20990.945
+795, 3 Series,2,Automatic,1000,Diesel,145,50.4,2,31748.07264
+796, M4,2,Semi-Auto,4786,Petrol,145,34,3,43024.8225
+797, X5,2,Semi-Auto,13863,Diesel,145,37.7,3,28693.8675
+798, X5,2,Automatic,3981,Diesel,145,37.7,3,22188.61904
+799, 2 Series,2,Semi-Auto,3602,Diesel,145,52.3,2,20866.07583
+800, 2 Series,2,Manual,2896,Petrol,150,52.3,1.5,21032.92
+801, X3,3,Semi-Auto,16509,Petrol,150,34.5,3,33186.19
+802, 7 Series,4,Automatic,36500,Diesel,145,57.6,3,26360.555
+803, 1 Series,3,Manual,20814,Petrol,145,53.3,1.5,13457.08
+804, 4 Series,4,Automatic,29322,Diesel,145,60.1,2,18506.62376
+805, 4 Series,2,Semi-Auto,101,Diesel,145,65.7,2,26526.32578
+806, 5 Series,8,Semi-Auto,84842,Diesel,145,55.4,2,10814.23
+807, X1,2,Automatic,6,Diesel,145,52.3,2,31773.4798
+808, X1,2,Semi-Auto,202,Diesel,150,60.1,2,27729.20602
+809, X3,4,Semi-Auto,21000,Diesel,145,54.3,2,24949.395
+810, 3 Series,2,Automatic,5611,Diesel,145,52.3,2,32431.30668
+811, 5 Series,5,Automatic,49650,Diesel,30,62.8,2,14926.925
+812, 2 Series,5,Semi-Auto,45030,Diesel,30,67.3,2,13636.65
+813, 3 Series,4,Semi-Auto,34390,Diesel,160,51.4,3,21173.875
+814, 4 Series,4,Semi-Auto,47470,Diesel,125,60.1,2,16733.105
+815, 3 Series,5,Automatic,13969,Hybrid,0,134.5,2,15444.9
+816, 1 Series,8,Semi-Auto,57000,Diesel,125,60.1,2,10950.33
+817, 5 Series,2,Automatic,11525,Petrol,145,50.4,2,23969.925
+818, 3 Series,7,Semi-Auto,45212,Diesel,150,54.3,3,15997.02
+819, i3,6,Automatic,9886,Hybrid,0,470.8,0,14039.416
+820, 3 Series,8,Semi-Auto,88400,Diesel,125,58.9,2,9742.04
+821, 3 Series,8,Manual,75000,Diesel,20,68.9,2,8896.445
+822, 3 Series,4,Semi-Auto,32181,Diesel,150,57.6,2,18341.34135
+823, 3 Series,2,Semi-Auto,3838,Diesel,150,48.7,2,29520.89432
+824, 1 Series,5,Manual,42964,Diesel,20,70.6,1.5,11696.765
+825, X7,1,Semi-Auto,3452,Diesel,150,33.6,3,20784.47
+826, X1,2,Semi-Auto,4524,Petrol,150,40.9,1.5,25288.09
+827, 2 Series,5,Semi-Auto,23604,Petrol,30,55.4,1.5,14630.22
+828, 3 Series,5,Semi-Auto,70538,Diesel,160,51.4,3,16154.52333
+829, 4 Series,3,Semi-Auto,6173,Petrol,150,41.5,3,26459.995
+830, 4 Series,2,Semi-Auto,101,Diesel,145,60.1,2,28663.01863
+831, 2 Series,3,Semi-Auto,22480,Petrol,145,50.4,1.5,16395.705
+832, 1 Series,4,Semi-Auto,31934,Petrol,200,39.8,3,20312.475
+833, 2 Series,4,Semi-Auto,35128,Diesel,150,55.4,2,17401.095
+834, 5 Series,2,Semi-Auto,5171,Diesel,150,65.7,2,26236.06
+835, 1 Series,2,Manual,1501,Diesel,145,68.9,2,22308.905
+836, 1 Series,2,Manual,13461,Diesel,145,72.4,1.5,15497.975
+837, 7 Series,2,Semi-Auto,19423,Diesel,150,54.3,3,28953.9825
+838, 1 Series,2,Automatic,3768,Diesel,145,48.7,2,29048.10123
+839, X3,2,Automatic,5801,Diesel,145,48.7,3,36977.8595
+840, 5 Series,4,Semi-Auto,49329,Diesel,145,60.1,3,24565.745
+841, 2 Series,2,Manual,1000,Petrol,145,52.3,1.5,20980
+842, 5 Series,2,Semi-Auto,7000,Petrol,145,50.4,2,29111.99333
+843, X3,2,Semi-Auto,4187,Petrol,145,24.8,3,20298.5
+844, X4,2,Semi-Auto,5491,Petrol,145,26.9,3,41263.5775
+845, 1 Series,3,Manual,18021,Petrol,145,37.7,1.5,13945.625
+846, 1 Series,5,Manual,39726,Diesel,20,72.4,1.5,10399.965
+847, 5 Series,6,Semi-Auto,37749,Diesel,160,49.6,3,19061.155
+848, 4 Series,5,Semi-Auto,17117,Diesel,160,52.3,3,21085.205
+849, X4,2,Automatic,3201,Diesel,145,40.4,3,39402.435
+850, X3,4,Semi-Auto,27125,Diesel,150,54.3,2,23901.59
+851, 5 Series,6,Semi-Auto,56753,Diesel,30,62.8,2,13570.325
+852, 4 Series,2,Automatic,3106,Diesel,145,65.7,2,26118.4615
+853, 5 Series,4,Semi-Auto,40910,Diesel,145,65.7,2,19808.03
+854, M4,4,Semi-Auto,60584,Petrol,150,34,3,30296.8
+855, 1 Series,4,Semi-Auto,16166,Petrol,145,39.8,3,22286.48962
+856, 1 Series,2,Manual,7103,Diesel,145,70.6,1.5,19014.635
+857, 1 Series,2,Semi-Auto,5298,Diesel,145,67.3,2,21027.645
+858, 2 Series,6,Semi-Auto,12117,Petrol,260,35.8,3,19714.24
+859, 4 Series,6,Semi-Auto,12836,Diesel,30,65.7,2,14446.49
+860, 1 Series,4,Semi-Auto,57796,Diesel,150,67.3,2,14294.855
+861, 1 Series,3,Semi-Auto,20033,Diesel,145,67.3,2,17336.64
+862, 2 Series,3,Semi-Auto,11984,Petrol,145,48.7,2,19204.96
+863, 1 Series,2,Semi-Auto,1320,Petrol,150,40.4,1.5,26042.48
+864, 1 Series,2,Semi-Auto,6173,Diesel,145,67.3,2,21068.955
+865, X5,7,Automatic,66088,Diesel,205,47.1,3,23196.73
+866, 5 Series,2,Semi-Auto,500,Hybrid,145,49.6,2,32580.06
+867, X3,2,Semi-Auto,4238,Petrol,145,30.4,2,34064.62
+868, 3 Series,2,Semi-Auto,7258,Diesel,145,49.6,2,32401.47532
+869, 3 Series,6,Semi-Auto,31835,Diesel,145,56.5,3,17081.625
+870, 5 Series,4,Semi-Auto,22158,Diesel,145,51.4,3,29365.545
+871, 2 Series,5,Manual,18807,Diesel,20,74.3,1.5,11949.16167
+872, 2 Series,3,Semi-Auto,9511,Petrol,150,50.4,2,19157.375
+873, X5,2,Semi-Auto,9415,Diesel,145,37.7,3,27079.31997
+874, 3 Series,8,Semi-Auto,58916,Diesel,30,65.7,2,10665.52417
+875, 3 Series,4,Semi-Auto,75418,Diesel,0,74.3,2,11932.245
+876, 3 Series,7,Automatic,76587,Diesel,125,57.6,3,12547.68571
+877, 2 Series,2,Semi-Auto,6093,Petrol,145,50.4,2,21270.90739
+878, X1,5,Automatic,14496,Diesel,125,57.6,2,19374.72875
+879, 3 Series,2,Semi-Auto,9698,Diesel,145,53.3,2,26354.01371
+880, 2 Series,3,Semi-Auto,12793,Petrol,150,39.8,3,24589.92
+881, 5 Series,7,Semi-Auto,42749,Diesel,150,55.4,2,14209.59
+882, X6,2,Semi-Auto,2055,Diesel,145,34.9,3,20622.9975
+883, X5,2,Semi-Auto,4552,Diesel,145,37.7,3,20589.79316
+884, X3,2,Semi-Auto,1107,Petrol,145,30.4,2,34655.205
+885, 4 Series,2,Semi-Auto,11,Diesel,145,65.7,2,24050.96
+886, X1,2,Manual,11,Diesel,145,36.7,2,28334.72267
+887, 4 Series,2,Semi-Auto,6592,Diesel,145,52.3,3,28394.47833
+888, X1,7,Manual,47262,Diesel,165,51.4,2,10060.005
+889, 1 Series,7,Manual,54314,Diesel,30,64.2,2,10369.825
+890, X1,7,Manual,58630,Diesel,160,51.4,2,10125.715
+891, X1,5,Semi-Auto,26344,Diesel,145,55.4,2,18775.66167
+892, 3 Series,2,Semi-Auto,7751,Petrol,145,41.5,2,29542.29394
+893, 3 Series,2,Semi-Auto,1501,Petrol,145,43.5,2,28277.87859
+894, 2 Series,4,Manual,16134,Diesel,20,74.3,1.5,13945.99
+895, 4 Series,1,Semi-Auto,10,Diesel,145,60.1,2,31295.888
+896, X1,4,Manual,21695,Diesel,125,58.9,2,16872.775
+897, X1,8,Semi-Auto,64637,Diesel,160,51.4,2,10502.2675
+898, X2,2,Semi-Auto,1501,Diesel,145,50.4,2,29386.79544
+899, 4 Series,2,Semi-Auto,11,Diesel,145,53.3,3,31006.62417
+900, 1 Series,3,Automatic,11487,Petrol,145,55.5,1.5,16348.82
+901, 2 Series,4,Automatic,51468,Diesel,125,60.1,2,15518.94
+902, 3 Series,8,Manual,32939,Diesel,30,62.8,2,9875.36
+903, 3 Series,4,Semi-Auto,16935,Petrol,125,51.4,2,17586.655
+904, X5,3,Automatic,25930,Petrol,145,29.1,4.4,33463.4475
+905, 2 Series,2,Semi-Auto,11,Petrol,145,39.8,3,28273.115
+906, X5,2,Semi-Auto,5966,Diesel,145,37.7,3,21845.05679
+907, X5,2,Semi-Auto,6997,Diesel,145,37.7,3,35682.8009
+908, 2 Series,4,Semi-Auto,26335,Diesel,145,64.2,2,17060.2706
+909, 1 Series,7,Automatic,45263,Diesel,30,64.2,2,11610.265
+910, 4 Series,1,Semi-Auto,10,Diesel,145,65.7,2,26802.41375
+911, 3 Series,4,Semi-Auto,40841,Diesel,150,64.2,2,18339.46
+912, 3 Series,5,Manual,59833,Diesel,125,61.4,2,12618.63
+913, X4,5,Semi-Auto,75680,Diesel,145,54.3,2,17756.865
+914, X1,5,Semi-Auto,25710,Diesel,30,65.7,2,17243.08
+915, X7,1,Semi-Auto,1501,Diesel,145,33.6,3,20751.455
+916, X4,1,Semi-Auto,11,Diesel,145,37.2,3,35095.58813
+917, 4 Series,2,Semi-Auto,9204,Petrol,150,46.3,2,24888.52563
+918, X1,4,Manual,28205,Diesel,150,68.9,2,14611.345
+919, X1,3,Automatic,45268,Diesel,145,57.6,2,17715.515
+920, 1 Series,8,Manual,49479,Petrol,125,51.4,1.6,8904.74
+921, 2 Series,4,Semi-Auto,22056,Diesel,145,64.2,2,17157.55667
+922, 5 Series,2,Semi-Auto,9239,Hybrid,150,62.8,2,28853.625
+923, 3 Series,7,Semi-Auto,66008,Diesel,150,54.3,3,15184.93238
+924, 3 Series,1,Semi-Auto,100,Diesel,145,47.9,3,36445.38917
+925, 3 Series,4,Semi-Auto,20422,Diesel,150,60.1,2,18532.18531
+926, 1 Series,7,Manual,61490,Petrol,145,50.4,1.6,8694.88
+927, 2 Series,1,Semi-Auto,100,Diesel,150,49.6,2,27744.13667
+928, 2 Series,6,Semi-Auto,21150,Petrol,30,55.4,1.5,14632.955
+929, X5,4,Automatic,32738,Diesel,200,47.1,3,31143.64
+930, 2 Series,1,Manual,100,Petrol,145,52.3,1.5,25375.85
+931, 4 Series,2,Semi-Auto,101,Diesel,145,58.9,2,28809.76414
+932, Z4,2,Semi-Auto,8031,Petrol,145,37.2,2,31572.80071
+933, 5 Series,2,Semi-Auto,3795,Diesel,145,55.4,2,29019.14
+934, 3 Series,3,Automatic,28438,Diesel,145,62.8,2,18929.62
+935, 4 Series,5,Semi-Auto,37897,Diesel,125,60.1,2,18272.685
+936, 1 Series,2,Manual,5013,Petrol,145,44.1,1.5,21966.425
+937, 3 Series,2,Semi-Auto,11629,Diesel,145,62.8,2,22241.825
+938, 2 Series,6,Semi-Auto,26035,Petrol,165,44.1,2,15576.68
+939, 1 Series,4,Semi-Auto,18852,Diesel,150,70.6,2,14762.745
+940, 5 Series,2,Semi-Auto,7218,Petrol,150,46.3,2,31252.165
+941, 8 Series,2,Semi-Auto,9731,Diesel,145,39.8,3,22507.33157
+942, X3,5,Semi-Auto,45142,Diesel,200,47.9,3,20882.71
+943, X1,1,Semi-Auto,35,Diesel,145,40.9,2,29158.07278
+944, X5,2,Semi-Auto,101,Diesel,145,37.7,3,20311.31075
+945, 1 Series,6,Automatic,58283,Diesel,30,64.2,2,12996.315
+946, 6 Series,2,Semi-Auto,4028,Diesel,145,42.2,2,28361.18695
+947, X7,2,Automatic,8574,Diesel,145,33.6,3,20298.5
+948, X1,4,Semi-Auto,19340,Diesel,145,57.6,2,20803.37092
+949, 1 Series,4,Semi-Auto,74652,Diesel,125,60.1,2,13502.765
+950, 1 Series,4,Manual,22137,Diesel,145,70.6,1.5,14292.48
+951, M4,2,Automatic,3395,Petrol,145,34,3,41459.46
+952, 1 Series,8,Manual,33940,Diesel,30,64.2,2,8943.74
+953, 1 Series,4,Manual,36274,Diesel,145,70.6,1.5,12335.12
+954, 2 Series,4,Manual,48839,Diesel,145,74.3,1.5,11436.335
+955, 5 Series,4,Semi-Auto,24000,Diesel,145,51.4,3,28035.48
+956, 1 Series,5,Manual,41718,Petrol,125,53.3,1.5,10433.82
+957, X1,3,Semi-Auto,13245,Diesel,150,60.1,2,22438.29
+958, X4,2,Semi-Auto,6982,Diesel,145,40.9,3,39785.33
+959, 3 Series,3,Semi-Auto,26937,Diesel,145,64.2,2,20057.62
+960, X1,2,Manual,3150,Petrol,145,52.3,1.5,24447.27
+961, X5,2,Semi-Auto,7300,Diesel,150,33.6,3,20298.5
+962, 3 Series,2,Manual,4503,Diesel,150,54.3,2,27112.90007
+963, 3 Series,5,Semi-Auto,45090,Diesel,165,51.4,3,17544.655
+964, X1,5,Semi-Auto,25216,Diesel,125,60.1,2,18445.525
+965, 3 Series,2,Semi-Auto,6,Petrol,145,42.2,2,30302.43984
+966, 2 Series,6,Manual,46904,Diesel,20,74.3,1.5,10253.06
+967, 3 Series,2,Semi-Auto,2400,Petrol,150,41.5,3,35705.53438
+968, 2 Series,2,Manual,3303,Petrol,145,42.8,1.5,20669.045
+969, 3 Series,2,Semi-Auto,3165,Diesel,145,52.3,2,27792.54253
+970, 1 Series,4,Manual,25656,Diesel,150,72.4,1.5,12061.55
+971, 8 Series,2,Semi-Auto,5441,Diesel,145,40.4,3,20331.60569
+972, 3 Series,1,Semi-Auto,1501,Diesel,145,50.4,2,34286.02568
+973, X5,5,Automatic,39469,Hybrid,0,85.6,2,29893.28
+974, 2 Series,2,Semi-Auto,3682,Petrol,145,47.9,2,25173.16667
+975, 3 Series,2,Semi-Auto,11659,Diesel,145,55.4,2,22628.9655
+976, 2 Series,1,Manual,1500,Petrol,145,43.5,1.5,29299.525
+977, 1 Series,1,Manual,2500,Diesel,145,53.3,2,25871.74
+978, 2 Series,2,Manual,5500,Petrol,145,40.9,1.5,20181.595
+979, 4 Series,2,Automatic,3403,Diesel,145,60.1,2,28057.00233
+980, 1 Series,2,Semi-Auto,5963,Petrol,145,54.3,1.5,19237.365
+981, 4 Series,2,Automatic,6514,Diesel,145,55.4,3,28361.51917
+982, 4 Series,2,Automatic,4500,Diesel,145,58.9,2,29688.17699
+983, X1,2,Semi-Auto,1501,Diesel,145,52.3,2,27787.30402
+984, X4,2,Semi-Auto,1501,Diesel,145,40.9,3,38631.0525
+985, 3 Series,4,Semi-Auto,24701,Diesel,30,62.8,2,17986.21162
+986, 1 Series,4,Manual,43757,Diesel,150,72.4,1.5,11819.28
+987, X3,2,Semi-Auto,5434,Diesel,145,54.3,2,34343.95
+988, 3 Series,4,Semi-Auto,28243,Diesel,145,60.1,2,18700.02976
+989, 5 Series,2,Automatic,6814,Diesel,145,60.1,3,34016.29667
+990, 4 Series,2,Automatic,9250,Diesel,145,50.4,3,31876.73231
+991, 3 Series,2,Semi-Auto,10130,Diesel,145,44.1,3,34346.265
+992, 3 Series,6,Semi-Auto,51050,Diesel,200,49.6,3,18561.795
+993, X1,2,Semi-Auto,5336,Diesel,145,60.1,2,26409.09547
+994, X5,2,Semi-Auto,5681,Diesel,145,37.7,3,20325.37816
+995, X2,2,Semi-Auto,7255,Petrol,145,41.5,1.5,24225.045
+996, X3,2,Semi-Auto,7115,Diesel,145,54.3,2,34153.07
+997, 2 Series,2,Automatic,7234,Hybrid,135,148.7,1.5,21587.89
+998, 2 Series,2,Automatic,12070,Hybrid,135,148.7,1.5,21299.16
+999, X4,2,Automatic,5505,Diesel,145,42.8,2,35410.64
+1000, 3 Series,5,Semi-Auto,20756,Diesel,30,64.2,2,16808.485
+1001, X2,2,Automatic,6695,Diesel,145,58.9,2,28861.87149
+1002, 3 Series,2,Semi-Auto,10268,Diesel,150,52.3,2,27234.87001
+1003, 1 Series,2,Manual,6196,Petrol,150,41.5,1.5,23664.86
+1004, 3 Series,2,Automatic,8446,Diesel,145,52.3,2,30770.6725
+1005, 3 Series,1,Semi-Auto,5500,Diesel,145,45.6,3,38734.2725
+1006, X3,2,Semi-Auto,6597,Petrol,145,24.8,3,20298.5
+1007, 5 Series,2,Semi-Auto,9848,Petrol,150,48.7,2,27236.43
+1008, 2 Series,2,Automatic,2630,Diesel,145,49.6,2,22993.0525
+1009, 5 Series,2,Automatic,2404,Diesel,145,65.7,2,30521.79
+1010, 5 Series,2,Automatic,7195,Diesel,145,60.1,2,29755.58
+1011, 3 Series,2,Semi-Auto,10622,Diesel,150,52.3,2,27510.86718
+1012, 3 Series,1,Automatic,4000,Diesel,145,50.4,2,35560.44721
+1013, X3,1,Automatic,2789,Diesel,145,54.3,2,34290.39
+1014, 2 Series,2,Manual,5500,Petrol,145,42.2,1.5,19238.09
+1015, 4 Series,2,Automatic,1500,Petrol,145,45.6,2,31138.28297
+1016, 1 Series,1,Automatic,197,Diesel,145,48.7,2,31970.44034
+1017, Z4,1,Automatic,2500,Petrol,145,38.7,2,31827.83403
+1018, X3,8,Semi-Auto,54150,Diesel,165,50.4,2,15936.165
+1019, X5,3,Automatic,29150,Diesel,150,47.1,3,33415.435
+1020, 1 Series,4,Semi-Auto,46440,Petrol,145,47.9,2,16676.5
+1021, 3 Series,6,Manual,78053,Petrol,165,44.8,2,10598.46
+1022, 4 Series,1,Automatic,2500,Petrol,145,48.7,2,28793.36575
+1023, 3 Series,7,Semi-Auto,67617,Diesel,125,57.6,3,14461.83844
+1024, X1,5,Semi-Auto,18713,Diesel,150,55.4,2,19660.96567
+1025, X5,2,Semi-Auto,13,Diesel,150,37.7,3,20298.5
+1026, 3 Series,3,Semi-Auto,27641,Diesel,150,65.7,2,20739.38
+1027, 2 Series,3,Semi-Auto,27312,Diesel,145,57.6,2,20023.585
+1028, 1 Series,3,Semi-Auto,14324,Diesel,150,49.6,2,20784.075
+1029, 5 Series,1,Semi-Auto,9,Hybrid,145,49.6,2,31431.77438
+1030, X3,6,Semi-Auto,28416,Diesel,150,54.3,2,18959.95667
+1031, 3 Series,2,Semi-Auto,6414,Diesel,145,62.8,2,23768.01156
+1032, 2 Series,2,Semi-Auto,3564,Petrol,145,50.4,2,21646.58238
+1033, 3 Series,4,Semi-Auto,35825,Diesel,145,62.8,2,17440.73578
+1034, X2,2,Manual,2424,Diesel,145,49.6,2,27415.64983
+1035, 5 Series,2,Semi-Auto,5877,Diesel,145,60.1,2,30621.04821
+1036, 2 Series,6,Manual,25652,Petrol,125,53.3,1.5,12207.77
+1037, X1,1,Manual,18,Petrol,145,49.6,1.5,22387.77875
+1038, 4 Series,2,Automatic,99,Petrol,145,48.7,2,27875.72318
+1039, X3,2,Automatic,3500,Diesel,145,54.3,2,39929.58
+1040, Z4,6,Semi-Auto,22583,Petrol,200,41.5,2,15796.535
+1041, X4,5,Semi-Auto,50944,Diesel,205,47.9,3,21682.455
+1042, 3 Series,1,Manual,11,Diesel,145,58.9,2,24373.21
+1043, 4 Series,1,Semi-Auto,10,Diesel,145,65.7,2,26802.41375
+1044, X5,4,Automatic,27932,Diesel,145,47.1,3,33050.865
+1045, 1 Series,2,Manual,101,Diesel,145,70.6,1.5,20718.14857
+1046, 2 Series,1,Semi-Auto,1107,Diesel,145,62.8,2,30794.1525
+1047, 2 Series,2,Semi-Auto,13,Diesel,145,62.8,2,24865.9284
+1048, 3 Series,2,Semi-Auto,13998,Petrol,145,42.2,2,27304.88382
+1049, 3 Series,2,Semi-Auto,5004,Diesel,145,49.6,2,32579.08062
+1050, 3 Series,2,Semi-Auto,3655,Diesel,150,52.3,2,28994.92267
+1051, 3 Series,5,Semi-Auto,28059,Diesel,30,62.8,2,16627.18167
+1052, X1,2,Manual,10,Petrol,145,51.4,1.5,25194.01
+1053, 3 Series,3,Semi-Auto,5184,Diesel,145,64.2,2,20627.97542
+1054, 3 Series,1,Semi-Auto,10,Diesel,145,48.7,2,37637.07431
+1055, 1 Series,2,Manual,2361,Petrol,145,41.5,1.5,23597.1185
+1056, 1 Series,2,Semi-Auto,1705,Diesel,145,51.4,2,27053.46726
+1057, 3 Series,2,Semi-Auto,3724,Diesel,145,52.3,2,28711.37505
+1058, X2,1,Semi-Auto,1121,Petrol,145,34,2,36769.115
+1059, Z4,1,Semi-Auto,1595,Petrol,145,38.7,2,33398.37641
+1060, 1 Series,8,Manual,56361,Diesel,30,62.8,2,9181.755
+1061, X3,6,Semi-Auto,38013,Diesel,150,54.3,2,19399.33
+1062, X3,3,Semi-Auto,28885,Diesel,150,48.7,3,31105.395
+1063, 1 Series,4,Manual,35321,Diesel,145,83.1,1.5,11280.1
+1064, 1 Series,2,Manual,4696,Petrol,145,53.3,1.5,16433.855
+1065, 6 Series,1,Semi-Auto,11,Petrol,145,42.8,2,32769.21446
+1066, 4 Series,1,Semi-Auto,10,Petrol,145,48.7,2,27975.13482
+1067, 4 Series,1,Semi-Auto,10,Petrol,145,44.8,2,23287.56042
+1068, X4,2,Semi-Auto,7815,Petrol,145,26.9,3,41607.4725
+1069, X1,2,Manual,1701,Petrol,145,51.4,1.5,24282.45
+1070, X1,2,Semi-Auto,8650,Diesel,145,60.1,2,27046.57012
+1071, 4 Series,2,Automatic,10,Petrol,145,45.6,2,33410.24458
+1072, 5 Series,2,Automatic,14139,Diesel,145,55.4,2,32161.735
+1073, 5 Series,3,Semi-Auto,39000,Diesel,150,51.4,3,28163.01
+1074, X6,2,Semi-Auto,2455,Diesel,145,34.9,3,21105.8475
+1075, 1 Series,2,Semi-Auto,3000,Petrol,145,40.4,1.5,25538.75143
+1076, X3,2,Semi-Auto,642,Diesel,145,54.3,2,39152.71295
+1077, X1,7,Semi-Auto,52900,Diesel,160,52.3,2,11125.64
+1078, 1 Series,5,Semi-Auto,24075,Petrol,235,37.7,3,19459.805
+1079, X3,2,Semi-Auto,5104,Diesel,145,54.3,2,34378.39
+1080, 3 Series,2,Automatic,999,Petrol,145,34.9,3,37907.51
+1081, 8 Series,1,Semi-Auto,11,Petrol,145,31.7,3,20485.995
+1082, X3,4,Semi-Auto,60000,Diesel,150,54.3,2,16733.33
+1083, 1 Series,2,Manual,999,Diesel,145,72.4,1.5,20225.245
+1084, 2 Series,2,Manual,999,Petrol,145,42.2,1.5,22230.99
+1085, 3 Series,2,Manual,999,Diesel,145,54.3,2,30451.51831
+1086, 5 Series,2,Automatic,999,Diesel,145,65.7,2,28984.085
+1087, 3 Series,2,Automatic,999,Diesel,145,50.4,2,31861.5123
+1088, 2 Series,2,Automatic,10500,Diesel,145,51.4,2,20637.265
+1089, 3 Series,2,Semi-Auto,18000,Diesel,145,62.8,2,22068.2
+1090, X3,2,Semi-Auto,6156,Diesel,145,48.7,3,36335.3325
+1091, 3 Series,7,Semi-Auto,41000,Diesel,30,62.8,2,13592.375
+1092, 2 Series,3,Semi-Auto,16132,Diesel,150,64.2,2,20429.885
+1093, 1 Series,2,Automatic,5345,Petrol,145,34.5,2,30744.7014
+1094, X3,2,Semi-Auto,4620,Petrol,145,24.8,3,20298.5
+1095, 3 Series,6,Automatic,33330,Diesel,125,60.1,2,15050.00722
+1096, 1 Series,4,Manual,9617,Petrol,150,53.3,1.5,14008.865
+1097, X5,4,Automatic,10914,Diesel,145,42.8,3,38408.49
+1098, 2 Series,2,Semi-Auto,1105,Diesel,145,52.3,2,21695.7484
+1099, 2 Series,2,Semi-Auto,123,Diesel,145,49.6,2,23070.5984
+1100, 2 Series,4,Semi-Auto,14440,Diesel,145,64.2,2,17374.355
+1101, 3 Series,5,Semi-Auto,42328,Diesel,30,62.8,2,15494.7705
+1102, 4 Series,4,Semi-Auto,21888,Diesel,145,55.4,3,21092.25571
+1103, 3 Series,2,Semi-Auto,12245,Petrol,145,47.9,2,24121.08778
+1104, 1 Series,4,Manual,12616,Diesel,30,65.7,2,15293.03
+1105, 3 Series,5,Semi-Auto,28590,Diesel,145,56.5,3,17986.98
+1106, 5 Series,4,Semi-Auto,36549,Diesel,30,65.7,2,19081.13
+1107, 2 Series,2,Automatic,8351,Hybrid,135,148.7,1.5,20590.535
+1108, 2 Series,5,Semi-Auto,27589,Diesel,30,62.8,2,16418.49
+1109, X6,2,Automatic,10231,Diesel,145,44.8,3,33479.783
+1110, 1 Series,3,Semi-Auto,12537,Petrol,145,39.8,3,24403.165
+1111, 5 Series,7,Semi-Auto,40715,Diesel,30,62.8,2,13958.915
+1112, X1,4,Automatic,19090,Diesel,145,65.7,2,17530.87875
+1113, X1,1,Semi-Auto,1981,Petrol,145,46.3,1.5,22835.43875
+1114, X2,2,Semi-Auto,4497,Petrol,150,34,2,34516.5625
+1115, 3 Series,1,Semi-Auto,4100,Petrol,145,41.5,2,35054.1925
+1116, 1 Series,1,Semi-Auto,5,Diesel,145,48.7,2,32154.33393
+1117, 3 Series,7,Semi-Auto,67000,Diesel,125,58.9,2,12628.32
+1118, 2 Series,2,Manual,123,Petrol,145,42.8,1.5,20787.75273
+1119, 1 Series,2,Manual,7781,Petrol,150,41.5,1.5,24141.86
+1120, 3 Series,2,Automatic,1606,Petrol,145,34.9,3,39010.1375
+1121, 3 Series,2,Semi-Auto,8496,Diesel,145,47.9,3,33535.68067
+1122, X6,1,Semi-Auto,999,Diesel,145,34.9,3,20813.8975
+1123, 2 Series,5,Manual,72890,Petrol,125,53.3,1.5,10787.17
+1124, 3 Series,2,Semi-Auto,7491,Petrol,150,41.5,2,28140.5558
+1125, X1,6,Semi-Auto,10258,Diesel,30,65.7,2,14420.43
+1126, 4 Series,2,Semi-Auto,4642,Petrol,145,45.6,2,25944.96502
+1127, 3 Series,2,Semi-Auto,4315,Petrol,145,42.2,2,27660.28638
+1128, 1 Series,2,Manual,5692,Petrol,145,44.1,1.5,20942.495
+1129, 3 Series,2,Semi-Auto,4251,Petrol,145,42.2,2,27387.76388
+1130, 1 Series,4,Manual,13681,Diesel,150,65.7,2,14916
+1131, 2 Series,2,Semi-Auto,2564,Diesel,145,67.3,2,22775.105
+1132, X6,6,Semi-Auto,60930,Diesel,200,47.1,3,21631.48
+1133, i3,7,Automatic,37161,Hybrid,0,470.8,0,11648.005
+1134, 1 Series,2,Manual,10927,Petrol,150,41.5,1.5,23068.55
+1135, X1,4,Semi-Auto,24814,Diesel,145,55.4,2,20365.144
+1136, X2,2,Semi-Auto,1644,Petrol,145,36.2,2,28910.3737
+1137, M4,2,Automatic,144,Petrol,145,34,3,38059.54154
+1138, X5,2,Semi-Auto,10,Diesel,150,37.7,3,20298.5
+1139, X5,2,Semi-Auto,8481,Diesel,150,37.7,3,20448.73779
+1140, 4 Series,1,Manual,151,Diesel,150,62.8,2,27421.2
+1141, 4 Series,2,Automatic,7583,Diesel,145,60.1,2,25895.03351
+1142, 4 Series,2,Automatic,4300,Diesel,145,53.3,3,30017.86281
+1143, X1,2,Automatic,9784,Diesel,145,60.1,2,25200.89601
+1144, 1 Series,2,Manual,9451,Diesel,145,68.9,2,19375.955
+1145, 4 Series,2,Manual,110,Petrol,145,46.3,2,26239.80567
+1146, 1 Series,5,Semi-Auto,37753,Diesel,20,67.3,2,14137.455
+1147, 3 Series,2,Automatic,9214,Diesel,145,52.3,2,29767.9225
+1148, 5 Series,2,Automatic,13000,Petrol,145,47.9,2,23987.1
+1149, X4,2,Semi-Auto,8515,Petrol,145,26.9,3,41448.215
+1150, 3 Series,2,Automatic,12143,Diesel,145,52.3,2,28003.97663
+1151, 5 Series,2,Automatic,8070,Diesel,145,65.7,2,30416.235
+1152, 2 Series,2,Automatic,37,Petrol,145,47.9,2,25944.075
+1153, X1,2,Semi-Auto,2865,Diesel,145,36.7,2,27893.21564
+1154, 3 Series,2,Automatic,14590,Diesel,145,52.3,2,30566.87205
+1155, 5 Series,2,Semi-Auto,4118,Petrol,145,46.3,2,30679.62692
+1156, 4 Series,2,Semi-Auto,1000,Diesel,145,65.7,2,28768.75312
+1157, 4 Series,2,Manual,110,Diesel,145,55.4,2,26765.63252
+1158, 4 Series,2,Automatic,1000,Diesel,145,60.1,2,30695.55016
+1159, 3 Series,2,Automatic,20329,Diesel,145,48.7,2,29360.935
+1160, 1 Series,5,Semi-Auto,13708,Diesel,20,68.9,1.5,15971.725
+1161, 5 Series,3,Semi-Auto,3627,Hybrid,135,156.9,2,28727.88
+1162, 3 Series,4,Semi-Auto,9377,Hybrid,0,134.5,2,16468.75
+1163, 2 Series,1,Automatic,4330,Petrol,145,42.2,1.5,26673.82
+1164, 2 Series,1,Automatic,3622,Petrol,145,42.2,1.5,26798.86
+1165, 3 Series,2,Automatic,10799,Diesel,145,52.3,2,29850.46583
+1166, 3 Series,2,Semi-Auto,7736,Hybrid,135,8.8,2,29323.825
+1167, X3,2,Semi-Auto,5554,Petrol,145,34.5,3,38635.3175
+1168, 5 Series,2,Automatic,99,Hybrid,135,156.9,2,27427.4
+1169, X1,2,Semi-Auto,7333,Diesel,145,60.1,2,25998.94538
+1170, 3 Series,4,Semi-Auto,32871,Diesel,145,68.9,2,15126.39
+1171, X5,2,Semi-Auto,6439,Diesel,145,37.7,3,21066.75799
+1172, 3 Series,2,Semi-Auto,10586,Diesel,145,55.4,2,22663.845
+1173, 1 Series,2,Manual,10,Petrol,145,44.1,1.5,22593.34513
+1174, 3 Series,2,Automatic,10028,Diesel,145,43.5,3,38429.6025
+1175, 3 Series,1,Semi-Auto,4506,Diesel,150,52.3,2,30931.41458
+1176, 4 Series,2,Semi-Auto,9448,Petrol,145,41.5,3,29739.28817
+1177, 3 Series,2,Semi-Auto,7522,Petrol,145,41.5,2,29893.95394
+1178, X6,2,Semi-Auto,2710,Petrol,145,26.4,3,20298.5
+1179, X3,2,Semi-Auto,2864,Diesel,145,54.3,2,33590.085
+1180, 1 Series,4,Semi-Auto,45580,Diesel,125,61.4,2,17155.795
+1181, X1,4,Semi-Auto,20101,Diesel,145,57.6,2,21368.3033
+1182, 2 Series,2,Semi-Auto,9114,Petrol,145,50.4,1.5,21201.45
+1183, 3 Series,2,Semi-Auto,4670,Petrol,145,34.9,3,38191.77
+1184, 2 Series,3,Manual,15674,Petrol,150,47.1,1.5,15849.965
+1185, X6,3,Semi-Auto,7531,Diesel,145,40.9,3,38958.14
+1186, 4 Series,5,Semi-Auto,18774,Diesel,160,49.6,3,23718.13
+1187, X1,2,Semi-Auto,3333,Diesel,150,50.4,2,27749.26444
+1188, 2 Series,2,Semi-Auto,6932,Petrol,145,50.4,2,21839.68739
+1189, X2,1,Semi-Auto,10,Petrol,150,39.2,2,31167.37792
+1190, X6,4,Semi-Auto,16867,Diesel,145,47.1,3,29146.17
+1191, 2 Series,2,Automatic,151,Diesel,145,49.6,2,22489.31465
+1192, 1 Series,2,Automatic,4761,Petrol,145,42.8,1.5,23270.38
+1193, 4 Series,2,Automatic,151,Diesel,145,60.1,2,29987.11297
+1194, 3 Series,2,Automatic,5732,Petrol,145,42.2,2,27717.16676
+1195, 1 Series,2,Manual,4710,Petrol,145,41.5,1.5,22783.275
+1196, 1 Series,2,Semi-Auto,4171,Petrol,150,39.8,3,28568.88076
+1197, X3,1,Semi-Auto,1385,Hybrid,135,5.5,2,20736.9025
+1198, 1 Series,2,Manual,8543,Diesel,145,70.6,1.5,18171.765
+1199, X7,2,Semi-Auto,5665,Diesel,145,31.4,3,20298.5
+1200, 3 Series,2,Semi-Auto,5000,Diesel,145,52.3,2,30738.61725
+1201, 3 Series,1,Semi-Auto,570,Petrol,150,43.5,2,31244.06458
+1202, 5 Series,6,Semi-Auto,71766,Diesel,30,62.8,2,12641.16
+1203, 4 Series,5,Semi-Auto,34479,Diesel,30,65.7,2,17475.85
+1204, X3,2,Semi-Auto,6698,Diesel,145,54.3,2,32243.2525
+1205, 4 Series,3,Semi-Auto,4000,Diesel,145,58.9,2,22099.095
+1206, 4 Series,3,Semi-Auto,22270,Diesel,145,60.1,2,20783.83125
+1207, 1 Series,2,Semi-Auto,1491,Petrol,145,43.5,1.5,23294.875
+1208, 6 Series,2,Semi-Auto,3035,Diesel,150,44.1,2,28356.58112
+1209, X5,1,Semi-Auto,6825,Diesel,150,37.7,3,21000.66591
+1210, 3 Series,2,Semi-Auto,7825,Petrol,150,34.9,3,37976.295
+1211, 2 Series,2,Semi-Auto,5000,Petrol,145,40.9,1.5,23869.175
+1212, X1,3,Manual,2750,Petrol,145,40.9,1.5,21620.49
+1213, 4 Series,1,Semi-Auto,37,Petrol,145,48.7,2,27214.7572
+1214, 4 Series,1,Semi-Auto,121,Petrol,145,48.7,2,29236.43708
+1215, 3 Series,3,Manual,14875,Petrol,145,47.9,2,17828.14
+1216, 2 Series,4,Automatic,12941,Hybrid,0,141.2,1.5,15032.125
+1217, 1 Series,5,Manual,33779,Diesel,20,68.9,2,11871.18
+1218, 6 Series,4,Semi-Auto,25975,Diesel,160,51.4,3,25610.675
+1219, 2 Series,5,Semi-Auto,27484,Diesel,125,60.1,2,17311.65155
+1220, 3 Series,1,Semi-Auto,3500,Petrol,145,42.2,2,30804.19
+1221, 1 Series,2,Manual,7169,Diesel,145,72.4,1.5,17478.145
+1222, 3 Series,2,Semi-Auto,8158,Petrol,145,42.2,2,28510.07725
+1223, 3 Series,5,Semi-Auto,34137,Diesel,200,49.6,3,19800.44
+1224, M4,3,Semi-Auto,8725,Petrol,145,33.6,3,30982.8225
+1225, 2 Series,2,Manual,7367,Petrol,145,40.4,1.5,19144.535
+1226, 2 Series,4,Semi-Auto,11901,Petrol,145,39.8,3,22501.84
+1227, 4 Series,3,Semi-Auto,13754,Petrol,150,48.7,2,21714.55
+1228, 5 Series,2,Semi-Auto,8827,Hybrid,135,156.9,2,23935.675
+1229, 3 Series,4,Semi-Auto,16363,Petrol,145,41.5,3,21066.58333
+1230, 1 Series,3,Semi-Auto,12087,Petrol,145,39.8,3,23932.68
+1231, 2 Series,2,Semi-Auto,3550,Diesel,145,64.2,2,24256.24833
+1232, 5 Series,6,Semi-Auto,38695,Diesel,145,53.3,3,16813.075
+1233, 5 Series,2,Automatic,6000,Petrol,145,46.3,2,32358.635
+1234, 5 Series,5,Semi-Auto,46367,Diesel,165,50.4,3,19238.35
+1235, 4 Series,6,Semi-Auto,45000,Petrol,160,44.1,2,15644.815
+1236, 4 Series,1,Semi-Auto,10,Diesel,145,60.1,2,31295.888
+1237, X5,2,Automatic,9339,Diesel,145,37.7,3,36266.7056
+1238, X4,1,Semi-Auto,4000,Diesel,150,40.9,3,40590.86
+1239, X1,1,Semi-Auto,3000,Diesel,150,52.3,2,29263.78312
+1240, 1 Series,2,Semi-Auto,7233,Diesel,150,68.9,1.5,21037.045
+1241, 6 Series,2,Semi-Auto,6081,Diesel,150,42.2,2,27682.03958
+1242, 5 Series,2,Automatic,1200,Diesel,145,62.8,2,30885.47833
+1243, X4,2,Semi-Auto,7356,Diesel,145,40.9,3,39449.255
+1244, X1,7,Semi-Auto,45671,Petrol,235,38.7,2,12009.355
+1245, 3 Series,5,Semi-Auto,33783,Diesel,125,60.1,2,16734.55
+1246, 1 Series,6,Semi-Auto,15200,Diesel,0,78.5,1.5,13512.79767
+1247, 4 Series,4,Semi-Auto,26763,Petrol,145,41.5,3,22639.98827
+1248, 5 Series,2,Semi-Auto,10373,Diesel,150,65.7,2,25562.07
+1249, 3 Series,3,Semi-Auto,17101,Petrol,150,48.7,2,20905.17083
+1250, 1 Series,5,Manual,14354,Diesel,0,78.5,1.5,12021.59833
+1251, X1,4,Semi-Auto,15991,Diesel,150,55.4,2,20996.32591
+1252, X3,2,Automatic,8620,Diesel,145,54.3,2,32643.265
+1253, 4 Series,1,Semi-Auto,10,Diesel,145,60.1,2,31295.888
+1254, X1,2,Automatic,6000,Petrol,145,39.2,2,28401.07637
+1255, X3,2,Semi-Auto,1858,Diesel,145,54.3,2,35114.29
+1256, 1 Series,1,Semi-Auto,11512,Petrol,150,40.4,1.5,22183.665
+1257, 3 Series,2,Semi-Auto,2203,Petrol,145,42.2,2,31282.50945
+1258, X5,1,Semi-Auto,1500,Diesel,145,37.7,3,24611.8475
+1259, 1 Series,2,Semi-Auto,2510,Diesel,145,51.4,2,28176.34768
+1260, 4 Series,5,Semi-Auto,12500,Diesel,125,60.1,2,19967.655
+1261, 5 Series,4,Automatic,41074,Diesel,145,53.3,3,25566.045
+1262, 2 Series,2,Semi-Auto,7755,Diesel,150,65.7,2,23209.83
+1263, 2 Series,2,Semi-Auto,5000,Diesel,145,49.6,2,22700.60346
+1264, 3 Series,8,Manual,27371,Petrol,160,44.8,2,11509.805
+1265, 3 Series,4,Semi-Auto,21870,Diesel,145,53.3,3,21284.915
+1266, 3 Series,2,Semi-Auto,10200,Petrol,145,41.5,2,27925.43263
+1267, 4 Series,3,Semi-Auto,2422,Petrol,145,45.6,2,21528.8175
+1268, 2 Series,2,Automatic,7566,Petrol,145,47.9,2,23022.50489
+1269, 2 Series,2,Semi-Auto,5499,Petrol,145,47.9,2,23900.08
+1270, 2 Series,2,Automatic,7899,Petrol,145,47.9,2,22469.14931
+1271, X1,2,Semi-Auto,9044,Petrol,145,40.9,1.5,24196.98
+1272, X3,2,Automatic,5000,Diesel,145,54.3,2,33589.923
+1273, 8 Series,2,Automatic,1616,Diesel,145,39.8,3,21881.7668
+1274, 5 Series,2,Automatic,677,Petrol,145,50.4,2,31220.49917
+1275, X1,5,Semi-Auto,25401,Diesel,125,57.6,2,19036.375
+1276, 1 Series,1,Semi-Auto,10,Petrol,150,34.5,2,33551.24186
+1277, 5 Series,2,Automatic,2000,Diesel,145,60.1,2,29212.66
+1278, X1,3,Automatic,8493,Petrol,145,44.8,2,22362.775
+1279, 5 Series,4,Semi-Auto,34828,Diesel,30,68.9,2,20055.6
+1280, 5 Series,4,Semi-Auto,11035,Diesel,145,56.5,3,29942.28
+1281, 2 Series,4,Manual,24893,Petrol,150,53.3,1.5,14366.27
+1282, X5,3,Semi-Auto,15633,Petrol,145,25.4,4.4,24441.54
+1283, X3,2,Semi-Auto,4741,Petrol,145,24.8,3,20298.5
+1284, X6,6,Semi-Auto,40915,Diesel,200,44.8,3,26381.005
+1285, X4,1,Semi-Auto,2000,Petrol,145,26.9,3,43111.5975
+1286, 1 Series,4,Semi-Auto,7409,Petrol,145,39.8,3,22698.40833
+1287, 5 Series,4,Automatic,22379,Diesel,145,60.1,3,25156.69
+1288, X1,3,Semi-Auto,16876,Diesel,145,47.1,2,23801.61
+1289, 2 Series,4,Semi-Auto,20496,Petrol,30,55.4,1.5,14084.97
+1290, 7 Series,5,Semi-Auto,24446,Petrol,205,41.5,3,28842.385
+1291, 1 Series,7,Semi-Auto,23000,Petrol,125,50.4,1.6,13172.125
+1292, 5 Series,2,Automatic,6071,Diesel,145,53.3,3,34977.235
+1293, X5,2,Automatic,4943,Diesel,145,37.7,3,22716.09796
+1294, 3 Series,2,Semi-Auto,296,Diesel,145,49.6,2,32311.29317
+1295, X1,4,Manual,40831,Diesel,145,68.9,2,14473.13
+1296, X5,2,Automatic,8204,Diesel,145,37.7,3,24374.23966
+1297, 1 Series,2,Semi-Auto,965,Petrol,145,54.3,1.5,20165.09
+1298, 4 Series,2,Semi-Auto,2124,Diesel,150,65.7,2,25414.03485
+1299, 2 Series,3,Semi-Auto,17421,Diesel,145,60.1,2,19188.665
+1300, 4 Series,8,Manual,78402,Diesel,125,57.6,2,9085.7
+1301, X3,2,Semi-Auto,4599,Diesel,145,54.3,2,32123.245
+1302, 3 Series,2,Semi-Auto,6746,Diesel,145,52.3,2,28275.06697
+1303, X5,2,Automatic,5701,Diesel,145,37.7,3,24570.30154
+1304, X6,2,Automatic,4331,Petrol,145,26.4,3,20298.5
+1305, 3 Series,2,Semi-Auto,4429,Diesel,145,52.3,2,28670.24843
+1306, X5,2,Automatic,5914,Diesel,145,37.7,3,33660.77528
+1307, X5,2,Automatic,7259,Diesel,145,37.7,3,35357.24104
+1308, X3,2,Automatic,10155,Diesel,145,54.3,2,34801.455
+1309, 5 Series,2,Automatic,11598,Diesel,145,60.1,2,29529.675
+1310, X3,2,Automatic,6314,Diesel,145,54.3,2,32067.43883
+1311, 1 Series,2,Automatic,4604,Diesel,145,51.4,2,28652.92543
+1312, X1,5,Semi-Auto,21292,Diesel,125,57.6,2,19335.165
+1313, X5,2,Semi-Auto,9278,Diesel,145,37.7,3,33189.69497
+1314, X5,2,Semi-Auto,6776,Diesel,145,37.7,3,23904.58783
+1315, X1,7,Semi-Auto,65912,Diesel,165,52.3,2,10512.43
+1316, X1,4,Semi-Auto,12224,Diesel,150,55.4,2,20925.73591
+1317, X1,7,Semi-Auto,49445,Diesel,150,56.5,2,11786.5
+1318, X5,2,Semi-Auto,5345,Diesel,145,37.7,3,20457.21566
+1319, 1 Series,2,Manual,4869,Petrol,150,44.8,1.5,20883.955
+1320, X1,1,Semi-Auto,1600,Petrol,145,37.7,1.5,24835.17
+1321, X1,4,Semi-Auto,17285,Diesel,145,60.1,2,21677.60563
+1322, X2,2,Semi-Auto,8791,Diesel,145,61.4,2,25093.56474
+1323, 4 Series,4,Automatic,23446,Diesel,145,49.6,3,22352.515
+1324, X5,5,Automatic,31525,Diesel,235,42.8,3,35567.685
+1325, X6,4,Semi-Auto,19924,Petrol,145,25.4,4.4,35617.7975
+1326, 5 Series,7,Semi-Auto,21880,Diesel,125,57.6,2,15220.73167
+1327, X1,2,Automatic,3012,Petrol,145,46.3,1.5,25088.38
+1328, X1,4,Semi-Auto,6550,Diesel,145,60.1,2,22261.725
+1329, 7 Series,4,Semi-Auto,25050,Diesel,145,57.6,3,27403.02
+1330, 3 Series,6,Semi-Auto,22288,Diesel,125,58.9,2,15231.69
+1331, 1 Series,1,Semi-Auto,6000,Diesel,145,48.7,2,30486.84582
+1332, X4,4,Semi-Auto,25350,Diesel,200,47.9,3,26240.98
+1333, 4 Series,5,Semi-Auto,14530,Petrol,145,48.7,2,19991.46875
+1334, X1,5,Semi-Auto,26382,Diesel,145,55.4,2,18493.37167
+1335, X7,2,Semi-Auto,5349,Diesel,145,33.6,3,20298.5
+1336, 2 Series,2,Semi-Auto,5536,Diesel,145,68.9,2,21783.185
+1337, 5 Series,2,Semi-Auto,102,Petrol,145,50.4,2,32950.28462
+1338, 4 Series,2,Automatic,4300,Petrol,145,48.7,2,25991.21477
+1339, 3 Series,2,Semi-Auto,9988,Diesel,145,52.3,2,27300.96313
+1340, 1 Series,5,Automatic,45000,Diesel,30,65.7,2,14487.275
+1341, 4 Series,2,Semi-Auto,6650,Petrol,145,48.7,2,24261.22158
+1342, 1 Series,2,Manual,1581,Diesel,145,70.6,1.5,20915.665
+1343, X1,4,Automatic,6391,Diesel,145,65.7,2,19255.125
+1344, X2,3,Semi-Auto,12271,Diesel,145,61.4,2,26089.125
+1345, 3 Series,1,Semi-Auto,100,Diesel,145,50.4,2,30375.77259
+1346, 5 Series,2,Automatic,6499,Hybrid,135,156.9,2,26655.405
+1347, X5,2,Semi-Auto,6413,Diesel,145,37.7,3,21066.75799
+1348, 3 Series,1,Semi-Auto,102,Petrol,145,40.4,2,36788.43365
+1349, X4,2,Automatic,7555,Diesel,145,40.9,3,38929.34
+1350, 1 Series,2,Automatic,9399,Diesel,145,70.6,2,18976.745
+1351, 3 Series,4,Automatic,18374,Diesel,145,64.2,2,17941.62583
+1352, 3 Series,2,Automatic,7307,Diesel,145,49.6,2,33796.63294
+1353, 1 Series,3,Semi-Auto,7700,Petrol,145,36.7,1.5,17915.93
+1354, X4,1,Semi-Auto,100,Petrol,145,24.8,3,29621.21
+1355, 6 Series,5,Automatic,17264,Petrol,325,32.1,4.4,28658.815
+1356, X1,1,Semi-Auto,2364,Diesel,145,65.7,2,27458.96833
+1357, 3 Series,1,Semi-Auto,100,Petrol,145,42.2,2,28988.70972
+1358, 2 Series,2,Semi-Auto,6100,Diesel,145,62.8,2,24313.49739
+1359, X1,2,Automatic,3195,Diesel,145,60.1,2,26723.93977
+1360, 2 Series,2,Semi-Auto,10539,Petrol,145,47.9,2,21784.18
+1361, 2 Series,2,Manual,2033,Petrol,145,52.3,1.5,21436.865
+1362, 1 Series,5,Semi-Auto,9097,Petrol,200,39.8,3,21055.75
+1363, X1,2,Semi-Auto,3796,Diesel,145,36.7,2,28262.18272
+1364, 1 Series,2,Manual,1300,Petrol,145,44.1,1.5,22060.345
+1365, X7,1,Semi-Auto,1000,Petrol,145,24.8,3,20298.5
+1366, 1 Series,2,Manual,3731,Petrol,145,53.3,1.5,17630.395
+1367, 3 Series,5,Semi-Auto,25145,Diesel,160,51.4,3,20949.58188
+1368, 4 Series,5,Semi-Auto,24932,Diesel,160,49.6,3,22891.875
+1369, 7 Series,4,Semi-Auto,28338,Diesel,145,56.5,3,27559.82
+1370, 3 Series,4,Manual,24669,Petrol,145,48.7,2,14341.945
+1371, X3,5,Semi-Auto,15497,Diesel,145,54.3,2,19936.43
+1372, X3,4,Semi-Auto,33158,Diesel,200,47.1,3,25729.82
+1373, 3 Series,1,Semi-Auto,1881,Petrol,150,34.9,3,39456.50214
+1374, 3 Series,1,Semi-Auto,1370,Diesel,150,52.3,2,30841.88458
+1375, 2 Series,2,Semi-Auto,1089,Petrol,150,38.2,3,29651.895
+1376, X1,3,Semi-Auto,9421,Diesel,145,60.1,2,21778.41063
+1377, 5 Series,4,Semi-Auto,23310,Diesel,160,51.4,2,21414.025
+1378, X5,5,Automatic,25701,Diesel,200,47.1,3,31439.695
+1379, 2 Series,5,Semi-Auto,39955,Petrol,205,43.5,2,15683.225
+1380, X1,2,Semi-Auto,4153,Diesel,145,65.7,2,26231.31143
+1381, 3 Series,3,Automatic,13700,Diesel,145,62.8,2,20851.07967
+1382, 3 Series,1,Semi-Auto,4000,Petrol,145,41.5,2,35125.7325
+1383, X4,2,Semi-Auto,10,Diesel,145,40.9,3,39638.23
+1384, 1 Series,2,Semi-Auto,101,Diesel,145,51.4,2,27212.382
+1385, 1 Series,8,Manual,49711,Diesel,30,65.7,2,9049.62
+1386, 5 Series,3,Semi-Auto,19474,Diesel,145,62.8,2,24588.505
+1387, 5 Series,7,Semi-Auto,31039,Diesel,145,55.4,2,14619.87
+1388, 4 Series,2,Semi-Auto,1000,Diesel,145,60.1,2,28421.54749
+1389, 1 Series,1,Semi-Auto,3000,Petrol,150,34.5,2,31702.10889
+1390, X3,2,Semi-Auto,7200,Diesel,150,54.3,2,33707.52
+1391, 1 Series,6,Manual,30241,Diesel,20,72.4,1.5,10472.865
+1392, 3 Series,5,Manual,34328,Diesel,125,61.4,2,15122.155
+1393, 1 Series,3,Manual,13132,Petrol,150,52.3,1.5,16764.405
+1394, 5 Series,2,Semi-Auto,6142,Petrol,145,39.2,3,39245.18
+1395, M4,2,Semi-Auto,5239,Petrol,145,34,3,43719.6075
+1396, 3 Series,3,Semi-Auto,7509,Diesel,145,62.8,2,21182.47508
+1397, X3,6,Semi-Auto,23000,Diesel,150,54.3,2,17551.6725
+1398, X1,4,Semi-Auto,26109,Diesel,145,55.4,2,19925.2914
+1399, X2,2,Semi-Auto,2315,Diesel,145,58.9,2,30998.52344
+1400, X1,5,Manual,31345,Diesel,125,60.1,2,15968.73
+1401, X3,5,Automatic,41277,Diesel,145,54.3,2,19405.225
+1402, 2 Series,6,Manual,19361,Diesel,30,64.2,2,12760.965
+1403, X3,1,Semi-Auto,2000,Diesel,145,54.3,2,35588.04
+1404, 3 Series,3,Semi-Auto,15769,Petrol,145,48.7,2,19368.65883
+1405, 2 Series,6,Manual,24600,Petrol,145,47.9,2,13937.08
+1406, 2 Series,2,Manual,5907,Petrol,145,42.2,1.5,20122.135
+1407, 1 Series,2,Manual,8464,Petrol,145,44.1,1.5,20946.79
+1408, 1 Series,2,Manual,5922,Petrol,145,44.1,1.5,20884.72
+1409, X3,6,Semi-Auto,26000,Diesel,205,47.9,3,20774.99
+1410, 2 Series,2,Semi-Auto,2069,Petrol,145,39.8,3,28166.36042
+1411, X5,1,Semi-Auto,2000,Diesel,145,36.7,3,20904.82
+1412, X1,2,Semi-Auto,10001,Diesel,150,50.4,2,25821.774
+1413, X1,3,Manual,7252,Petrol,145,51.4,1.5,19912.465
+1414, X5,4,Automatic,23010,Diesel,145,47.1,3,31387.13
+1415, 2 Series,1,Semi-Auto,13,Petrol,150,50.4,1.5,21654.74417
+1416, 2 Series,1,Automatic,1968,Petrol,145,50.4,2,26225.33667
+1417, 3 Series,1,Semi-Auto,4323,Diesel,145,50.4,2,33803.50832
+1418, 5 Series,4,Automatic,16774,Diesel,125,62.8,2,22106.05
+1419, 3 Series,1,Semi-Auto,1987,Diesel,150,53.3,2,30695.72833
+1420, X5,2,Semi-Auto,10,Diesel,150,37.7,3,20298.5
+1421, 3 Series,1,Semi-Auto,2084,Diesel,145,43.5,3,40411.68423
+1422, 3 Series,2,Automatic,2974,Diesel,145,47.9,3,34218.6122
+1423, 2 Series,1,Semi-Auto,877,Diesel,145,64.2,2,29914.3175
+1424, 1 Series,3,Manual,14530,Diesel,145,51.4,1.5,15834.755
+1425, 1 Series,7,Manual,42574,Diesel,30,64.2,2,10689.995
+1426, 2 Series,3,Automatic,32618,Petrol,145,51.4,1.5,14716.535
+1427, 3 Series,4,Semi-Auto,27024,Diesel,145,51.4,3,21116.85
+1428, 1 Series,2,Semi-Auto,3450,Petrol,145,34.5,2,30906.9315
+1429, 3 Series,4,Manual,30761,Diesel,125,58.9,2,16050.205
+1430, 1 Series,2,Semi-Auto,13171,Diesel,150,67.3,2,20282.005
+1431, 5 Series,2,Semi-Auto,1000,Petrol,145,50.4,2,30664.27095
+1432, 4 Series,1,Semi-Auto,45,Diesel,150,52.3,3,34387.76464
+1433, 2 Series,5,Automatic,36500,Diesel,20,72.4,1.5,11933.415
+1434, 5 Series,5,Automatic,23500,Diesel,20,68.9,2,14876.935
+1435, X5,4,Automatic,39060,Diesel,145,42.8,3,36106.575
+1436, 3 Series,4,Semi-Auto,23000,Petrol,145,48.7,2,18087.2491
+1437, 3 Series,2,Semi-Auto,4686,Petrol,150,42.2,2,28708.48802
+1438, 3 Series,2,Semi-Auto,9754,Diesel,150,52.3,2,26501.31077
+1439, 5 Series,2,Semi-Auto,10707,Hybrid,135,156.9,2,23364.07
+1440, 3 Series,10,Manual,88850,Petrol,160,44.8,2,8272.115
+1441, 3 Series,12,Automatic,123300,Petrol,200,44.1,2,11598.23
+1442, X3,7,Automatic,64500,Diesel,205,47.9,3,17199.435
+1443, X1,5,Automatic,32333,Diesel,145,55.4,2,18068.515
+1444, 3 Series,2,Semi-Auto,11454,Petrol,145,47.9,2,24539.78278
+1445, 1 Series,7,Manual,41659,Petrol,145,50.4,1.6,10585.57
+1446, 1 Series,5,Semi-Auto,21947,Diesel,20,68.9,1.5,14812.83
+1447, 1 Series,3,Manual,51000,Diesel,145,50.4,2,14516.44
+1448, 3 Series,5,Automatic,43000,Diesel,125,60.1,2,15808.252
+1449, 3 Series,11,Manual,45000,Diesel,195,49.6,3,13699.7
+1450, 4 Series,4,Automatic,20407,Diesel,145,65.7,2,17344.24035
+1451, 5 Series,5,Automatic,30227,Diesel,20,68.9,2,14772.76
+1452, 6 Series,4,Automatic,35357,Diesel,205,49.6,3,23308
+1453, 4 Series,6,Automatic,68787,Diesel,30,65.7,2,13450.165
+1454, 1 Series,10,Manual,59326,Petrol,165,46.3,2,7878.32
+1455, 3 Series,6,Manual,65412,Diesel,20,68.9,2,10213.585
+1456, 5 Series,5,Automatic,65251,Diesel,125,60.1,2,14105.45
+1457, 1 Series,6,Manual,40561,Diesel,20,68.9,2,11353.875
+1458, 1 Series,5,Automatic,51215,Petrol,205,39.8,3,17905.225
+1459, X1,5,Manual,30590,Diesel,125,60.1,2,16111.16
+1460, X1,4,Automatic,31691,Diesel,145,55.4,2,19289.74493
+1461, 3 Series,5,Manual,21786,Petrol,125,45.6,2,15154.345
+1462, X1,5,Manual,20737,Diesel,125,60.1,2,16464.19
+1463, X1,5,Manual,50402,Diesel,20,68.9,2,13634.51
+1464, 2 Series,5,Manual,49753,Diesel,30,64.2,2,13033.865
+1465, X3,5,Automatic,68000,Diesel,145,54.3,2,16127.825
+1466, 4 Series,5,Manual,11834,Diesel,125,57.6,2,17096.0225
+1467, 3 Series,6,Automatic,50000,Diesel,145,56.5,3,15772.35
+1468, X5,7,Automatic,97000,Diesel,200,47.9,3,20902.185
+1469, 3 Series,12,Manual,125000,Diesel,125,60.1,2,8244.65
+1470, 1 Series,8,Manual,56000,Diesel,30,62.8,2,9193.685
+1471, 1 Series,8,Manual,50248,Diesel,30,65.7,2,8875.115
+1472, 3 Series,10,Automatic,44000,Diesel,145,53.3,2,9948.325
+1473, 4 Series,4,Manual,40000,Diesel,30,67.3,2,13951.975
+1474, 1 Series,2,Automatic,16189,Diesel,150,67.3,2,19469.26
+1475, 1 Series,5,Manual,39000,Petrol,125,53.3,1.5,10980.66
+1476, 3 Series,10,Automatic,108000,Diesel,200,46.3,3,11939.69833
+1477, X3,6,Automatic,42000,Diesel,145,54.3,2,18550.87
+1478, 1 Series,7,Manual,53000,Petrol,300,35.3,3,14247.345
+1479, 2 Series,5,Manual,50000,Diesel,30,64.2,2,13020.56
+1480, 3 Series,6,Automatic,73000,Diesel,145,56.5,3,13916.49
+1481, 3 Series,7,Automatic,92000,Diesel,125,60.1,2,11450.53
+1482, 3 Series,6,Manual,26000,Diesel,30,67.3,2,12002.095
+1483, 5 Series,9,Manual,82000,Diesel,125,57.6,2,7730.05
+1484, 3 Series,14,Automatic,79000,Petrol,565,28.5,3,10640.4925
+1485, 3 Series,5,Automatic,20000,Diesel,135,56.5,3,18313.955
+1486, 3 Series,5,Manual,63000,Diesel,20,72.4,2,10369.455
+1487, 1 Series,6,Manual,43000,Diesel,30,65.7,2,11765.575
+1488, 5 Series,18,Automatic,37000,Petrol,325,26.4,3,15010.74804
+1489, 1 Series,6,Manual,33000,Diesel,20,72.4,1.5,10586.92
+1490, 1 Series,5,Manual,49000,Diesel,30,62.8,2,12944.685
+1491, 5 Series,6,Automatic,60000,Diesel,160,51.4,3,16051.54
+1492, 5 Series,6,Automatic,25000,Diesel,20,68.9,2,13479.35048
+1493, 5 Series,8,Automatic,88000,Diesel,125,57.6,2,10684.975
+1494, 5 Series,6,Automatic,47000,Diesel,30,62.8,2,14096.87
+1495, 1 Series,7,Manual,59000,Diesel,30,65.7,2,9268.35
+1496, 5 Series,7,Automatic,59000,Diesel,125,57.6,2,13858.37
+1497, Z4,7,Manual,31000,Petrol,200,41.5,2,6087.79
+1498, 1 Series,5,Manual,86000,Diesel,20,68.9,2,9293.665
+1499, 1 Series,6,Manual,50000,Petrol,125,50.4,1.6,8582.74
+1500, 3 Series,9,Manual,59000,Diesel,145,55.4,2,8925.785
+1501, 3 Series,7,Automatic,91000,Diesel,145,55.4,2,12709.385
+1502, 3 Series,10,Manual,78000,Diesel,30,62.8,2,8174.025
+1503, X5,9,Automatic,60000,Diesel,300,37.7,3,15851.72417
+1504, X3,6,Automatic,31000,Diesel,145,55.4,2,19500.97333
+1505, 4 Series,6,Automatic,41000,Diesel,30,65.7,2,15535.485
+1506, 1 Series,6,Manual,47000,Petrol,125,53.3,1.5,10201.015
+1507, 3 Series,9,Automatic,47000,Diesel,235,44.1,3,14513.985
+1508, 3 Series,7,Automatic,82000,Diesel,125,58.9,2,11468.52
+1509, 1 Series,6,Manual,46000,Petrol,125,53.3,1.5,10181.925
+1510, 5 Series,6,Automatic,76000,Diesel,30,62.8,2,12379.655
+1511, 1 Series,4,Automatic,33000,Petrol,145,39.8,3,20438.305
+1512, 5 Series,8,Automatic,88000,Diesel,145,55.4,2,10777.895
+1513, 3 Series,7,Manual,61000,Diesel,125,60.1,2,11791.905
+1514, X3,9,Automatic,70000,Diesel,160,50.4,2,11613.19
+1515, 4 Series,7,Manual,92000,Diesel,125,60.1,2,10943.635
+1516, 1 Series,6,Manual,45000,Diesel,30,65.7,2,11607.595
+1517, 2 Series,6,Manual,76000,Diesel,30,64.2,2,9888
+1518, 5 Series,5,Automatic,47000,Diesel,30,62.8,2,15068.8755
+1519, 5 Series,5,Automatic,50000,Diesel,30,62.8,2,14979.185
+1520, 1 Series,5,Manual,36000,Diesel,20,68.9,2,11726.955
+1521, X1,7,Manual,50000,Diesel,160,51.4,2,10931.29
+1522, X5,11,Automatic,77000,Diesel,300,37.7,3,15557.90542
+1523, 3 Series,9,Manual,81000,Diesel,30,61.4,2,8189.77
+1524, 3 Series,8,Automatic,60000,Diesel,30,62.8,2,11044.49208
+1525, 8 Series,2,Automatic,11111,Petrol,150,26.9,4.4,21376.6
+1526, 2 Series,6,Manual,33000,Diesel,30,64.2,2,12355.865
+1527, 1 Series,5,Manual,35000,Petrol,125,52.3,1.5,12657.36
+1528, 1 Series,7,Manual,42000,Petrol,145,50.4,1.6,10499.98
+1529, 1 Series,5,Automatic,46704,Petrol,205,39.8,3,18299.75
+1530, 5 Series,7,Automatic,85000,Diesel,125,57.6,2,12150.105
+1531, 5 Series,1,Automatic,101,Diesel,145,52.3,2,32250.06333
+1532, 7 Series,2,Automatic,1775,Diesel,145,41.5,3,21910.9393
+1533, 3 Series,2,Automatic,7624,Diesel,145,48.7,2,33816.86157
+1534, 7 Series,5,Automatic,33000,Diesel,145,54.3,3,25715.28
+1535, 5 Series,8,Automatic,56000,Diesel,125,57.6,2,11840.26167
+1536, 1 Series,6,Automatic,45000,Diesel,125,60.1,2,14130.75
+1537, 1 Series,5,Automatic,43000,Diesel,30,65.7,2,14188.745
+1538, 3 Series,5,Automatic,45000,Diesel,30,64.2,2,15259.62614
+1539, 5 Series,7,Automatic,62000,Diesel,160,51.4,3,14362.82
+1540, 5 Series,2,Automatic,18733,Hybrid,140,141.3,2,24447.745
+1541, 5 Series,4,Automatic,28629,Diesel,125,60.1,2,18555.135
+1542, 6 Series,1,Automatic,101,Petrol,145,42.8,2,33699.80321
+1543, X5,2,Automatic,5984,Petrol,145,27.2,3,21362.6375
+1544, 5 Series,1,Automatic,110,Diesel,145,44.8,2,32759.765
+1545, X1,2,Automatic,3500,Petrol,145,38.7,2,26944.30121
+1546, Z4,2,Automatic,3066,Petrol,145,33.2,3,40289.9775
+1547, 5 Series,2,Automatic,1662,Diesel,145,65.7,2,28713.685
+1548, 4 Series,2,Automatic,101,Petrol,145,48.7,2,27660.99552
+1549, 6 Series,2,Automatic,9205,Diesel,145,44.1,2,25401.93642
+1550, X1,2,Automatic,6695,Diesel,150,50.4,2,27817.40654
+1551, X2,2,Manual,4242,Petrol,150,42.8,1.5,21648.54
+1552, 1 Series,4,Manual,12519,Diesel,30,65.7,2,15293.03
+1553, 4 Series,2,Automatic,5177,Petrol,145,39.2,3,34810.13833
+1554, X3,2,Automatic,9770,Diesel,145,48.7,3,36887.425
+1555, 5 Series,2,Automatic,9676,Hybrid,135,156.9,2,24906.895
+1556, 6 Series,4,Automatic,11541,Petrol,145,31,4.4,28637.485
+1557, 2 Series,2,Automatic,5141,Petrol,145,39.2,1.5,22462.2675
+1558, 1 Series,2,Automatic,5011,Diesel,145,67.3,2,20579.63
+1559, 3 Series,5,Automatic,26047,Petrol,200,41.5,3,20331.835
+1560, 6 Series,7,Automatic,29178,Diesel,160,50.4,3,18159.49
+1561, X2,2,Automatic,4300,Petrol,145,39.2,2,30599.25504
+1562, 8 Series,2,Automatic,8000,Petrol,145,33.6,3,20754.3275
+1563, 3 Series,6,Automatic,64797,Diesel,0,74.3,2,11203.38
+1564, 2 Series,6,Automatic,22876,Petrol,160,44.1,2,14824.445
+1565, 3 Series,4,Automatic,6272,Diesel,145,51.4,3,23624.63
+1566, X1,4,Manual,54650,Diesel,20,68.9,2,12886.16
+1567, X1,5,Automatic,27418,Petrol,160,44.8,2,20109.215
+1568, 4 Series,2,Automatic,4700,Diesel,145,58.9,2,29057.25519
+1569, 1 Series,2,Manual,14735,Diesel,145,78.5,1.5,14878.83
+1570, 4 Series,4,Automatic,23312,Diesel,145,55.4,3,20126.76
+1571, 3 Series,4,Automatic,33206,Diesel,160,51.4,3,19835.515
+1572, 2 Series,7,Manual,43960,Diesel,30,62.8,2,11131.56
+1573, 3 Series,6,Automatic,42199,Diesel,160,49.6,3,19428.68
+1574, 5 Series,8,Automatic,89693,Diesel,125,57.6,2,10684.975
+1575, 2 Series,7,Automatic,29236,Petrol,145,47.1,2,13259.615
+1576, 3 Series,2,Automatic,6072,Petrol,145,45.6,2,25039.88455
+1577, X4,2,Automatic,9793,Diesel,145,42.8,2,37938.47
+1578, X5,5,Automatic,36996,Diesel,200,47.1,3,28682.76
+1579, 1 Series,8,Manual,32102,Petrol,145,50.4,1.6,10880.55
+1580, 1 Series,8,Manual,48399,Diesel,30,65.7,2,9316.175
+1581, 1 Series,3,Manual,9774,Petrol,145,37.2,1.5,15905.475
+1582, 3 Series,3,Automatic,22510,Diesel,145,64.2,2,19928.005
+1583, 3 Series,5,Automatic,47262,Diesel,30,62.8,2,14979.5305
+1584, 3 Series,3,Automatic,23814,Diesel,145,64.2,2,19112.86
+1585, 2 Series,3,Automatic,18673,Diesel,145,47.1,2,19717.215
+1586, 4 Series,3,Automatic,9629,Petrol,145,45.6,2,21806.015
+1587, 3 Series,3,Automatic,19857,Petrol,145,48.7,2,19896.855
+1588, X5,7,Automatic,47683,Diesel,200,49.6,2,22713.91
+1589, 1 Series,3,Automatic,8316,Diesel,145,44.1,2,19748.035
+1590, 4 Series,4,Automatic,19293,Diesel,145,65.7,2,18484.02591
+1591, 3 Series,6,Automatic,62051,Diesel,145,56.5,3,15874.1
+1592, 2 Series,6,Manual,48937,Diesel,30,62.8,2,12345.295
+1593, X3,8,Manual,67652,Diesel,160,50.4,2,9941.935
+1594, 5 Series,5,Automatic,68816,Diesel,30,62.8,2,13737.23
+1595, 4 Series,4,Automatic,26839,Diesel,30,65.7,2,17148.48491
+1596, 5 Series,3,Automatic,16042,Diesel,145,68.9,2,23477.16
+1597, 3 Series,5,Automatic,46735,Diesel,30,65.7,2,13934.71
+1598, 6 Series,5,Automatic,45360,Diesel,200,49.6,3,19433.405
+1599, 6 Series,6,Automatic,22797,Diesel,160,49.6,3,20796.965
+1600, 3 Series,11,Manual,77523,Diesel,30,62.8,2,8173.495
+1601, 3 Series,6,Manual,44000,Diesel,20,68.9,2,11611.44
+1602, 3 Series,3,Automatic,16882,Diesel,145,62.8,2,21326.90333
+1603, 5 Series,2,Automatic,20789,Petrol,145,50.4,2,24243.465
+1604, 5 Series,8,Automatic,89028,Diesel,125,57.6,2,10684.975
+1605, 4 Series,6,Automatic,46028,Diesel,125,58.9,2,15106.535
+1606, 1 Series,3,Manual,8228,Diesel,145,68.9,2,16875.145
+1607, 2 Series,5,Manual,43201,Diesel,20,68.9,2,12005.315
+1608, 2 Series,6,Automatic,78913,Diesel,30,62.8,2,11972.365
+1609, 1 Series,4,Manual,13000,Petrol,150,52.3,1.5,15588.87
+1610, 4 Series,4,Manual,85366,Diesel,145,62.8,2,6835.5
+1611, 1 Series,13,Manual,68000,Petrol,150,48.7,1.6,6799.67
+1612, 1 Series,8,Manual,75323,Petrol,145,49.6,1.6,7529.905
+1613, 1 Series,8,Manual,85871,Petrol,145,49.6,1.6,7599.605
+1614, 1 Series,9,Automatic,96596,Diesel,30,64.2,2,9054.535
+1615, 2 Series,3,Automatic,67062,Diesel,145,51.4,2,17116.27
+1616, 2 Series,5,Automatic,79983,Diesel,20,68.9,2,11532.665
+1617, 2 Series,4,Manual,32218,Diesel,145,65.7,1.5,13969.855
+1618, 1 Series,4,Manual,82000,Diesel,150,72.4,1.5,9097.525
+1619, 3 Series,10,Manual,67869,Diesel,125,60.1,2,9155.895
+1620, 1 Series,5,Manual,51727,Petrol,125,52.3,1.5,11524.545
+1621, X1,8,Automatic,46217,Diesel,165,52.3,2,10581.005
+1622, X1,4,Manual,64235,Diesel,125,60.1,2,9727.745
+1623, 2 Series,5,Manual,46527,Diesel,125,60.1,2,13994.415
+1624, 3 Series,5,Manual,76218,Diesel,30,64.2,2,11552.875
+1625, 1 Series,5,Manual,39077,Diesel,30,65.7,2,12558.715
+1626, 1 Series,4,Manual,17724,Diesel,145,83.1,1.5,12102.78
+1627, 3 Series,3,Automatic,27246,Diesel,145,64.2,2,19477.16
+1628, 3 Series,4,Manual,17170,Diesel,150,60.1,2,16063.6
+1629, 3 Series,6,Automatic,42938,Diesel,200,49.6,3,19410.345
+1630, 4 Series,4,Automatic,44558,Diesel,145,50.4,3,21301.715
+1631, 1 Series,5,Automatic,52874,Petrol,235,37.7,3,17170.69
+1632, 3 Series,5,Automatic,26108,Diesel,145,53.3,3,18820.3875
+1633, 2 Series,3,Semi-Auto,18323,Diesel,145,56.5,1.5,16609.62
+1634, X1,4,Automatic,33124,Diesel,125,60.1,2,17944.62467
+1635, 1 Series,5,Manual,38936,Diesel,20,72.4,1.5,10372.005
+1636, X4,4,Automatic,41543,Diesel,150,54.3,2,22432.82
+1637, X3,5,Automatic,19000,Diesel,150,54.3,2,20771.4
+1638, 2 Series,2,Automatic,8225,Diesel,150,61.4,2,23470.49893
+1639, X5,3,Automatic,15245,Diesel,150,47.1,3,35379.2425
+1640, 4 Series,2,Automatic,9564,Diesel,145,65.7,2,23946.035
+1641, X1,2,Automatic,7032,Diesel,145,60.1,2,25291.71271
+1642, X2,2,Automatic,2077,Diesel,150,58.9,2,29468.46444
+1643, 5 Series,2,Automatic,8062,Diesel,145,51.4,3,37443.24
+1644, 2 Series,2,Manual,16606,Petrol,150,52.3,1.5,18427.185
+1645, 3 Series,3,Manual,29384,Petrol,145,47.9,2,17366.76
+1646, 1 Series,2,Automatic,9112,Petrol,145,39.8,3,26761.61977
+1647, 3 Series,7,Manual,47735,Petrol,160,44.8,2,12673.115
+1648, 1 Series,5,Manual,31319,Diesel,20,72.4,1.5,10908.755
+1649, 1 Series,7,Manual,131347,Diesel,0,74.3,1.6,8232.74
+1650, 6 Series,7,Automatic,64674,Diesel,160,49.6,3,16906.345
+1651, 2 Series,1,Automatic,4597,Petrol,145,36.2,2,35508.7175
+1652, 3 Series,5,Manual,52224,Diesel,125,62.8,2,13020.84
+1653, 3 Series,5,Manual,54788,Diesel,20,68.9,2,11525.675
+1654, 1 Series,5,Manual,35845,Diesel,0,83.1,1.5,10855.135
+1655, 3 Series,5,Manual,68738,Diesel,20,68.9,2,10417.595
+1656, 1 Series,6,Manual,84179,Diesel,30,65.7,2,8950.975
+1657, 3 Series,2,Automatic,10633,Petrol,145,42.2,2,28773.65214
+1658, 3 Series,5,Automatic,22317,Hybrid,0,134.5,2,15304.785
+1659, 2 Series,4,Automatic,12301,Petrol,145,51.4,1.5,17077.4
+1660, 6 Series,8,Automatic,58024,Diesel,160,51.4,3,15524.63
+1661, 1 Series,5,Automatic,19908,Petrol,235,37.7,3,18797.42
+1662, 1 Series,5,Automatic,54013,Diesel,30,62.8,2,15441.5
+1663, 2 Series,5,Manual,56953,Diesel,30,64.2,2,11979.665
+1664, 5 Series,4,Automatic,13022,Diesel,145,60.1,3,25925.505
+1665, 1 Series,5,Manual,29374,Petrol,125,53.3,1.5,10983.725
+1666, 1 Series,5,Manual,13388,Petrol,125,52.3,1.5,13996.27
+1667, 3 Series,5,Automatic,19300,Diesel,160,51.4,3,21319.97
+1668, 4 Series,5,Automatic,67429,Petrol,145,48.7,2,13529.125
+1669, 3 Series,5,Manual,97758,Diesel,20,72.4,2,9333.115
+1670, X1,6,Manual,104000,Diesel,30,62.8,2,10769.47
+1671, 4 Series,4,Automatic,16389,Diesel,145,51.4,3,22955.5
+1672, 4 Series,3,Automatic,35042,Diesel,145,65.7,2,17792.085
+1673, X2,2,Automatic,4773,Diesel,145,58.9,2,27469.81655
+1674, 1 Series,7,Manual,52447,Petrol,150,50.4,1.6,9299.615
+1675, 2 Series,3,Automatic,5301,Petrol,145,36.7,1.5,17517.735
+1676, 1 Series,5,Manual,47905,Diesel,0,78.5,1.5,10079.66
+1677, X7,2,Automatic,7791,Diesel,145,33.6,3,20298.5
+1678, 1 Series,4,Automatic,23786,Diesel,20,67.3,2,15175.905
+1679, 4 Series,5,Manual,19684,Diesel,145,55.4,2,17508.37083
+1680, 1 Series,4,Automatic,17760,Diesel,145,61.4,2,18526.84313
+1681, 5 Series,5,Automatic,37472,Diesel,20,68.9,2,14016.135
+1682, 2 Series,5,Automatic,27381,Diesel,20,68.9,1.5,14291.375
+1683, 1 Series,2,Automatic,2922,Petrol,145,34.5,2,31495.0515
+1684, 3 Series,4,Automatic,17088,Diesel,145,62.8,2,19149.47313
+1685, X3,7,Automatic,60590,Diesel,160,50.4,2,13886.965
+1686, 4 Series,6,Automatic,33627,Diesel,145,56.5,2,16745.905
+1687, X1,8,Automatic,42073,Diesel,160,52.3,2,11009.35
+1688, 2 Series,3,Manual,13369,Diesel,145,65.7,1.5,16564.555
+1689, 1 Series,5,Automatic,19277,Diesel,30,62.8,2,15505.15458
+1690, 1 Series,3,Manual,26146,Diesel,145,78.5,1.5,14526.675
+1691, X4,6,Manual,39824,Diesel,160,52.3,2,15350.265
+1692, 3 Series,4,Automatic,10501,Hybrid,135,148.7,2,15321.35
+1693, 3 Series,8,Manual,76429,Diesel,20,68.9,2,8897.74
+1694, 1 Series,8,Automatic,60260,Diesel,30,64.2,2,10845.31792
+1695, 2 Series,6,Automatic,91620,Diesel,30,61.4,2,11419.345
+1696, 1 Series,5,Manual,39512,Diesel,0,78.5,1.5,10481.94
+1697, 3 Series,4,Automatic,45000,Other,140,134.5,2,14714.125
+1698, 3 Series,5,Automatic,23340,Diesel,30,64.2,2,16633.535
+1699, 1 Series,5,Automatic,32404,Petrol,30,55.5,1.5,13841.34
+1700, X5,6,Automatic,54248,Diesel,200,47.1,3,24623.835
+1701, 1 Series,6,Automatic,29867,Diesel,30,65.7,2,13805.585
+1702, X1,4,Manual,24607,Diesel,125,60.1,2,17205.45
+1703, 3 Series,4,Manual,18059,Petrol,150,48.7,2,15093.235
+1704, 5 Series,8,Automatic,73000,Diesel,125,57.6,2,10706.395
+1705, 1 Series,4,Automatic,26660,Diesel,20,67.3,2,15220.025
+1706, 5 Series,5,Automatic,61425,Diesel,125,60.1,2,14352.11
+1707, 4 Series,5,Automatic,39891,Diesel,145,53.3,3,18532.655
+1708, 1 Series,4,Manual,38356,Diesel,145,83.1,1.5,10857.7
+1709, 1 Series,5,Manual,14634,Petrol,125,53.3,1.5,12877.65
+1710, X1,3,Automatic,11070,Petrol,145,44.8,2,22584.86
+1711, 1 Series,8,Manual,58689,Petrol,145,47.9,1.6,7773.69
+1712, 3 Series,5,Automatic,61852,Diesel,200,49.6,3,17291.365
+1713, 1 Series,6,Manual,34271,Petrol,300,35.3,3,15667.53
+1714, 3 Series,7,Manual,58470,Diesel,30,62.8,2,11337.21
+1715, 2 Series,4,Manual,7329,Petrol,125,52.3,1.5,14548.945
+1716, 5 Series,4,Automatic,38002,Diesel,145,60.1,2,19094.94833
+1717, 6 Series,4,Automatic,23954,Petrol,260,36.7,3,19839.76
+1718, 3 Series,3,Manual,45344,Diesel,145,64.2,2,15682.835
+1719, 1 Series,5,Manual,30445,Petrol,125,53.3,1.5,11089.16
+1720, 4 Series,4,Manual,36163,Diesel,145,62.8,2,16459.455
+1721, 4 Series,5,Manual,43480,Diesel,30,62.8,2,15001.295
+1722, 1 Series,5,Manual,11734,Petrol,125,53.3,1.5,12531.405
+1723, 3 Series,5,Automatic,24585,Diesel,145,56.5,3,17479.195
+1724, 3 Series,3,Automatic,28918,Diesel,145,64.2,2,18890.085
+1725, 1 Series,2,Automatic,11961,Diesel,145,47.9,1.5,19799.18
+1726, 1 Series,7,Manual,10503,Petrol,145,50.4,1.6,12597.47
+1727, 2 Series,5,Automatic,17097,Diesel,20,68.9,0,14414.4
+1728, X1,6,Automatic,27460,Diesel,125,57.6,2,15780.486
+1729, 2 Series,4,Manual,22397,Petrol,125,52.3,1.5,13587.805
+1730, 1 Series,3,Automatic,16313,Petrol,145,55.5,1.5,16116.02
+1731, 1 Series,4,Automatic,22396,Petrol,145,54.3,1.5,15488.96
+1732, 1 Series,6,Manual,37391,Diesel,30,65.7,2,12068.23
+1733, 1 Series,6,Automatic,31141,Diesel,30,64.2,2,14512.115
+1734, 4 Series,4,Automatic,23609,Diesel,125,60.1,2,18263.395
+1735, 2 Series,4,Automatic,39370,Diesel,150,68.9,2,14228.3
+1736, 8 Series,2,Automatic,953,Petrol,145,26.9,4.4,20638.3525
+1737, 4 Series,2,Automatic,6751,Petrol,145,48.7,2,24308.65736
+1738, 2 Series,3,Manual,15621,Diesel,145,60.1,2,17259.955
+1739, 3 Series,3,Automatic,17500,Petrol,150,54.3,1.5,16382.47
+1740, X5,6,Automatic,27947,Diesel,235,42.8,3,28872.775
+1741, 2 Series,6,Automatic,27419,Diesel,30,55.4,2,14845.181
+1742, X1,4,Automatic,14105,Diesel,150,60.1,2,21103.21
+1743, 2 Series,5,Manual,35437,Diesel,30,64.2,2,14430.23
+1744, X3,4,Automatic,35903,Diesel,145,54.3,2,21165.325
+1745, 1 Series,8,Manual,59824,Diesel,125,58.9,2,9227.69
+1746, 2 Series,5,Automatic,22901,Petrol,260,37.2,3,18959.755
+1747, X4,1,Automatic,100,Petrol,145,26.9,3,33675.7725
+1748, 3 Series,7,Manual,47701,Diesel,145,55.4,2,12839.375
+1749, X1,1,Manual,321,Diesel,145,50.4,2,27875.85667
+1750, 3 Series,6,Manual,34533,Diesel,125,60.1,2,13929.6
+1751, 3 Series,5,Automatic,84878,Diesel,0,74.3,2,11266.94
+1752, X3,5,Automatic,35121,Diesel,145,54.3,2,20669.65
+1753, 4 Series,5,Automatic,129590,Petrol,150,48.7,2,10783.32
+1754, 2 Series,4,Manual,66410,Petrol,260,36.2,3,11058.99
+1755, 5 Series,7,Automatic,65520,Diesel,30,62.8,2,11446.78
+1756, 1 Series,7,Manual,102520,Diesel,30,62.8,2,9158.64
+1757, 3 Series,5,Automatic,56140,Hybrid,0,148.7,2,13144.8
+1758, 1 Series,7,Manual,25000,Diesel,0,74.3,1.6,10262.7
+1759, 3 Series,7,Manual,99920,Diesel,125,58.9,2,10174.515
+1760, 3 Series,7,Manual,130340,Diesel,145,55.4,2,10028.88
+1761, 3 Series,6,Automatic,36816,Diesel,30,70.6,2,13179.095
+1762, 3 Series,6,Manual,71915,Diesel,20,68.9,2,9134.15
+1763, X3,5,Automatic,81050,Diesel,150,54.3,2,13702.41
+1764, 2 Series,6,Automatic,32882,Diesel,125,60.1,0,14789.5675
+1765, 5 Series,7,Automatic,48280,Diesel,30,62.8,2,13039.26
+1766, X5,3,Automatic,19750,Diesel,140,47.1,3,34506.06
+1767, 3 Series,4,Automatic,29528,Diesel,145,64.2,2,17838.03587
+1768, 3 Series,3,Automatic,13590,Diesel,150,64.2,2,20880.46417
+1769, 2 Series,6,Automatic,64888,Diesel,20,68.9,2,11586.77
+1770, 3 Series,5,Manual,18520,Petrol,200,43.5,2,12598.725
+1771, 5 Series,4,Automatic,21319,Diesel,145,62.8,2,20793.175
+1772, 1 Series,4,Automatic,29000,Petrol,205,39.8,3,20138.54
+1773, 5 Series,7,Automatic,92000,Diesel,125,57.6,2,12104.715
+1774, 2 Series,5,Manual,45930,Petrol,145,48.7,1.5,12392.59
+1775, 4 Series,5,Manual,45253,Diesel,30,67.3,2,13404.575
+1776, 3 Series,4,Automatic,52716,Diesel,145,70.6,2,13006.1
+1777, 3 Series,3,Automatic,10591,Diesel,145,67.3,2,17748.53
+1778, X1,8,Automatic,33412,Diesel,160,52.3,2,12435.1025
+1779, 4 Series,6,Automatic,33689,Diesel,20,70.6,2,14944.96
+1780, 1 Series,9,Manual,85827,Diesel,30,62.8,2,7140.65
+1781, 1 Series,3,Manual,23635,Diesel,145,72.4,1.5,14304.35
+1782, 2 Series,4,Automatic,29122,Petrol,125,51.4,1.5,15094.235
+1783, 3 Series,7,Manual,94347,Diesel,30,65.7,2,9343.865
+1784, 1 Series,3,Manual,13094,Petrol,145,37.7,1.5,15286.98
+1785, 1 Series,3,Automatic,30400,Petrol,145,39.8,3,21259.4025
+1786, 4 Series,5,Automatic,64997,Diesel,145,55.4,3,17513.745
+1787, 3 Series,8,Automatic,43425,Diesel,125,57.6,3,15032.65
+1788, 3 Series,4,Automatic,20771,Diesel,145,64.2,2,17202.91671
+1789, 1 Series,6,Automatic,48916,Petrol,235,37.7,3,16035.835
+1790, 5 Series,5,Automatic,64231,Diesel,145,53.3,3,16997.71
+1791, 5 Series,6,Automatic,79315,Diesel,30,62.8,2,11491.175
+1792, 1 Series,5,Manual,26146,Petrol,125,53.3,1.5,11810.955
+1793, 1 Series,7,Automatic,48343,Diesel,125,60.1,2,13058.79
+1794, 1 Series,6,Manual,56941,Diesel,0,83.1,1.5,9319.715
+1795, X3,4,Automatic,36204,Diesel,145,54.3,2,20936.35
+1796, 3 Series,5,Automatic,31499,Diesel,145,54.3,3,17829.195
+1797, X1,5,Automatic,22780,Petrol,160,44.8,2,20746.491
+1798, 3 Series,4,Automatic,15537,Diesel,30,64.2,2,19330.68875
+1799, 4 Series,4,Manual,27599,Diesel,150,62.8,2,17420.17
+1800, M4,1,Automatic,10,Petrol,150,34,3,37323.5585
+1801, M4,1,Automatic,10,Petrol,150,34,3,37323.5585
+1802, 4 Series,4,Automatic,23910,Petrol,145,41.5,3,21652.66833
+1803, 1 Series,2,Automatic,7559,Petrol,145,55.5,1.5,16048.93
+1804, X3,6,Automatic,21512,Diesel,145,54.3,2,17301.93722
+1805, 4 Series,3,Automatic,21770,Petrol,145,41.5,3,24336.49
+1806, X3,1,Automatic,5000,Diesel,145,54.3,2,34829.305
+1807, 1 Series,2,Automatic,3574,Petrol,145,40.4,1.5,26218.189
+1808, X5,2,Automatic,6560,Petrol,145,27.2,3,22518
+1809, 6 Series,2,Automatic,3693,Diesel,145,47.9,3,32255.80879
+1810, 3 Series,1,Automatic,5000,Petrol,145,34.9,3,39917.695
+1811, 3 Series,5,Automatic,49477,Diesel,145,53.3,3,16928.77
+1812, X6,2,Automatic,5000,Petrol,145,26.4,3,20298.5
+1813, 5 Series,4,Automatic,23500,Petrol,145,39.2,3,27693.94333
+1814, 5 Series,4,Automatic,34640,Diesel,145,60.1,3,25576.82
+1815, 4 Series,6,Manual,38974,Petrol,200,42.8,2,13105.17
+1816, 1 Series,5,Manual,17084,Diesel,0,78.5,1.5,11377.59333
+1817, X2,2,Automatic,9401,Diesel,145,58.9,2,27227.95225
+1818, 1 Series,1,Automatic,5000,Petrol,145,40.4,1.5,25087.14
+1819, 3 Series,4,Automatic,16074,Diesel,145,49.6,3,23320.52167
+1820, M4,3,Manual,9662,Petrol,145,31,3,34176.9175
+1821, 1 Series,7,Automatic,25975,Petrol,145,48.7,1.6,11833.935
+1822, 2 Series,1,Automatic,1221,Diesel,145,49.6,2,28695.61873
+1823, 2 Series,4,Manual,85600,Petrol,145,55.4,1.5,7241.26
+1824, 2 Series,1,Automatic,5000,Diesel,145,48.7,2,28044.21583
+1825, X3,4,Automatic,22800,Diesel,150,48.7,3,25370.27
+1826, X3,7,Automatic,72430,Diesel,145,54.3,2,14602.14
+1827, 4 Series,7,Manual,141300,Diesel,125,58.9,2,10965.13
+1828, 2 Series,4,Automatic,88100,Hybrid,0,141.2,1.5,13744.665
+1829, X1,5,Manual,71720,Diesel,20,68.9,2,12225.61
+1830, X1,4,Automatic,34959,Petrol,150,44.8,2,18559.68
+1831, 3 Series,7,Semi-Auto,64260,Diesel,165,52.3,3,15119.30667
+1832, 3 Series,7,Manual,56300,Diesel,125,58.9,2,11740.185
+1833, X4,6,Automatic,51536,Diesel,200,47.9,3,19594.65
+1834, 5 Series,7,Automatic,56000,Diesel,145,53.3,3,14494.755
+1835, 1 Series,4,Automatic,30139,Petrol,200,39.8,3,19955.73
+1836, Z4,9,Manual,47800,Petrol,200,41.5,2,10247.295
+1837, 3 Series,6,Manual,48402,Diesel,30,62.8,2,12733.775
+1838, M4,3,Automatic,9210,Petrol,145,34,3,36926.9375
+1839, 3 Series,12,Manual,80000,Petrol,160,45.6,2,8348.615
+1840, 1 Series,8,Manual,46057,Diesel,20,68.9,2,9362.84
+1841, 5 Series,11,Automatic,85724,Diesel,200,46.3,3,12126.27
+1842, i3,6,Automatic,79830,Hybrid,0,470.8,0,10366.9
+1843, 5 Series,9,Automatic,48417,Diesel,125,60.1,2,10808.81667
+1844, 1 Series,8,Manual,60000,Diesel,30,65.7,1.6,7888.355
+1845, 1 Series,8,Manual,84000,Diesel,20,68.9,2,7881.215
+1846, 1 Series,6,Manual,35000,Petrol,125,51.4,1.6,10702.87
+1847, 3 Series,12,Manual,70000,Petrol,165,47.9,2,8577.79
+1848, 5 Series,8,Manual,65000,Diesel,125,58.9,2,9110.21
+1849, 5 Series,10,Automatic,74000,Diesel,145,53.3,2,8780.32
+1850, 5 Series,6,Manual,83643,Diesel,125,60.1,2,9656.9
+1851, 5 Series,11,Manual,75000,Diesel,145,55.4,2,7699.86
+1852, 2 Series,5,Manual,49636,Petrol,125,53.3,1.5,11777.995
+1853, X3,12,Manual,70000,Diesel,195,45.6,2,9802.175
+1854, 1 Series,5,Manual,69647,Diesel,0,78.5,1.5,9636.61
+1855, 3 Series,5,Automatic,33078,Hybrid,0,134.5,2,15491.46
+1856, 1 Series,13,Manual,107407,Diesel,150,54.3,2,6862.425
+1857, 4 Series,6,Manual,36781,Diesel,145,53.3,2,14735.08
+1858, 3 Series,6,Automatic,50713,Petrol,125,51.4,2,12997.495
+1859, 2 Series,5,Manual,18840,Petrol,125,52.3,1.5,12756.49
+1860, X3,6,Automatic,39744,Diesel,145,54.3,2,18751.415
+1861, 1 Series,6,Manual,64716,Diesel,30,65.7,2,9781.2
+1862, X5,5,Automatic,41464,Hybrid,0,85.6,2,29967.075
+1863, X4,5,Automatic,43751,Diesel,145,54.3,2,20852.135
+1864, 1 Series,5,Manual,36240,Diesel,0,83.1,1.5,11151.4
+1865, 1 Series,6,Automatic,38573,Diesel,20,68.9,1.5,12739.99
+1866, 3 Series,7,Automatic,70796,Diesel,160,50.4,3,15701.45677
+1867, 3 Series,5,Manual,38206,Diesel,30,64.2,2,14195.74
+1868, X1,8,Automatic,49599,Diesel,160,52.3,2,10342.69
+1869, 1 Series,5,Manual,31615,Diesel,0,78.5,1.5,11127.375
+1870, 6 Series,5,Automatic,50475,Diesel,200,49.6,3,18553.14
+1871, X5,5,Automatic,57146,Diesel,160,50.4,2,23737.015
+1872, 4 Series,4,Automatic,33711,Diesel,145,65.7,2,18359.33393
+1873, 3 Series,20,Automatic,90000,Petrol,325,27.7,3,10441.7825
+1874, 3 Series,8,Automatic,79144,Diesel,30,62.8,2,9412.57
+1875, 3 Series,7,Manual,47059,Diesel,30,61.4,2,11424.095
+1876, X1,8,Automatic,60665,Diesel,160,52.3,2,10891.68292
+1877, 1 Series,4,Manual,14646,Diesel,30,65.7,2,15137.93
+1878, 3 Series,14,Automatic,124200,Diesel,260,40.9,2,11329.15
+1879, 1 Series,3,Manual,14287,Diesel,145,65.7,2,17221.775
+1880, 1 Series,6,Manual,56278,Diesel,20,70.6,1.5,10308.155
+1881, 2 Series,5,Automatic,49981,Diesel,20,72.4,1.5,11638.02
+1882, 3 Series,6,Manual,65412,Diesel,20,68.9,2,10213.585
+1883, X5,5,Automatic,26185,Hybrid,0,85.6,2,30398.525
+1884, 4 Series,4,Automatic,29383,Diesel,145,65.7,2,18306.44217
+1885, 1 Series,5,Manual,37087,Diesel,0,83.1,1.5,10808.035
+1886, X4,6,Automatic,95408,Diesel,145,54.3,2,16251.715
+1887, 3 Series,5,Automatic,30333,Hybrid,0,134.5,2,15572.965
+1888, X1,5,Automatic,30405,Diesel,125,57.6,2,19811.91
+1889, 2 Series,6,Automatic,41704,Diesel,30,61.4,2,14586.49
+1890, 2 Series,7,Automatic,45868,Petrol,145,47.1,2,12619.49
+1891, 5 Series,5,Automatic,37786,Diesel,30,62.8,2,14852.173
+1892, X1,5,Automatic,44890,Diesel,125,57.6,2,17266.485
+1893, 1 Series,5,Manual,25281,Petrol,125,53.3,1.5,11777.81
+1894, 2 Series,5,Manual,13267,Petrol,125,52.3,1.5,13618.62
+1895, X5,5,Automatic,23747,Hybrid,0,85.6,2,30094.935
+1896, X5,5,Automatic,59154,Diesel,200,47.1,3,26383.925
+1897, 3 Series,5,Automatic,95217,Diesel,0,74.3,2,11273.89
+1898, 4 Series,5,Manual,24280,Diesel,30,62.8,2,17334.05917
+1899, 5 Series,7,Automatic,34758,Diesel,125,57.6,2,13921.06
+1900, 3 Series,4,Automatic,14500,Hybrid,0,134.5,2,15359.905
+1901, 2 Series,5,Automatic,87743,Diesel,20,72.4,1.5,11249.575
+1902, X2,3,Automatic,11941,Diesel,145,58.9,2,28801.07
+1903, X3,7,Automatic,77129,Diesel,145,54.3,2,14202.175
+1904, 7 Series,4,Automatic,22000,Petrol,150,22.1,6.6,17517.765
+1905, 3 Series,3,Automatic,15377,Diesel,145,56.5,3,22330.335
+1906, 1 Series,4,Manual,20064,Petrol,145,53.3,1.5,13431.64
+1907, X3,4,Automatic,26986,Diesel,145,54.3,2,21982.19
+1908, 1 Series,5,Manual,26141,Diesel,0,78.5,1.5,11313.325
+1909, 3 Series,7,Manual,49969,Diesel,30,61.4,2,12105.315
+1910, 1 Series,5,Manual,18644,Diesel,0,78.5,1.5,10207.92
+1911, 1 Series,7,Automatic,38809,Petrol,145,48.7,1.6,11573.42
+1912, 1 Series,8,Manual,56000,Diesel,30,64.2,2,9195.06
+1913, X1,4,Manual,41950,Diesel,20,68.9,2,14458
+1914, 5 Series,6,Automatic,50355,Diesel,30,62.8,2,13943.53
+1915, X3,6,Manual,51715,Diesel,160,52.3,2,12400.99
+1916, 5 Series,14,Manual,150000,Diesel,205,46.3,2,7902.775
+1917, 7 Series,4,Automatic,73348,Diesel,145,54.3,3,15206.305
+1918, 3 Series,5,Manual,51098,Diesel,30,64.2,2,13359.595
+1919, 1 Series,2,Manual,11191,Petrol,145,53.3,1.5,15799.855
+1920, 2 Series,5,Manual,39613,Diesel,30,65.7,2,12050.225
+1921, 5 Series,5,Automatic,20724,Diesel,160,51.4,3,19990.195
+1922, 2 Series,2,Manual,7378,Petrol,150,52.3,1.5,18390.865
+1923, 4 Series,7,Manual,105850,Diesel,125,58.9,2,10965.13
+1924, 5 Series,6,Automatic,106170,Diesel,160,51.4,3,12961.12
+1925, 3 Series,5,Manual,88090,Diesel,20,72.4,2,9333.115
+1926, 4 Series,6,Manual,99340,Diesel,30,62.8,2,10891.45
+1927, 1 Series,7,Manual,80207,Diesel,30,62.8,2,9293.64
+1928, 1 Series,7,Automatic,12528,Petrol,125,50.4,1.6,13079.15167
+1929, 3 Series,13,Automatic,141000,Petrol,235,39.8,3,11836.165
+1930, 3 Series,17,Manual,162000,Diesel,205,49.6,2,7933.635
+1931, 4 Series,2,Automatic,6890,Diesel,145,65.7,2,25074.31881
+1932, 1 Series,5,Manual,49761,Diesel,0,83.1,1.5,9936.655
+1933, 2 Series,4,Automatic,21697,Petrol,30,55.4,1.5,14237.555
+1934, 5 Series,5,Automatic,34143,Diesel,160,51.4,3,18902.595
+1935, X5,7,Automatic,72442,Diesel,200,47.1,3,23640.655
+1936, 3 Series,9,Automatic,64191,Diesel,160,50.4,2,9688.805
+1937, 1 Series,11,Manual,93800,Diesel,30,62.8,2,7140.65
+1938, 1 Series,7,Manual,53310,Diesel,30,62.8,2,10818.03
+1939, 5 Series,5,Automatic,96620,Diesel,30,62.8,2,12804.5
+1940, 3 Series,6,Automatic,75800,Diesel,145,55.4,2,12652.835
+1941, X1,8,Manual,32000,Diesel,125,57.6,2,10801.295
+1942, M4,2,Automatic,299,Petrol,145,32.5,3,23738.02958
+1943, X1,2,Manual,12159,Petrol,150,51.4,1.5,21154.465
+1944, X3,2,Automatic,6797,Petrol,145,30.4,2,33584.74925
+1945, Z4,13,Manual,63000,Petrol,325,31.7,3,12147.425
+1946, M4,2,Automatic,1326,Petrol,145,34,3,22195.4825
+1947, 4 Series,2,Automatic,1510,Petrol,145,48.7,2,30196.24631
+1948, 2 Series,2,Automatic,4259,Petrol,145,39.8,3,27372.805
+1949, 3 Series,7,Manual,59000,Diesel,125,58.9,2,11257.65
+1950, X1,5,Automatic,24999,Diesel,125,57.6,2,18811.11
+1951, X5,4,Automatic,29183,Diesel,150,47.1,3,29829.725
+1952, 3 Series,5,Automatic,26000,Other,0,134.5,2,15502.665
+1953, 1 Series,4,Automatic,18000,Petrol,205,39.8,3,21559.185
+1954, X3,4,Automatic,10897,Diesel,150,54.3,2,22246.5
+1955, 4 Series,7,Automatic,18000,Diesel,160,50.4,3,13315.38
+1956, 2 Series,4,Automatic,14000,Diesel,145,65.7,2,16863.94
+1957, X5,5,Automatic,20000,Petrol,570,25.4,4.4,36756.125
+1958, X6,7,Automatic,68787,Diesel,305,37.7,3,17956.635
+1959, 1 Series,4,Automatic,20000,Petrol,150,39.8,3,20709.98333
+1960, 3 Series,7,Manual,51000,Diesel,125,57.6,2,12224.87
+1961, 1 Series,8,Automatic,62000,Diesel,30,64.2,2,10918.51601
+1962, X7,2,Automatic,15000,Diesel,145,31.4,3,23537.835
+1963, 1 Series,9,Manual,58000,Diesel,30,62.8,2,7490.665
+1964, 5 Series,9,Automatic,84000,Diesel,165,51.4,3,11825.605
+1965, 1 Series,9,Manual,60000,Diesel,125,58.9,2,7374.87
+1966, X3,8,Automatic,30000,Diesel,165,50.4,2,12564.54417
+1967, X5,4,Automatic,21470,Diesel,145,45.6,3,32235.185
+1968, 3 Series,5,Automatic,45000,Diesel,160,49.6,3,18909.68
+1969, 3 Series,8,Manual,50708,Petrol,200,41.5,2,10186.785
+1970, 2 Series,5,Automatic,34391,Diesel,20,68.9,1.5,13426.395
+1971, 1 Series,7,Automatic,28893,Petrol,235,37.7,3,17276.115
+1972, 1 Series,6,Automatic,32000,Petrol,235,37.7,3,19305.005
+1973, 1 Series,5,Manual,82850,Diesel,0,83.1,1.5,8413.965
+1974, X3,10,Automatic,72500,Diesel,165,50.4,2,11814.56
+1975, 3 Series,12,Manual,77000,Diesel,145,53.3,2,8423.765
+1976, 5 Series,9,Automatic,129000,Diesel,165,51.4,3,11623.5
+1977, 5 Series,9,Manual,56700,Diesel,30,62.8,2,8311.905
+1978, X3,4,Automatic,55780,Diesel,150,54.3,2,17171.81
+1979, X5,2,Automatic,11900,Diesel,145,37.7,3,41892.875
+1980, X5,4,Automatic,30749,Diesel,145,47.1,3,30478.295
+1981, 1 Series,9,Manual,73853,Diesel,125,60.1,2,7129.495
+1982, 1 Series,8,Automatic,45000,Petrol,235,37.7,3,15543.445
+1983, 1 Series,3,Automatic,24791,Petrol,150,55.5,1.5,15558.165
+1984, X1,4,Manual,33941,Diesel,125,58.9,2,16616.445
+1985, X1,8,Manual,67000,Diesel,160,51.4,2,8375.33
+1986, X3,7,Automatic,107000,Diesel,165,50.4,2,13640.03
+1987, 5 Series,8,Automatic,108000,Diesel,125,57.6,2,10684.975
+1988, 3 Series,14,Manual,103000,Diesel,205,49.6,2,7933.635
+1989, 3 Series,9,Automatic,85000,Diesel,20,68.9,2,9231.01
+1990, 5 Series,14,Automatic,129000,Diesel,330,35.8,2.5,11210.63
+1991, 2 Series,2,Automatic,12790,Diesel,145,51.4,2,20566.165
+1992, 1 Series,6,Automatic,17543,Diesel,20,70.6,2,11202.41401
+1993, 1 Series,6,Manual,85000,Diesel,0,83.1,1.5,8229.1
+1994, 1 Series,4,Automatic,40511,Diesel,145,62.8,2,16235.06833
+1995, 1 Series,5,Manual,17863,Diesel,0,83.1,1.5,11317.96833
+1996, 1 Series,8,Automatic,53346,Petrol,145,48.7,1.6,9925.265
+1997, 2 Series,5,Manual,11338,Diesel,30,65.7,2,15121.655
+1998, 5 Series,4,Automatic,39728,Diesel,125,60.1,2,15895.475
+1999, 1 Series,2,Automatic,4176,Petrol,145,55.5,1.5,18170.24
+2000, 3 Series,5,Automatic,32869,Diesel,30,67.3,2,14602.09
+2001, 1 Series,4,Automatic,24614,Petrol,150,58.9,1.5,14784.17
+2002, X1,7,Automatic,37905,Diesel,165,52.3,2,12858.3
+2003, 3 Series,5,Automatic,73178,Diesel,20,70.6,2,12052.845
+2004, 5 Series,5,Automatic,83189,Diesel,20,68.9,2,12139.64
+2005, X7,2,Automatic,3980,Diesel,145,31.4,3,20298.5
+2006, 2 Series,2,Automatic,9490,Petrol,145,39.2,1.5,19237.585
+2007, 3 Series,5,Automatic,34303,Petrol,125,54.3,1.5,13164.43
+2008, X1,5,Automatic,51505,Diesel,30,65.7,2,15055.625
+2009, 3 Series,5,Automatic,16319,Diesel,30,64.2,2,16739.01
+2010, 1 Series,5,Manual,17941,Petrol,125,53.3,1.5,12999.575
+2011, 5 Series,7,Manual,50347,Diesel,125,57.6,2,11782.91
+2012, 5 Series,4,Automatic,28893,Diesel,150,68.9,2,19139.225
+2013, X1,11,Automatic,90000,Diesel,200,45.6,2,10029.165
+2014, 3 Series,7,Automatic,58436,Diesel,145,56.5,2,13034.5075
+2015, 7 Series,4,Automatic,22363,Diesel,150,60.1,3,29038.445
+2016, 1 Series,6,Manual,59496,Diesel,0,83.1,1.5,9154.545
+2017, 1 Series,5,Automatic,81751,Diesel,0,78.5,1.5,11431.305
+2018, 1 Series,7,Manual,35974,Diesel,0,74.3,1.6,10046.42
+2019, 5 Series,6,Automatic,33731,Diesel,30,62.8,2,14883.86
+2020, X3,5,Automatic,26464,Diesel,145,54.3,2,20069.71
+2021, 1 Series,4,Manual,21323,Petrol,145,52.3,1.5,13591.385
+2022, 2 Series,5,Automatic,44511,Diesel,30,64.2,2,15199.094
+2023, 5 Series,5,Automatic,91587,Diesel,165,51.4,3,14112.48
+2024, 5 Series,5,Automatic,28344,Diesel,30,62.8,2,16257.43896
+2025, 3 Series,4,Manual,39461,Diesel,145,64.2,2,14438.34
+2026, 1 Series,4,Manual,18716,Diesel,145,65.7,2,12983.39476
+2027, 3 Series,7,Automatic,38055,Diesel,30,62.8,2,13176.59875
+2028, 1 Series,4,Manual,28850,Diesel,145,70.6,1.5,13360.365
+2029, 5 Series,5,Manual,89823,Diesel,30,62.8,2,10653.975
+2030, 3 Series,5,Automatic,23114,Diesel,145,53.3,3,18646.6725
+2031, 3 Series,10,Manual,131000,Diesel,30,62.8,2,7586.625
+2032, 3 Series,11,Manual,80000,Petrol,165,44.8,2,8288.87
+2033, 3 Series,7,Automatic,78871,Diesel,30,62.8,2,10842.82
+2034, 5 Series,5,Automatic,55573,Diesel,30,62.8,2,14990.735
+2035, 3 Series,4,Manual,21478,Diesel,145,58.9,2,15995.41
+2036, 1 Series,4,Manual,26050,Diesel,145,68.9,2,12634.835
+2037, 5 Series,9,Manual,73350,Diesel,125,57.6,2,7757.235
+2038, 1 Series,4,Automatic,29828,Diesel,20,67.3,2,15161.11
+2039, X1,4,Automatic,24852,Diesel,150,65.7,2,17933.89536
+2040, 1 Series,5,Manual,33725,Diesel,0,83.1,1.5,11113.405
+2041, 3 Series,4,Automatic,14173,Petrol,145,54.3,1.5,16104.125
+2042, 3 Series,4,Automatic,23243,Petrol,165,44.8,2,15300.46189
+2043, 3 Series,4,Automatic,21877,Diesel,150,51.4,3,23550.025
+2044, 5 Series,5,Automatic,33472,Diesel,30,62.8,2,16417.38458
+2045, 1 Series,4,Manual,23787,Diesel,0,83.1,1.5,12208.49
+2046, 4 Series,6,Automatic,76660,Diesel,125,57.6,2,13684.035
+2047, 4 Series,5,Automatic,34938,Petrol,160,45.6,2,17488.425
+2048, X6,8,Automatic,77014,Diesel,300,38.2,3,16511.79
+2049, X5,8,Automatic,42815,Diesel,300,37.7,3,18837.29583
+2050, 3 Series,7,Automatic,28000,Diesel,30,62.8,2,13641.28833
+2051, 1 Series,4,Manual,50927,Diesel,145,72.4,1.5,11180.97
+2052, X4,4,Automatic,44397,Diesel,200,47.1,3,23899.835
+2053, 4 Series,3,Automatic,48052,Petrol,145,48.7,2,17377.47
+2054, X5,5,Automatic,35499,Diesel,200,47.1,3,28979.58
+2055, M4,4,Automatic,52911,Petrol,300,34,3,31792.195
+2056, 5 Series,6,Manual,85725,Diesel,30,65.7,2,9790.47
+2057, 1 Series,5,Manual,44028,Diesel,20,72.4,1.5,10229.9
+2058, 4 Series,6,Automatic,35000,Diesel,30,65.7,2,15908
+2059, 3 Series,5,Automatic,55100,Diesel,145,54.3,3,17261.615
+2060, 3 Series,4,Automatic,36226,Other,140,148.7,2,15120.82
+2061, X3,6,Automatic,42437,Diesel,145,54.3,2,18501.59
+2062, 1 Series,3,Automatic,8303,Petrol,145,37.2,1.5,15615.365
+2063, 3 Series,5,Automatic,91707,Diesel,150,53.3,3,14667.4475
+2064, 1 Series,4,Manual,26505,Diesel,0,83.1,1.5,11451.875
+2065, 4 Series,3,Automatic,20024,Petrol,145,45.6,2,21073.45
+2066, 6 Series,4,Automatic,27828,Diesel,200,49.6,3,23380.015
+2067, 3 Series,6,Automatic,74317,Diesel,150,55.4,2,12949.065
+2068, X3,4,Automatic,35902,Diesel,150,54.3,2,21132.675
+2069, X3,6,Automatic,58802,Diesel,145,54.3,2,17805.405
+2070, 7 Series,8,Automatic,81035,Diesel,160,50.4,3,12361.735
+2071, 1 Series,4,Manual,21166,Diesel,150,72.4,1.5,12678
+2072, 2 Series,4,Automatic,31096,Diesel,150,68.9,2,14705.64
+2073, X3,5,Automatic,80895,Diesel,145,54.3,2,13971.185
+2074, 4 Series,5,Manual,19415,Diesel,30,65.7,2,14210.95667
+2075, 3 Series,5,Automatic,58174,Diesel,30,67.3,2,12255.93
+2076, 4 Series,5,Automatic,57991,Diesel,30,65.7,2,14283.85
+2077, 3 Series,5,Manual,82156,Petrol,125,52.3,1.5,10420.985
+2078, 3 Series,4,Manual,33600,Diesel,30,64.2,2,15348.265
+2079, X6,7,Automatic,34990,Diesel,305,38.2,3,18461.925
+2080, 3 Series,3,Automatic,23449,Diesel,145,64.2,2,19820.505
+2081, 1 Series,4,Manual,85940,Diesel,0,83.1,1.5,9215.845
+2082, 3 Series,4,Manual,34098,Diesel,145,64.2,2,15537.75929
+2083, 1 Series,6,Manual,36383,Petrol,125,53.3,1.5,10760.99
+2084, 4 Series,5,Automatic,41838,Diesel,145,54.3,2,17095.36
+2085, i3,4,Automatic,50867,Other,135,470.8,0.6,13735.835
+2086, 5 Series,5,Automatic,69736,Diesel,30,62.8,2,12749.81
+2087, 3 Series,5,Automatic,19786,Diesel,30,67.3,2,14258.17958
+2088, X1,4,Manual,46912,Diesel,145,68.9,2,13720.19
+2089, 3 Series,4,Automatic,35134,Diesel,145,64.2,2,16347.1612
+2090, 6 Series,7,Automatic,67476,Diesel,160,49.6,3,17024.245
+2091, 3 Series,4,Automatic,49373,Diesel,145,70.6,2,12929.115
+2092, 3 Series,2,Automatic,10206,Petrol,145,47.9,2,25890.51
+2093, 2 Series,4,Automatic,17740,Diesel,150,68.9,2,14958.73
+2094, X1,5,Manual,29541,Diesel,125,60.1,2,16910.16
+2095, 3 Series,4,Automatic,34544,Diesel,145,56.5,3,17975.915
+2096, 3 Series,4,Automatic,39594,Diesel,160,51.4,3,18785.105
+2097, 1 Series,4,Manual,60281,Diesel,20,70.6,1.5,9919.885
+2098, 1 Series,4,Manual,18942,Petrol,145,53.3,1.5,12849.38
+2099, X3,4,Automatic,44585,Diesel,145,54.3,2,19457.155
+2100, 4 Series,5,Automatic,30556,Diesel,30,62.8,2,17470.085
+2101, 4 Series,5,Automatic,83359,Diesel,30,65.7,2,13939.955
+2102, X1,4,Automatic,26573,Diesel,150,65.7,2,17846.19286
+2103, 3 Series,4,Automatic,86735,Diesel,30,64.2,2,12663.745
+2104, 3 Series,6,Manual,46015,Diesel,125,58.9,2,13709.045
+2105, X3,5,Automatic,24435,Diesel,200,47.9,3,21107.16
+2106, 3 Series,6,Automatic,62139,Petrol,200,41.5,2,11984.855
+2107, X3,5,Automatic,70232,Diesel,200,47.9,3,16724.605
+2108, 5 Series,5,Automatic,28217,Diesel,30,62.8,2,16260.25396
+2109, 5 Series,2,Automatic,11476,Petrol,145,50.4,2,23969.925
+2110, X4,5,Automatic,42576,Diesel,200,47.9,3,22738.235
+2111, X3,12,Automatic,95000,Diesel,260,42.2,2,11864.095
+2112, X1,5,Automatic,8000,Petrol,160,44.8,2,20986.37
+2113, 2 Series,2,Automatic,1000,Petrol,145,50.4,2,21534.04125
+2114, 3 Series,5,Manual,59222,Diesel,125,60.1,2,12727.04
+2115, 1 Series,5,Manual,36792,Diesel,20,68.9,2,11716.125
+2116, 4 Series,6,Automatic,39000,Diesel,30,65.7,2,15551.855
+2117, 3 Series,4,Automatic,22300,Diesel,205,49.6,3,19102.4
+2118, 3 Series,6,Automatic,36000,Diesel,160,52.3,3,16963.875
+2119, 3 Series,4,Automatic,28000,Diesel,205,49.6,3,19629.68
+2120, 3 Series,4,Automatic,15000,Diesel,145,51.4,3,22601.31
+2121, 3 Series,4,Automatic,22248,Diesel,150,64.2,2,17904.70214
+2122, X5,6,Automatic,47000,Diesel,200,47.1,3,25892.56
+2123, 1 Series,5,Manual,61786,Diesel,0,83.1,1.5,9548.005
+2124, X1,6,Automatic,44978,Diesel,125,57.6,2,15127.19
+2125, 5 Series,8,Automatic,33279,Diesel,120,60.1,2,12205.6675
+2126, 2 Series,7,Manual,57000,Diesel,125,58.9,2,11029.62
+2127, 3 Series,7,Automatic,48100,Diesel,160,52.3,3,15691.545
+2128, X1,5,Automatic,13165,Diesel,145,55.4,2,19682.18167
+2129, 5 Series,12,Automatic,87000,Diesel,160,50.4,2,9896.355
+2130, 2 Series,2,Automatic,13955,Petrol,145,50.4,1.5,19804.105
+2131, 3 Series,16,Automatic,63000,Diesel,260,42.2,2,12253.48
+2132, X3,7,Automatic,43307,Diesel,145,54.3,2,16254.145
+2133, 1 Series,5,Manual,53177,Diesel,0,78.5,1.5,9771.53
+2134, 1 Series,5,Manual,54596,Diesel,0,83.1,1.5,9394.065
+2135, 5 Series,5,Automatic,67530,Diesel,30,62.8,2,13828.695
+2136, 1 Series,7,Automatic,45000,Diesel,30,64.2,2,11631.8

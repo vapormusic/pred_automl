@@ -1,0 +1,1496 @@
+---
+title: "Final project: Predictive Analytics"
+author: "Nguyen Thi Khanh Huyen, Le Ngoc Mai, Nguyen Thi Vinh Thuy, Tran Viet Anh and Le Pham Duy"
+date: "12/22/2021"
+output:
+  rmdformats::downcute:
+    self_contained: true
+    highlight: kate
+    cache: true
+    code_folding: "show"
+    default_style: "light"
+    downcute_theme: "default"
+    number_sections: true
+    
+  word_document: default
+header-includes:
+- \usepackage{tikz}
+- \usepackage{pgfplots}
+- \usetikzlibrary{arrows,automata,positioning}
+- \usepackage[utf8]{inputenc}
+- \usepackage[utf8]{vietnam}
+- \usepackage{etoolbox}
+- \usepackage{xcolor}
+- \makeatletter
+- \preto{\@verbatim}{\topsep=0pt \partopsep=-0pt}
+- \makeatother
+- \DeclareMathOperator*{\argmax}{arg\,max}
+- \newcommand\tstrut{\rule{0pt}{3ex}}
+- \newcommand\bstrut{\rule[-2.5ex]{0pt}{0pt}}
+---  
+---
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+```{css , echo= FALSE}
+/* Whole document: */
+body{
+  font-family: 'Lora', serif;
+  font-size: 12pt;
+  color : "342415"
+}
+
+#main .nav-pills > li.active > a,
+#main .nav-pills > li.active > a:hover,
+#main .nav-pills > li.active > a:focus {
+background-color: #22983B;
+}
+
+#main table:not(.dataTable) td, #main table:not(.dataTable) th {
+    font-size: 65%;
+    padding: 8px;
+}
+#main .nav-pills > li > a:hover {
+background-color: #22983B;
+}
+
+h1,h2,h3,h4,h5,h6,legend{
+color: #22983B;
+}
+
+#nav-top span.glyphicon {
+color: #22983B;
+}
+
+#table-of-contents header{
+color:#22983B;
+}
+
+#table-of-contents h2{
+background-color:#22983B;
+}
+
+#sidebar h2 {
+background-color:  #A2E4B8;
+}
+
+#sidebar h2 a{
+background-color:  black;
+}
+
+#main a {
+background-image: linear-gradient(180deg,#d64a70,#d64a70);
+color: blue;
+}
+
+a:hover{
+color: blue
+}
+
+a:visited{
+color: blue
+}
+
+.page-content h1, .page-content h2, .page-content h3{
+  font-weight: bold;
+}
+
+p.caption {
+            font-size: 0.9em;
+            font-style: italic;
+            color: black;
+            margin-right: 10%;
+            margin-left: 10%;  
+            text-align: justify;
+      }
+
+#Button
+  
+.btn {
+    border-width: 0 0px 0px 0px;
+    font-weight: normal;
+    text-transform: ;
+}
+
+.btn-default {
+    color: #2ecc71;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+```
+
+
+```{r, echo= FALSE}
+library(tidyverse)
+library(dplyr)
+library(readxl)
+library(ggpubr)
+library(patchwork)
+library(ggcorrplot)
+library(MASS)
+library(caret);
+library(rpart)
+library(plotly)
+library(DT)
+```
+
+```{r,echo=FALSE, results='hide'}
+set.seed(1000)
+setwd("C:\\Users\\vieta\\Downloadsloa\\Final PA")
+#dir()
+orig_data<-read.csv("train.csv")
+orig_test<-read.csv("test.csv")
+answer<-read_excel("answer.xlsx")
+```
+
+
+```{r echo=FALSE}
+orig_data$year = 2021 - orig_data$year
+orig_test$year = 2021 - orig_test$year
+```
+\newpage
+
+<p>&nbsp;</p>
+# **BACKGROUND **
+
+<p>&nbsp;</p>
+## Overview of all the models 
+
+Purpose of the study is providing a prediction for the prices of 2,136 used cars in the “test.csv” data based on “train.csv” data. Firstly, because there are only 7 independent variables, it is unnecessary to use algorithms relating to dimension reduction. Secondly, price is a continuous dependent variable. So, appropriate models for prediction are regression models. For both above reasons, we find out some possible models leading to the most accurate predictions. They are: 
+
+> **Linear Regression models**: Simple Regression, Ridge Regression, Lasso Regression, PLS Regression, Generalized Additive Model
+
+> **Tree-based models**: Decision tree with CART, Bagging, Random Forest, Gradient Boosting Tree, XGBoost 
+
+> **SVM Model**: SVM with kernel techniques 
+
+> **Network model**: Artificial Neural Network 
+
+> **Others**: Random coefficient model, Latent variable model, K-nearest neighbor Regressor, AutoML 
+
+Due to inference-prediction trade-off principle and the core aim of prediction, those models maybe create black-boxes and difficulties in explanation about how to build the model.  
+
+The listed models also called generally predicting models. In reality, this kind of model help to contemplating demand forecasts, planning workforce and customer churn analysis, in-depth analysis of the competitors, forecasting external factors that can affect your workflow, fleet maintenance, or identifying financial risks and modeling credit. Particularly, the chosen models are used to predict the price of a used BMW car in the USA. Here are 9 variables used for dataset  
+
+**No**| **Attribute**|**Description**  
+:-|:----|:-----------------
+1 |model|Car model
+2 |year|The year in which the vehicle was manufactured
+3 |price|The price of the vehicle.
+4 |transmission|Type of car transmission structure : Auto, Manual or Semi-Auto
+5 |mileage|The number of kilometers the vehicle has traveled.
+6 |fuelType|Type of fuel the car uses
+7 |tax|Annual fee that the car owner has to pay
+8 |mpg|The fuel consumption of the vehicle. Mpg is the number of kilometers the car can travel if using 1 gallon of gasoline.
+9 |engineSize|Cylinder capacity of the vehicle
+
+<p>&nbsp;</p>
+## Data Preprocessing 
+
+<p>&nbsp;</p>
+### Detect Outliers
+
+> An outlier is a data point that diverges from an overall pattern in a sample. Outliers lower the significance of the fit of a statistical model because they do not coincide with the model’s prediction. 
+
+> Moreover, Root Mean Square Errors (RMSE) is an important index reflecting the accuracy of models, but it is more sensitive to the examples with the largest difference. Hence, handling outliers is one of the keys in preprocessing.  
+
+> Solution: Qualitative variables are replaced with Mode and Quantitative variables are replaced with Mean. Eliminating outliers is applied for all models. 
+
+```{r}
+cols = c( "year","mileage")
+
+library(ggplot2)
+library(reshape2)
+x <- melt(as.data.frame(orig_data[,cols]))
+plt <- ggplot(data = x, aes(x = variable, y = value))
+plt + geom_boxplot(aes(fill=variable),alpha=0.5) + theme_minimal() + labs(x = "Outliers", y = "")
+
+```
+
+
+```{r}
+library(dplyr)
+outlier_by_median <- function(x){
+  Q <- quantile(x, probs=c(.25, .75), na.rm = FALSE)
+  Iqr = IQR(x)
+  
+  above = Q[2] + 1.5*Iqr
+  below = Q[1] - 1.5*Iqr
+  x[x > above | x < below] <- median(x, na.rm = TRUE)
+  return(x)
+}
+
+cleaned_data <- orig_data %>% 
+      mutate(across(c("model","transmission","fuelType", "engineSize"), as.factor))
+cleaned_test <- orig_test %>% 
+      mutate(across(c("model","transmission","fuelType", "engineSize"), as.factor))
+getmode <- function(v) {
+   uniqv <- unique(v)
+   uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+
+
+cleaned_data <- as.data.frame(cleaned_data) %>% 
+  mutate_if(is.numeric, outlier_by_median)
+
+```
+
+<p>&nbsp;</p>
+### Standardize  
+
+> Standardization is extremely important when creating interaction terms between two or more predictors that have different units. By standardizing predictors with different units, they will now be directly comparable, and you will be able to create interaction terms between them with no problems. Normal distribution with mean of 0 and standard deviation of 1 is chosen for standardization. This method is used for Linear models. 
+
+> On the other hand, Tree-based algorithms such as Decision Tree, Random Forest and gradient boosting, are not sensitive to the magnitude of variables. So, standardization is not needed before fitting this kind of models. 
+
+```{r}
+##Standardize the Variables
+train<-cleaned_data
+standardize<-function(x){x<-(x-mean(x,na.rm=TRUE))/sd(x,na.rm = TRUE)}
+for (col in names(train)){
+  if(col!="price" && class(train[,col]) %in% c("integer","numeric")){
+    train[,col]<-standardize(train[,col])
+  }
+}
+test <- cleaned_test
+for (col in names(test)){
+  if(col!="price" && class(test[,col]) %in% c("integer","numeric")){
+    test[,col]<-standardize(test[,col])
+  }
+}
+```
+
+<p>&nbsp;</p>
+### Using Cross Validation Errors to select the best model 
+
+> **Cross Validation**: It is a technique used in model selection to better estimate the test error of a predictive model. The idea behind cross-validation is to create a number of partitions of sample observations, known as the validation sets, from the training data set. After fitting a model on to the training data, its performance is measured against each validation set and then averaged, gaining a better assessment of how the model will perform when asked to predict for new observations.  
+
+> **K-Fold Cross Validation**: This is the most common use of cross-validation. Observations are split into K partitions, the model is trained on (K – 1) partitions, and the test error is predicted on the left-out partition k. The process is repeated for k = 1,2…K and the result is averaged. This approach has low bias, is computationally cheap, but the estimates of each fold are highly correlated. 
+
+To choose among models in practice, we simply compute cross-validated errors for each, and then take the model with the minimum cross-validated error. While a model may minimize the RMSE on the training data, it can be optimistic in its predictive error. 
+
+
+<p>&nbsp;</p>
+# **TRANSFORMATION AND VISUALIZATION**
+
+<p>&nbsp;</p>
+## Transform the Year variable
+
+In this report, we change the year variable equal to the current year (2021) minus the year variable in the data to create the number of years of the car from the date of manufacture to the present, equivalent to the age of the car. This conversion helps to show the significance of time's impact on the car's price. This will be simulated more clearly through some of the graphs below
+
+```{r eval=FALSE}
+orig_data$year = 2021 - orig_data$year
+orig_test$year = 2021 - orig_test$year
+```
+
+<p>&nbsp;</p>
+## The continuous dependent variable 
+
+```{r  ,results=T, fig.cap="Histogram of Price variable distribution" }
+###Do thi histogram cua price
+p <- cleaned_data%>%
+  ggplot(aes(price))+
+  geom_histogram(aes(fill=transmission),bins=50,alpha=0.7)+
+  geom_vline(aes(xintercept = mean(price)),linetype = "dashed", size = 0.6)+
+  theme_gray()+
+  facet_wrap(~fuelType)
+ggplotly(p)
+```
+Histogram illustrates the distribution of old car prices based on type of transmission. This chart consists of 5 parts, each showing the price distribution in the same fuelType.  
+
+Based on the group of charts, we can see that the majority of old cars use diesel or gasoline.  This is reasonable because currently more and more people who own diesel and petrol cars are interested in protecting the environment, they probably sell their old cars to exchange for other vehicles that are more environmentally friendly.  
+
+In the Diesel type, almost cars with semi – automatic transmission cost more than cars with auto transmission and manual transmission. This is because semi – automatic transmission vehicles are easier to control than manual transmission vehicles and consume less fuels than automatic transmission vehicles. And this is the same with the Petrol car type.
+In the Hybrid type, almost the old cars sell at the price from about 13000 to 38000.  
+
+<p>&nbsp;</p>
+## Correlation matrix 
+
+```{r  ,results=T}
+##Correlation Matrix
+numericVarName <- names(which(sapply(cleaned_data, is.numeric)))
+corr <- cor(cleaned_data[,numericVarName], use = 'pairwise.complete.obs',)
+corr
+#ve bang corr
+ggcorrplot(corr, lab = TRUE)
+```
+
+The correlation matrix above show the correlation of each two numerical variables. For large data tables, Principal Component Analysis (PCA) is only taken for variables that are strongly correlated. If the variables are not multi-collinear, PCA does not work well to reduce the size. Refer to the correlation matrix to determine. Since most of the correlation coefficients of two independent variables are small, the variables are considered non-collinear to each other, and applying PCA is worthless. The correlation between mileage and year (in our data is the number of years from the the year in which the vehicle was manufactured to now) is quite high but it can be reduced after standardized later.
+
+<p>&nbsp;</p>
+## The dependent variable versus continuous independent variables
+
+```{r  , results=T, fig.cap="Graph of Prices change over Years"}
+##Do thi y=price, x=year
+p <- cleaned_data%>%
+  ggplot(aes(year,price))+
+  geom_point(aes(color=fuelType),alpha=0.5)+
+  geom_smooth()+
+  theme_bw()
+ggplotly(p)
+```
+
+The graph above depicts the change in the price of a car over the time of car from manufactured. This shows that the higher number of years from the manufactured year to now, the lower the price of that car. This is understandable because cars that have been used for a longer time will be older than cars manufactured later and have greater the chance of the car having problems. Therefore, the money that I will pay for a car manufactured nearly is higher.
+
+
+<p>&nbsp;</p>
+
+```{r, fig.cap= "Graph between Prices and Mileages"}
+##Do thi y=price, x=mileage
+p <- cleaned_data%>%
+  ggplot(aes(mileage,price))+
+  geom_point(aes(color=model),alpha=0.5)+
+  geom_smooth(method="lm")+
+  theme_bw()
+ggplotly(p)
+```
+
+The graph illustrates the dependence of price on the mileage with each model of car. In general, the larger the distance a car has traveled, the smaller the price of that car. That's because the farther the car travels, the larger the vehicle's depreciation. Therefore, the price will decrease.  Vehicles in model X4, X5, X6, X7, Z4 usually have a higher price than vehicles with model 6 Series, 7 Series, 8 Series, i3, M4, X1, X2, X3 and higher than the price of vehicles in the remaining model.
+
+<p>&nbsp;</p>
+## Continuous dependent variable versus discrete independent variables
+
+```{r , results=T, fig.cap="Boxplot between Prices and FuelTypes"}
+##Do thi y=price, x=fuelType
+p <- train%>%
+  ggplot(aes(fuelType,price))+
+  geom_boxplot(aes(fill=fuelType),alpha=0.7)+
+  theme(legend.position="none")
+ggplotly(p)
+```
+
+The boxplot above shows the distribution of price according to each type of fuel. A large number of old cars have price around 20000. And as the price moves higher around 41000 there are a few outliers (indicated by the dot), possibly because these vehicles have superior features over other cars of the same type, or these cars have produced recently. However, with other types of fuel, outliers appear with prices above 20000 because vehicles using these fuels are often quite low priced.
+
+<p>&nbsp;</p>
+
+A heat map below can be used to visualize the magnitude of price as color in two dimensions which are fuelType and engineSize.   
+
+```{r, fig.cap="Heatmap of Prices with FuelTypes and EngineSizes"}
+###heatmap engineSize,fuelType, price
+p <- ggplot(cleaned_data, aes(x=engineSize, y=fuelType)) +
+  geom_tile(aes(fill = price))
+ggplotly(p)
+```
+
+Based on the colors shown in the map above, we see those cars using other types of fuel have low to mid-range prices for each engineSize types. Meanwhile, hybrid cars with all engineSize types are priced roughly the same from about 15000 to 30000, and electric models have the lowest price with engineSize types from 2.5 to 6.6.
+
+
+<p>&nbsp;</p>
+# **AVAILABLE MODELS FOR REGRESSION**
+
+<p>&nbsp;</p>
+## Linear models
+
+Overview:
+  
+> Linear models describe a continuous response variable as a function of one or more predictor variables. They can help you understand and predict the behavior of complex systems or analyze experimental, financial, and biological data.
+
+Linear regression is a statistical method used to create a linear model. The model describes the relationship between a dependent variable  y  (also called the response) as a function of one or more independent variables  Xi  (called the predictors). The general equation for a linear model is:
+
+$$y = \beta_0 + \sum \ \beta_i X_i + \epsilon_i$$
+
+
+<p>&nbsp;</p>
+**Linear-specific Preprocessing**
+
+<p>&nbsp;</p>
+*Generate Dummy Vars*
+
+   As linear vectors are made up of variables with their independent basis, it is very difficult to create an unified scale for some of the qualitative variables, such as "model" . Therefore, it is better to convert each of the qualititative variables into a series of dummy (binary) variables
+
+
+```{r}
+dummies <- dummyVars(~ ., data=train[])
+linear_train <- as.data.frame(predict(dummies, train[]))
+
+dummies <- dummyVars(~ ., data=test)
+linear_test <- as.data.frame(predict(dummies, test[]))
+
+spaceless <- function(x) {
+  colnames(x) <- gsub(" ", "", colnames(x));
+  colnames(x) <- gsub("\\(", "", colnames(x)); 
+  colnames(x) <- gsub("\\)", "", colnames(x)); 
+  colnames(x) <- gsub("-", "_", colnames(x));
+  x}
+linear_train <- spaceless(linear_train)
+linear_test <- spaceless(linear_test)
+```
+
+After generating the dummy variables, there may be missing dummy variables from the test set so we have to check it and add those back in order for the prediction to work
+```{r }
+diffcols <- setdiff(colnames(linear_train), colnames(linear_test))
+diffcols
+```
+
+Therefore, the missing column are "fuelType.Electric", a dummy variable for electric cars, and engine sizes : 1L, 2.2L, 2.8L, 3.5L
+
+```{r}
+linear_test$fuelType.Electric = 0
+linear_test$engineSize.1 = 0
+linear_test$engineSize.2.2 = 0
+linear_test$engineSize.2.8 = 0
+linear_test$engineSize.3.5 = 0
+```
+
+
+<p>&nbsp;</p>
+### **Ridge Regression**
+
+Overview
+Ridge regression is a parsimonious model that performs L2 regularization. The L2 regularization adds a penalty equivalent to the square of the magnitude of regression coefficients and tries to minimize them. The equation of ridge regression looks like as given below.
+
+  $$ \text{LS Obj + λ (sum of the square of coefficients)} $$
+Here the objective is as follows:
+
+If λ = 0, the output is similar to simple linear regression.
+If λ = very large, the coefficients will become zero.
+The following diagram is the visual interpretation comparing OLS and ridge regression.
+
+
+![Ridge regression](https://i1.wp.com/rstatisticsblog.com/wp-content/uploads/2020/05/ridge.jpg?zoom=1.25&w=578&ssl=1)
+
+We use ```glmnet``` function
+
+```{r eval=FALSE }
+# Loaging the library
+library(glmnet)
+# Getting the independent variable
+x_train <- linear_train[, -20]
+# Getting the dependent variable
+y_train <- linear_train[, "price"]
+
+# Setting the range of lambda values
+lambda_seq <- 10^seq(2, -2, by = -.1)
+# Using glmnet function to build the ridge regression in r
+ridge_reg = glmnet(x_train, y_train, nlambda = 25, alpha = 0, family = 'gaussian', lambda = lambda_seq )
+
+# Checking the model
+summary(fit)
+
+```
+
+```{r eval=FALSE}
+# Using cross validation glmnet 
+ridge_cv <- cv.glmnet(as.matrix(x_train), y_train, nfolds = 5 ,alpha = 0, lambda = fit$lambda)
+ridge_cv
+```
+```{r eval=FALSE}
+i <- which(ridge_cv$lambda == ridge_cv$lambda.min)
+mse.min <- ridge_cv$cvm[i]
+
+# Best lambda value
+best_lambda <- ridge_cv$lambda.min
+best_lambda
+```
+```{r echo=FALSE}
+79.43282
+```
+
+
+```{r eval=FALSE}
+#Extracting the best model using K-fold validation
+best_fit <- ridge_cv$glmnet.fit
+head(best_fit)
+
+```
+
+```{r}
+# Compute R^2 from true and predicted values
+eval_results <- function(true, predicted, df) {
+  SSE <- sum((predicted - true)^2)
+  SST <- sum((true - mean(true))^2)
+  R_square <- 1 - SSE / SST
+  RMSE = sqrt(SSE/nrow(df))
+  MAE = sum(abs(predicted - true))/nrow(df)
+
+  
+  # Model performance metrics
+data.frame(
+  RMSE = RMSE,
+  Rsquare = R_square,
+  MAE = MAE
+)
+  
+}
+
+```
+
+```{r eval=FALSE}
+# Prediction and evaluation on test data
+ridge_predictions <- predict(ridge_cv, s = best_lambda, newx = as.matrix(x_train))
+eval_results(y_train, ridge_predictions, linear_train)
+```
+
+```{r echo=FALSE}
+data.frame(
+  RMSE = 4452.945	,
+  Rsquare = 0.7022171,
+  MAE = 3004.14	
+)
+```
+
+The results for these metrics on the folded test data are 4452.945 and 70.22% respectively.
+
+```{r eval=FALSE }
+ridge_predictions_test <- predict(ridge_cv, s = best_lambda, newx = as.matrix(linear_test))
+ridge_newprice <- orig_test
+ridge_newprice$price = ridge_predictions_test 
+head(ridge_newprice)
+```
+
+```{r echo=FALSE}
+u = read.csv("C:\\Users\\vieta\\Downloadsloa\\Final PA\\ridge_pred.csv")
+datatable(u[,-1], options = list(pageLength = 5, pageWidth = 17, scroll=T))
+```
+
+<p>&nbsp;</p>
+### **Lasso Regression**
+
+```{r eval=FALSE }
+### Lasso Regression
+lambdas2 <- 10^seq(2, -3, by = -.1)
+lasso_reg <- cv.glmnet(as.matrix(x_train), y_train, alpha = 1, lambda = lambdas2, nfolds = 5)
+
+# Best 
+lambda_best <- lasso_reg$lambda.min 
+lambda_best
+
+
+lasso_model <- glmnet(x_train, y_train, alpha = 1, lambda = lambda_best)
+
+predictions_train <- predict(lasso_model, s = lambda_best, newx = as.matrix(x_train))
+eval_results(y_train, predictions_train, linear_train)
+
+```
+
+```{r echo=FALSE}
+data.frame(
+  RMSE = 4453.332	,
+  Rsquare = 0.7021652	,
+  MAE = 3007.905		
+)
+```
+
+The results for these metrics on the folded test data are 4453.332 and 70.22%, respectively.
+
+```{r eval=FALSE}
+lasso_predictions_test <- predict(ridge_cv, s = best_lambda, newx = as.matrix(linear_test))
+lasso_newprice <- orig_test
+lasso_newprice$price = lasso_predictions_test 
+head(lasso_newprice)
+```
+
+```{r echo=FALSE}
+u = read.csv("C:\\Users\\vieta\\Downloadsloa\\Final PA\\lasso_pred.csv")
+datatable(u[,-1], options = list(pageLength = 5, pageWidth = 17, scroll=T))
+```
+
+
+
+<p>&nbsp;</p>
+### **Generalized Addictive Model**
+
+> In statistics, a generalized additive model (*GAM*) is a generalized linear model in which the linear response variable depends linearly on unknown smooth functions of some predictor variables, and interest focuses on inference about these smooth functions.
+
+To begin we must consider a basis to use, a space that f
+ is an element of. Doing so leads to choosing a set of basis functions b<sub>j</sub> with parameters γ<sub>j</sub> that will be combined to produce f(x):
+ 
+ $$f(x)=\displaystyle\sum\limits_{j=1}^q b_{j}(x)\gamma_{j}$$
+ 
+
+```{r  eval=FALSE }
+fitControl <- trainControl(method = 'cv', number= 5 , summaryFunction=defaultSummary)
+
+v = train
+fit.gam <- train(price ~ ., data=linear_train, method = 'gam',  trControl=fitControl)
+warnings()
+
+
+fit.gam
+
+# Best tuning parameter
+fit.gam$bestTune
+```
+
+```{r eval=FALSE}
+# Make predictions on test set
+predictions_test_r2 <- predict(fit.gam, x_train)
+eval_results(y_train, predictions_test_r2, linear_train)
+```
+
+```{r echo=FALSE}
+data.frame(
+  RMSE = 4498.853,
+  Rsquare = 0.6960453,
+  MAE = 3022.343	
+)
+```
+
+After performing the model building process, the model returns the evaluation indicators of 4498.853 for RMSE and 69.60% for R squared. 
+
+```{r eval=FALSE}
+gam_predictions_test <- predict(fit.gam, linear_test)
+gam_newprice <- orig_test
+gam_newprice$price = gam_predictions_test 
+head(gam_newprice)
+```
+
+```{r echo=FALSE}
+u = read.csv("C:\\Users\\vieta\\Downloadsloa\\Final PA\\gam_pred.csv")
+datatable(u[-1], options = list(pageLength = 5, pageWidth = 17, scroll=T))
+```
+
+<p>&nbsp;</p>
+## Tree-based models
+
+> Tree-based models use a series of if-then rules to generate predictions from one or more decision trees. All tree-based models can be used for either regression (predicting numerical values) or classification (predicting categorical values). There are three types of tree-based models: 
+
+- Decision tree models, which are the foundation of all tree-based models. 
+
+- Random forest models, an “ensemble” method which builds many decision trees in parallel. 
+
+- Gradient boosting models, an “ensemble” method which builds many decision trees sequentially. 
+
+The algorithm of decision tree models works by repeatedly partitioning the data into multiple sub-spaces, so that the outcome in each final sub-space is as homogeneous as possible. This approach is technically called recursive partitioning. 
+
+The produced result consists of a set of rules used for predicting the outcome variable, which can be either: 
+
+- A continuous variable, for regression trees 
+
+- A categorical variable, for classification trees 
+
+In the researched dataset “train”, “price” is a continuous variable, hence single tree and other relating advanced models will be applied regression respective algorithms. 
+
+**Decision tree with CART**
+
+Overview 
+
+> Classically, Classification and Regression Trees is referred to as “decision trees”, but on some platforms like R they are referred to by the more modern term CART. 
+
+- The decision rules generated by the CART predictive model are generally visualized as a binary tree. 
+
+- The complexity parameter is a value at which the tree makes divisions in the nodes until the reduction in the relative error is less than a certain value. It is used to control the size of the decision tree and to select the optimal tree size.  
+
+```{r eval=F}
+
+## DECISION TREE MODEL (CART)
+# Best number of leaves
+library(tree)
+tree1<-tree(price~.,data=orig_data,
+            control=tree.control(nobs=nrow(orig_data),mincut=5,minsize=10,mindev=0.001))
+cv.tree1 <- cv.tree(tree1, K=10) #The number of folds of the cross-validation: 10
+plot(cv.tree1$size, cv.tree1$dev)
+
+L<-cv.tree1$size[which.min(cv.tree1$dev)]
+
+# Fit the model on the training set
+library(rpart)
+set.seed(100)
+tree2 <- cleaned_train(
+  price ~., data = orig_data, method = "rpart",
+  tuneLength = L,
+  trControl = trainControl(method="cv", number = 10) #The number of folds of the cross-validation: 10
+)
+tree2$resample
+
+# Graph of relationship cp ~ CVE
+plot(tree2)
+
+# The complexity parameter that minimizes RMSE
+tree2$bestTune
+
+# RMSE min
+table <- tree2$resample
+RMSE <- min(table$RMSE)
+RMSE
+
+# Decision rules in the model
+tree2$finalModel
+
+# Tree
+par(xpd = NA)
+plot(tree2$finalModel)
+text(tree2$finalModel,digits=3)
+
+# Make predictions on the test data
+predictions_CART <- tree2 %>% predict(orig_test)
+head(predictions_CART)
+mean(predictions_CART)
+
+```
+
+The model returns the evaluation indicators of 3162.697 for RMSE and 87.32% for R squared. The respective complexity parameter is 0.0008952655. 
+
+Predicted Result
+```{r echo=FALSE}
+u = read.csv("C:\\Users\\vieta\\Downloadsloa\\Final PA\\cart_pred.csv")
+datatable(u[-1], options = list(pageLength = 5, pageWidth = 17, scroll=T))
+```
+
+<p>&nbsp;</p>
+**Bagging** 
+
+Overview:  
+
+> Bagging, also known as bootstrap aggregation, is the ensemble learning method that is commonly used to reduce variance within a noisy dataset.  
+
+- In bagging, a random sample of data in a training set is selected with replacement-meaning that the individual data points can be chosen more than once. After several data samples are generated, these weak models are then trained independently, and depending on the type of task-regression or classification, for example-the average or majority of those predictions yield a more accurate estimate.  
+
+- Bootstrap Aggregation can be used to reduce the variance for those algorithms that have high variance like classification and regression trees (CART).
+
+```{r eval=FALSE}
+set.seed(100)
+bag <- train(
+  price ~ .,
+  data = cleaned_data,
+  method = "treebag",
+  trControl = trainControl(method = "cv", number = 10),
+  nbagg = 200,  
+  control = rpart.control(minsplit = 2, cp = 0)
+)
+bag
+```
+
+```{r echo=FALSE}
+bag.RMSE<-3089.437
+bag.Rsquared<-0.8567084
+data.frame(
+  bag.RMSE,
+  bag.Rsquared
+)
+```
+
+```{r echo=FALSE}
+u = read.csv("C:\\Users\\vieta\\Downloadsloa\\Final PA\\bag_pred.csv")
+datatable(u[-1], options = list(pageLength = 5, pageWidth = 17, scroll=T))
+```
+
+<p>&nbsp;</p>
+**Random Forest**  
+
+Overview:  
+
+> A Random Forest is a meta estimator that fits a number of classifying decision trees on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.  
+
+- Given the known issues of instability of traditional recursive partitioning techniques Random Forests offer a great alternative to traditional credit scoring and offer better insight into variable interactions than traditional logistic regression.  
+
+- Random Forest in R, Random Forest developed by an aggregating tree, and this can be used for classification and regression. One of the major advantages is it avoids overfitting. 
+
+- The random forest can deal with a large number of features, and it helps to identify the important attributes. 
+
+- The random forest contains two user-friendly parameters ntree and mtry. “ntree” by default is 500 trees and “mtry” variables randomly samples as candidates at each split. 
+
+
+```{r eval=FALSE}
+
+############################################## RANDOM FOREST
+## Create 4 folds
+nfold<-4
+pp<-1:nrow(cleaned_data)
+index<-as.list(0)
+for (i in 1:nfold){
+      index[[i]]<-sample(pp,nrow(cleaned_data)/nfold)
+      pp<-pp[-index[[i]]]
+}
+
+
+valid_train<-as.list(0)
+valid_test<-as.list(0)
+for (i in 1:nfold){
+      valid_train[[i]]<-cleaned_data[-index[[i]],]
+      valid_test[[i]]<-cleaned_data[index[[i]],]
+}
+
+
+## Find mtry 
+cv.rf1<-rfcv(cleaned_data[,-3],cleaned_data[,3],cv.fold=4,step=0.83)
+mtry.rf<-match(which.min(cv.rf1$error.cv),8:1)
+
+
+############################################## 
+## Find ntree 
+ntree<-seq(800,1600,100)
+pred<-as.list(0)
+CVE<-as.list(0)
+RMSE<-as.vector(0)
+
+for (j in ntree){
+      for (k in 1:nfold){
+            rf.fit<-randomForest(price~.,data=valid_train[[k]],
+                                 mtry=mtry.rf, 
+                                 importance=TRUE,ntree=j)
+            pred[[k]]<-predict(rf.fit,newdata=valid_test[[k]][,-3])
+            CVE[[k]]<-mean((pred[[k]]-valid_test[[k]]$price)^2)
+      }
+      RMSEadd<-sqrt(1/nfold*(CVE[[1]]+CVE[[2]]+CVE[[3]]+CVE[[4]]))
+      RMSE<-c(RMSE,RMSEadd)
+}
+
+
+RMSE.rf<-min(RMSE[-1])
+ntree.rf<-ntree[which.min(RMSE[-1])]
+
+
+############################################## 
+## RMSEcheck for RF found
+rf.pred<-as.list(0)
+MSEfold<-as.list(0)
+rf.fit<-as.list(0)
+for (k in 1:nfold){
+      rf.fit[[k]]<-randomForest(price~.,data=valid_train[[k]],
+                                mtry=mtry.rf,importance=TRUE,
+                                ntree=ntree.rf)
+      rf.pred[[k]]<-predict(rf.fit[[k]],newdata=valid_test[[k]][,-3])
+      MSEfold[[k]]<-mean((rf.pred[[k]]-valid_test[[k]]$price)^2)
+}
+
+RMSEcheck<-sqrt(1/nfold*(MSEfold[[1]]+MSEfold[[2]]+
+                         MSEfold[[3]]+MSEfold[[4]]))
+
+
+############################################## 
+## R squared of RF found
+R2<-as.list(0)
+for (k in 1:nfold){
+      R2[[k]] <- 1-sum((valid_test[[k]]$price-rf.pred[[k]])^2)/
+                 sum((valid_test[[k]]$price-mean(rf.pred[[k]]))^2)
+}
+R.squared<-(R2[[1]]+R2[[2]]+R2[[3]]+R2[[4]])/nfold
+
+
+##############################################
+## Predict by RF loop
+rf.predict<-as.list(0)
+for (k in 1:nfold){
+      rf.predict[[k]]<-predict(rf.fit[[k]],newdata=cleaned_test)
+}
+rf.prediction<-1/nfold*(rf.predict[[1]]+rf.predict[[2]]+
+                        rf.predict[[3]]+rf.predict[[4]])
+
+```
+
+After performing the model building process, the model returns the evaluation indicators of 2883.283 for RMSE and 87.60% for R squared.
+
+```{r echo=FALSE}
+u = read.csv("C:\\Users\\vieta\\Downloadsloa\\Final PA\\rf_pred.csv")
+datatable(u[-1], options = list(pageLength = 5, pageWidth = 17, scroll=T))
+```
+
+<p>&nbsp;</p>
+**Gradient Boosting** 
+
+Overview
+
+- Gradient boosting is a machine learning technique used in regression and classification tasks, among others. It gives a prediction model in the form of an ensemble of weak prediction models, which are typically decision trees.
+
+- GB builds an additive model in a forward stage-wise fashion; it allows for the optimization of arbitrary differentiable loss functions. In each stage n_classes_ regression trees are fit on the negative gradient of the binomial or multinomial deviance loss function. Binary classification is a special case where only a single regression tree is induced.
+
+
+```{r eval=FALSE }
+fitControl <- trainControl(method = 'cv', number= 5 , summaryFunction=defaultSummary)
+
+v = train
+fit.boost <- train(price ~ ., data=linear_train, method = 'gbm', trControl=fitControl)
+warnings()
+
+
+fit.boost
+
+# Best tuning parameter
+fit.boost$bestTune
+```
+
+
+```{r eval=FALSE}
+# Make predictions on test set
+predictions_test_boost <- predict(fit.boost, x_train)
+eval_results(y_train, predictions_test_boost , linear_train)
+```
+
+```{r echo=FALSE}
+data.frame(
+  RMSE = 3518.248,
+  Rsquare = 0.8141092,
+  MAE = 2371.029			
+)
+```
+
+```{r eval=FALSE}
+bg_predictions_test <- predict(fit.boost, linear_test)
+bg_newprice <- orig_test
+bg_newprice$price = bg_predictions_test 
+head(bg_newprice)
+```
+
+```{r echo=FALSE}
+u = read.csv("C:\\Users\\vieta\\Downloadsloa\\Final PA\\bg_pred.csv")
+datatable(u[-1], options = list(pageLength = 5, pageWidth = 17, scroll=T))
+```
+
+<p>&nbsp;</p>
+**XGBoost** 
+
+XGBoost is an algorithm that has recently been dominating applied machine learning and Kaggle competitions for structured or tabular data.
+
+XGBoost is an implementation of gradient boosted decision trees designed for speed and performance.
+
+```{r eval=FALSE }
+fitControl <- trainControl(method = 'cv', number= 5 , summaryFunction=defaultSummary)
+
+v = train
+fit.xbg <- train(price ~ ., data=linear_train, method = 'xgbLinear', trControl=fitControl)
+warnings()
+
+
+fit.xbg
+
+# Best tuning parameter
+fit.xbg$bestTune
+```
+
+
+```{r eval=FALSE}
+# Make predictions on test set
+predictions_test_xbgboost <- predict(fit.xbg, x_train)
+eval_results(y_train, predictions_test_xbgboost, linear_train)
+```
+
+```{r echo=FALSE}
+data.frame(
+  RMSE = 2104.384		,
+  Rsquare = 0.9334949	,
+  MAE = 1369.688			
+)
+```
+
+```{r eval=FALSE}
+xbg_predictions_test <- predict(fit.xbg, linear_test)
+xbg_newprice <- orig_test
+xbg_newprice$price = xbg_predictions_test 
+head(xbg_newprice)
+```
+
+```{r echo=FALSE}
+u = read.csv("C:\\Users\\vieta\\Downloadsloa\\Final PA\\xbg_pred.csv")
+datatable(u[-1], options = list(pageLength = 5, pageWidth = 17, scroll=T))
+```
+
+<p>&nbsp;</p>
+## Support Vector Machines (SVM)
+
+- SVM is used for both classification and numeric prediction. The advantage of SVM for numeric prediction is that SVM will automatically create higher dimensions of the features and summarizes this in the output. In other words, unlike in regression where you have to decide for yourself how to modify your features, SVM does this automatically using different kernels. Different kernels transform the features in different ways. There are some kernels that are suitable for regression purpose including Linear Kernel, Polynomial Kernel, Radial Kernel, and Sigmoid Kernel. 
+
+- Due to the complexity of the creating process, we skipped to build this model for now.
+
+<p>&nbsp;</p>
+## Network models 
+
+**Artificial Neural Network (ANN)** 
+
+Overview:  
+
+> Neural networks represent deep learning using artificial intelligence. Certain application scenarios are too heavy or out of scope for traditional machine learning algorithms to handle. As they are commonly known, Neural Network pitches in such scenarios and fills the gap. The three most important types of neural networks are: Artificial Neural Networks (ANN), Convolution Neural Networks (CNN), and Recurrent Neural Networks (RNN). 
+
+- ANNs began as an attempt to exploit the architecture of the human brain to perform tasks that conventional algorithms had little success with. They soon reoriented towards improving empirical results, mostly abandoning attempts to remain true to their biological precursors. Neurons are connected to each other in various patterns, to allow the output of some neurons to become the input of others. The network forms a directed, weighted graph. 
+
+- Components of ANNs include Neurons, Connections, Weights, and Propagation function. 
+
+
+```{r eval=FALSE}
+# NEURAL NETWORK - all must be numeric
+
+# Libraries
+library(caret)
+library(neuralnet)
+library(magrittr)
+
+# Data
+DataFrame<-cleaned_data
+#str(DataFrame)
+
+DataFrame %<>% mutate_if(is.factor, as.numeric)
+#str(DataFrame)
+
+
+# Create 4 folds
+nfold<-4
+pp<-1:nrow(DataFrame)
+index<-as.list(0)
+for (i in 1:nfold){
+      index[[i]]<-sample(pp,nrow(DataFrame)/nfold)
+      pp<-pp[-index[[i]]]
+}
+
+
+valid_train<-as.list(0)
+valid_test<-as.list(0)
+for (i in 1:nfold){
+      valid_train[[i]]<-DataFrame[-index[[i]],]
+      valid_test[[i]]<-DataFrame[index[[i]],]
+}
+
+
+# Scale train sets predictors
+for (i in 1:nfold){
+      apply(valid_train[[1]][,-3],2,range)
+      maxValue<-apply(valid_train[[1]][,-3],2,max)
+      minValue<-apply(valid_train[[1]][,-3],2,min)
+      valid_train[[1]][-3]<-as.data.frame(scale(valid_train[[1]][-3],
+                                                center=minValue,
+                                                scale=maxValue-minValue))
+}
+
+
+# Create Model
+allVars<-colnames(DataFrame)
+predictorVars<-allVars[!allVars%in%"price"]
+predictorVars<-paste(predictorVars,collapse="+")
+form=as.formula(paste("price~",predictorVars,collapse="+"))
+
+neuralModel<-as.list(0)
+for (i in 1:nfold){
+      neuralModel[[i]]<-neuralnet(formula=form,hidden=4,
+                                  linear.output=T,data=valid_train[[i]],
+                                  constant.weights=0.5)
+}
+
+
+# Plot
+# plot(neuralModel)
+
+# RMSE
+predictions<-as.list(0)
+MSE<-as.list(0)
+for (i in 1:nfold){
+      predictions[[i]]<-predict(neuralModel[[i]],valid_test[[i]][,-3])
+      MSE[[i]]<-mean((predictions[[i]]-valid_test[[i]]$price)^2)
+}
+RMSE<-sqrt(1/nfold*(MSE[[1]]+MSE[[2]]+MSE[[3]]+MSE[[4]]))
+
+# Rsquared
+R2<-as.list(0)
+for (i in 1:nfold){
+      R2[[i]] <- 1-sum((valid_test[[i]]$price-predictions[[i]])^2)/
+                 sum((valid_test[[i]]$price-mean(valid_test[[i]]$price))^2)
+}
+R.squared<-(R2[[1]]+R2[[2]]+R2[[3]]+R2[[4]])/nfold
+```
+
+```{r echo=FALSE}
+RMSE<-3097.478
+RMSE
+R.squared<--0.0005395406
+R.squared
+```
+
+
+After performing the model building process, the model returns the evaluation indicators of 3097.478 for RMSE and -0.05395% for R squared. 
+
+<p>&nbsp;</p>
+## Others
+
+**K-Nearest Neighbor Regressor**
+
+Overview 
+
+> KNN regression is a non-parametric method that, in an intuitive manner, approximates the association between independent variables and the continuous outcome by averaging the observations in the same neighborhood. 
+
+- The number of data points that are taken into consideration is determined by the K value. Thus, the k value is the core of the algorithm. KNN classifier determines the class of a data point by the majority voting principle. If K is set to n, the classes of n closest points are checked. 
+
+- It stores the training dataset and learns from it only at the time of making real time predictions. This makes the KNN algorithm much faster than other algorithms that require training e.g., SVM, Linear Regression etc. 
+
+```{r eval=F}
+library(ISLR)
+
+
+knn <- train(price~., data = orig_data,
+               trControl = trainControl(method = "cv",number = 10),
+               method = "knn")
+print(knn)
+
+table <- knn$resample
+RMSE <- min(table$RMSE)
+RMSE
+R2 <- table$Rsquared[which.min(table$RMSE)]
+```
+
+```{r echo=FALSE}
+data.frame(
+  RMSE = 7005.129,
+  R2 = 0.08952655
+)
+```
+
+RMSE used to select the optimal model is 7005.129. The final value used for the model was k = 5 which means the model gives the best output when 5 nearest neighbors are considered. R square in this case is 0.08952655. 
+
+<p>&nbsp;</p>
+## AutoML 
+
+Overview 
+
+> AutoML or Automatic Machine Learning is the process of automating algorithm selection, feature generation, hyperparameter tuning, iterative modeling, and model assessment. AutoML makes it easy to train and evaluate machine learning models.  
+
+- The high degree of automation in AutoML aims to allows non-experts to make use of machine learning models and techniques without requiring them to become experts in machine learning. 
+
+- AutoML simplifies the process of applying ML to real-world problems. It streamlines all the steps required to solve business challenges by reducing the complexity of developing, testing, and deploying machine learning frameworks, thus boosting productivity. 
+
+- AutoML Tables uses tabular (structured) data to train a machine learning model to make predictions on new data. 
+
+- AutoML automatically locates and uses the optimal type of machine learning algorithm for a given task. It does this with two concepts: Neural architecture search, which automates the design of neural networks. This helps AutoML models discover new architectures for problems that require them. 
+
+In R, we use the ```h2o``` library to generate and run AutoML models
+
+```{r eval=FALSE}
+data = cleaned_data
+data$model  <- as.factor(data$model)  
+data$transmission <- as.factor(data$transmission)
+data$fuelType <- as.factor(data$fuelType)
+data$ID  <- 1:nrow(data)  
+data.hex  <- as.h2o(data)
+split_h2o <- h2o.splitFrame(data.hex, 0.8, seed = 1234 )
+
+train_conv_h2o <- h2o.assign(split_h2o[[1]], "train" ) # 80%
+valid_conv_h2o <- h2o.assign(split_h2o[[2]], "valid" ) # 20%
+
+# Set names for h2o
+target <- "price"
+predictors <- setdiff(names(train_conv_h2o), target)
+
+automl_h2o_models <- h2o.automl(
+    x = predictors, 
+    y = target,
+    training_frame    = train_conv_h2o,
+    leaderboard_frame = valid_conv_h2o,
+    )
+
+# Extract leader model
+automl_leader <- automl_h2o_models@leader
+
+# Predict
+automl_pred <- predict(automl_leader, as.h2o(cleaned_test))
+automl_test = test
+automl_test$price = u$price
+eval_results(automl_test[,"price"], automl_pred, automl_test)
+
+```
+
+```{r echo=FALSE}
+data.frame(
+  RMSE = 2327.209,
+  R2 = 0.9543483,
+  MAE = 1597.686
+)
+```
+
+After performing the model building process, the model returns the evaluation indicators of 2327.209 for RMSE and 95.44% for R squared. 
+
+```{r echo=FALSE}
+u = read.csv("C:\\Users\\vieta\\Downloadsloa\\Final PA\\automl_pred.csv")
+datatable(u[-1], options = list(pageLength = 5, pageWidth = 17, scroll=T))
+```
+
+<p>&nbsp;</p>
+
+# **AUTOML AND REASONS FOR THE CHOICE**
+<p>&nbsp;</p>
+## Compare used models by evaluation indicators RMSE and R.squared 
+
+| No | Model              | \+ Algorithm/Technique          | RMSE (CVE) | R.squared    |
+| -- | -------------------| ------------------------------- | ---------- | ------------ |
+| 1  | Ridge              |                                 | 4150.38    | 0.7022171    |
+| 2  | Lasso              |                                 | 4150.181   | 0.7021652    |
+| 3  | PLS                |                                 | Not run    |
+| 4  | GAM                |                                 | 4098.694   | 0.6960453    |
+| 5  | Tree               | One decision tree by CART       | 3162.697   | 0.8732397    |
+| 6  | Tree               | Bagging                         | 3089.437   | 0.8567084    |
+| 7  | Tree               | Random forest                   | 2880.86    | 0.8760359    |
+| 8  | Tree               | Gradient Boosting               | 3432.774   | 0.8230347    |
+| 9  | Tree               | XG Boost                        | 2104.384   | 0.9335       |
+| 10 | SVM                | SVM with kernel techniques      | Not run    |
+| 11 | Neural Networks    | Artificial Neural Network       | 3097.478   | \-0.0005395  |
+| 12 | Random coefficient |                                 | Not run    |
+| 13 | Latent variable    |                                 | Not run    |
+| 14 | KNN Regressor      |                                 | 7005.129   | 0.0008952655 |
+| <b>15</b> |  <b>AutoML</b>          |                                 |  <b>2327.209</b>   |  <b>0.9544536</b>    |
+<p>&nbsp;</p>
+## Chosen model: AutoML
+
+In recent years, the demand for machine learning experts has outpaced the supply, despite the surge of people entering the field. To address this gap, there have been big strides in the development of user-friendly machine learning software that can be used by non-experts. The first steps toward simplifying machine learning involved developing simple, unified interfaces to a variety of machine learning algorithms (e.g. H2O).
+
+Although H2O has made it easy for non-experts to experiment with machine learning, there is still a fair bit of knowledge and background in data science that is required to produce high-performing machine learning models. Deep Neural Networks in particular are notoriously difficult for a non-expert to tune properly. In order for machine learning software to truly be accessible to non-experts, we have designed an easy-to-use interface which automates the process of training a large selection of candidate models. H2O’s AutoML can also be a helpful tool for the advanced user, by providing a simple wrapper function that performs a large number of modeling-related tasks that would typically require many lines of code, and by freeing up their time to focus on other aspects of the data science pipeline tasks such as data-preprocessing, feature engineering and model deployment.
+
+H2O’s AutoML can be used for automating the machine learning workflow, which includes automatic training and tuning of many models within a user-specified time-limit.
+
+
+**Pros:**
+
+- 1.H2O offers a number of model explainability methods that apply to AutoML objects (groups of models), as well as individual models (e.g. leader model). Explanations can be generated automatically with a single function call, providing a simple interface to exploring and explaining the AutoML models.
+
+- 2.The AutoML object includes a “leaderboard” of models that were trained in the process, including the 5-fold cross-validated model performance (by default). The number of folds used in the model evaluation process can be adjusted using the nfolds parameter. If you would like to score the models on a specific dataset, you can specify the leaderboard_frame argument in the AutoML run, and then the leaderboard will show scores on that dataset instead.
+
+- 3.The models are ranked by a default metric based on the problem type (the second column of the leaderboard). In binary classification problems, that metric is AUC, and in multiclass classification problems, the metric is mean per-class error. In regression problems, the default sort metric is deviance. Some additional metrics are also provided, for convenience.
+
+**Reason for choosing:**
+
+- 1.H2O’s AutoML can be used for automating the machine learning workflow, which includes automatic training and tuning of many models within a user-specified time-limit.
+
+- 2.H2O offers a number of model explainability methods that apply to AutoML objects (groups of models), as well as individual models (e.g. leader model). Explanations can be generated automatically with a single function call, providing a simple interface to exploring and explaining the AutoML models.
+
+<p>&nbsp;</p>
+## Other models
+
+<p>&nbsp;</p>
+### Ridge regression
+
+Is a parsimonious model that performs L2 regularization. The L2 regularization adds a penalty equivalent to the square of the magnitude of regression coefficients and tries to minimize them. The equation of ridge regression looks like as given below.
+
+$$ \text{LS Obj + λ (sum of the square of coefficients)} $$
+  
+Here the objective is as follows:
+
+If λ = 0, the output is similar to simple linear regression.
+
+If λ = very large, the coefficients will become zero.
+
+**Reason for not choosing**:
+
+Ridge regression decreases the complexity of a model but does not reduce the number of variables since it never leads to a coefficient been zero rather only minimizes it. Thus is very important as our dummy-added model has over 40 variables.
+
+
+<p>&nbsp;</p>
+### Lasso regression
+
+Lasso regression, or the Least Absolute Shrinkage and Selection Operator, is also a modification of linear regression. In lasso, the loss function is modified to minimize the complexity of the model by limiting the sum of the absolute values of the model coefficients (also called the l1-norm).
+
+The loss function for lasso regression can be expressed as below:
+
+$$ \text{Loss function = OLS + alpha * summation (absolute values of the magnitude of the coefficients)} $$
+
+In the above function, alpha is the penalty parameter we need to select. Using an l1-norm constraint forces some weight values to zero to allow other coefficients to take non-zero values.
+
+**Reason for not choosing:**
+
+1.High RMSE and low R2
+
+2.LASSO selects at most n variables before it saturates.
+
+3.LASSO can not do group selection.
+
+<p>&nbsp;</p>
+### General Additive Model
+
+Let us begin by considering the standard linear regression model (SLiM) estimated via ordinary least squares (OLS). We have some response or target variable we wish to study, and believe it to be some function of other variables. In terms of the underlying data generating process, y is the variable of interest, assumed to be normally distributed with mean μ and variance σ^2, and the Xs are the predictor variables/covariates in this scenario. The predictors are multiplied by the coefficients(β) and summed, giving us the linear predictor, which in this case also directly provides us the estimated fitted values. 
+
+**Reason for not choosing:**
+
+One of the issues with this model is that, in its basic form it can be very limiting in its assumptions about the data generating process for the variable we wish to study. It also very typically will not capture what is going on in a great many data situations.
+
+<p>&nbsp;</p>
+### Recursive Partitioning tree 
+Recursive Partitioning trees offer various benefits to credit scoring: quick, simple logic which can be converted into rules and credit policies, non parametric and can deal with interactions. R's Rpart is one of best performing and robust tree algorithms and is comparable to J4.5 algorithm in java (Schauerhuber etal, 2007)
+The fact that Rpart uses out of sample data to build and fit the tree makes it a very strong
+implementation (Therneau etal, 1997).
+
+In an important study of logistic regression vs. tree algorithms Perlich etal show that high signal to noise data favors logistic regression while high speration favors tree algorithms and also 'apparent superiority of one method over another on small data sets' does not hold out over large samples' (Perlich etal, 2003). Although bagging helps improve recursive paritioning Using random forests is strongly recommended in lieu of trees or model based recursive partitioning but for simple needs the decision tree is still a powerful technique.
+Trees can be used to clean variables, find splits in cut offs of other variables, break data in segments, and offer simple insights. Also it is possible to generate a large number of trees which perform equivalently but may look vastly different.
+
+**Reason for not choosing:**
+
+1.The down side of trees is that they unstable, small changes in data can lead to large deviations in models, and can overfit if not built using cross validation and pruning.
+
+2.Model is manually coded and therefore takes a long time to run and produce results
+
+<p>&nbsp;</p>
+### KNN Regressor  
+K-Nearest Neighbor is one of the simplest supervised-learning algorithms and classified as “lazy learning”. It is a method for classifying cases based on their similarity to other cases. In machine learning, it was developed to recognize patterns of data without requiring an exact match to any stored patterns, or cases. Similar cases are near each other, and dissimilar cases are distant from each other. If kNN is used to compute values for a continuous target, the average or median target value of the nearest neighbors is used to obtain the predicted value for the new case. 
+
+**Reason for not choosing:**  
+
+When considering the relationship between price and some independent variables, we discovery its nonconformity to the dataset. If all independent variables are qualitative and there are few types of categories, it is unimportant to choose nearest neighbors for calculation. In our dataset, the number of classes is small figure with thousands of records, and we only must predict based on the average in each class. Here are two visualize examples.   
+
+```{r, out.width=c('50%', '50%'), fig.width = 6, fig.show='hold', fig.cap= "Training price and other variables"}
+library(ggvis)
+orig_data%>%ggvis(~fuelType,~engineSize,fill = ~price)%>%layer_points()
+orig_data%>%ggvis(~mileage,~mpg,fill = ~price)%>%layer_points()
+```
+
+<p>&nbsp;</p>
+### Random Forest
+Given the known issues of instability of traditional recursive partitioning techniques Random Forests offer a great alternative to traditional credit scoring and offer better insight into variable interactions than traditional logistic regression.
+
+Random Forest in R, Random forest developed by an aggregating tree and this can be used for classification and regression. One of the major advantages is its avoids overfitting.
+
+The random forest can deal with a large number of features and it helps to identify the important attributes.
+The random forest contains two user-friendly parameters ntree and mtry.
+
+1.ntree- ntree by default is 500 trees.
+
+2.mtry- variables randomly samples as candidates at each split.
+
+**Reason for not choosing:**
+
+1.The main limitation of random forest is that a large number of trees can make the algorithm too slow and ineffective for real-time predictions.
+
+<p>&nbsp;</p>
+### Gradient Boosting / XGBoost
+
+Like Random Forest, Gradient Boosting is another technique for performing supervised machine learning tasks, like classification and regression. The implementations of this technique can have different names, most commonly you encounter Gradient Boosting machines (abbreviated GBM) and XGBoost.
+
+**Pros:**
+
+- Similar to Random Forests, Gradient Boosting is an ensemble learner. This means it will create a final model based on a collection of individual models. The predictive power of these individual models is weak and prone to overfitting but combining many such weak models in an ensemble will lead to an overall much improved result. In Gradient Boosting machines, the most common type of weak model used is decision trees - another parallel to Random Forests.
+
+- Boosting builds models from individual so called “weak learners” in an iterative way.
+
+- In boosting, the individual models are not built on completely random subsets of data and features but sequentially by putting more weight on instances with wrong predictions and high errors.
+
+- The general idea behind this is that instances, which are hard to predict correctly (“difficult” cases) will be focused on during learning, so that the model learns from past mistakes. When we train each ensemble on a subset of the training set, we also call this Stochastic Gradient Boosting, which can help improve generalizability of our model.
+
+**Reason for not choosing:**
+
+- 1.XGBoost does not perform so well on sparse and unstructured data.
+
+- 2.A common thing often forgotten is that Gradient Boosting is very sensitive to outliers since every classifier is forced to fix the errors in the predecessor learners. 
+
+- 3.The overall method is hardly scalable. This is because the estimators base their correctness on previous predictors, hence the procedure involves a lot of struggle to streamline.  
+
+<p>&nbsp;</p>
+# **AUTOML AND PREDICTING PROCESS**  
+
+After building and validating many prediction models, we have to make decision about which one should be applied to forecasting values. The process of choosing the best one between built model consists of these steps 
+
+<p>&nbsp;</p>
+## Step 1: Set the criteria to choose the best model 
+
+As mentioned earlier in Part 1, Cross-Validation Error (we used RMSE here) is one of the most vital factors to be considered when selecting the best prediction model. This quantity is not only an error measurement itself, but also a tool to avoid overfitting models by giving every sample to training. 
+
+Generally, a model that has a small Cross-Validation Error will be the best predicting model as well. Hence, the model with lowest RMSE value should be chosen to be the key model for forecasting purposes. 
+
+<p>&nbsp;</p>
+## Step 2: Choose the best model based on the criteria set 
+
+Among all our built models, some are manually used and easy to understand, while some magnificently bring confusion even for the one who built those. 
+
+There is always a trade-off between prediction accuracy and model interpretability. Hence, usually, a black box will outperform other manually built models due to its surprising prediction correctness. This is the case in our work since AutoML – a model that we built completely by software has the lowest RMSE value and highest Accuracy, promising to be the finest forecasting model. 
+
+<p>&nbsp;</p>
+## Step 3: Run the AutoML model and make prediction for the prices of 2,136 used cars 
+
+- Build the AutoML Model 
+
+```{r eval=FALSE}
+data = cleaned_data
+data$model  <- as.factor(data$model)  
+data$transmission <- as.factor(data$transmission)
+data$fuelType <- as.factor(data$fuelType)
+data$ID  <- 1:nrow(data)  
+data.hex  <- as.h2o(data)
+split_h2o <- h2o.splitFrame(data.hex, 0.8, seed = 1234 )
+
+train_conv_h2o <- h2o.assign(split_h2o[[1]], "train" ) # 80%
+valid_conv_h2o <- h2o.assign(split_h2o[[2]], "valid" ) # 20%
+
+# Set names for h2o
+target <- "price"
+predictors <- setdiff(names(train_conv_h2o), target)
+
+automl_h2o_models <- h2o.automl(
+    x = predictors, 
+    y = target,
+    training_frame    = train_conv_h2o,
+    leaderboard_frame = valid_conv_h2o,
+    )
+
+# Extract leader model
+automl_leader <- automl_h2o_models@leader
+
+```
+
+
+- Make prediction: based on the model built, we apply to make prediction for the prices of 2,136 used cars. The results obtained are : 
+
+```{r eval=FALSE}
+# Predict
+automl_pred <- predict(automl_leader, as.h2o(cleaned_test))
+automl_test = test
+automl_test$price = u$price
+eval_results(automl_test[,"price"], automl_pred, automl_test)
+
+```
+
+```{r echo=FALSE}
+automl_pred = read.csv("C:\\Users\\vieta\\Downloadsloa\\Final PA\\automl_pred.csv")
+datatable(automl_pred[-1], options = list(pageLength = 5, pageWidth = 17, scroll=T))
+```
+
+
+<p>&nbsp;</p>
+# **COMMENTS ON PREDICTED RESULTS**  
+
+<p>&nbsp;</p>
+## Predicted result summary 
+
+From the results attained, we gain some statistical summary :
+
+```{r }
+summary(automl_pred$price)
+```
+- Since the number of records is a huge figure, the model becomes nearly distributed normally. This is displayed obviously by the little difference between Mean and Median of predicted price. While values at first and third quartile incline to the Mean, maximum and minimum values have long distance to the center. In reality, top highest price of  popular BMW cars is about \$100,000. If one car is repurchased, price at \$75,000 (equal to ¾ of new one’s price) is understandable. 
+
+- RMSE of the best model is about 2000. It is considered too high if compared with the minimum price. However, in general, this figure is quite insignificant to maximum, average or even first quartile value. Therefore, the model is acceptable to be used for prediction. 
+
+<p>&nbsp;</p>
+## Comments on the rationality of the predicted results 
+
+Based on the results obtained, we can make some visualization to see the relationship between the outcomes and the explanatory variables. 
+
+<p>&nbsp;</p>
+**Relationship between “predicted prices” and “mileage” variable** 
+
+```{r, fig.cap="Predicted prices and Mileages variable"}
+p <- automl_pred%>%
+  ggplot(aes(mileage,price))+
+  geom_point(aes(color=transmission),alpha=0.5)+
+  geom_smooth()+
+  theme_bw()
+ggplotly(p)
+```
+
+The prices forecasted locations indicate a downward trend of prices as the mileages increases in values. This relationship reflects the logic of the predicted values since in reality, when a car has gone through a long journey, it gets more damages, distortion, scratches, ..., which decays its own value. 
+
+<p>&nbsp;</p>
+**Relationship between “predicted prices” and “year” variable** 
+
+```{r, fig.cap="Predicted prices and Years variable"}
+p <- automl_pred%>%
+  ggplot(aes(year,price))+
+  geom_point(aes(color=fuelType),alpha=0.5)+
+  geom_smooth()+
+  theme_bw()
+ggplotly(p)
+```
+
+The relationship between predicted price and the year in which the vehicle was manufactured is positive. It seems to be reasonable since the more recent car produced, the higher its value is. If old cars produced during 2000 to 2010 worth
+relatively low by now. There is a drastic increment in the price of a car if it is produced after 2015.  
+
+In short, the upward (downward) trend of predicted price in respect of an explanatory variable’s increment supports the reasonableness of the forecasting values. Thus, it seems that the prices predicted are close to the actual values and we have the optimist about the accuracy of the AutoML predicting model.  
+
+<p>&nbsp;</p>
+# **APPENDIX: PREDICTED PRICES** 
+
+The csv file is hosted at <a href="https://github.com/vapormusic/pred_automl/blob/main/automl_pred.csv"><b style='color:"green"'>Github</b></a>
+
+<p>&nbsp;</p>
+<p align="center"> **END OF REPORT** </p>
+
+<hr />
+<p style="text-align: center;">
+A work by <a href="https://www.facebook.com/profile.php?id=100012921617248">**Nguyen Thi Khanh Huyen**, <a href="https://www.facebook.com/ngmailesarea/">**Le Ngoc Mai**, <a href="https://www.facebook.com/thuy.vinh.22/">**Nguyen Thi Vinh Thuy**</a>, <a href="https://www.facebook.com/pixelated.duck/">**Tran Viet Anh**</a> and <a href="https://www.facebook.com/100003904645139/">**Le Pham Duy**<a></p>
+
+
+ 
